@@ -1,0 +1,1477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">
+  var pvinsight_page_ancestors = '143746642;143746653;212846158;223864775;425011016';
+</script>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<title>国务院印发《深化农村改革综合性实施方案》-搜狐新闻</title>
+<meta name="keywords" content="深化 放活">
+<meta name="description" content="二、关键领域和重大举措全面深化农村改革涉及经济、政治、文化、社会、生态文明和基层党建等领域，涉及农村多种所有制经济主体。当前和今后一个时期，深化农村改革要聚焦农">
+<link rel="canonical" href="http://news.sohu.com/20151102/n425011016.shtml"/>
+<meta name="robots" content="all">
+<!-- 购买url变量获取 -->
+<script type="text/javascript">
+ var shoppingCnf = {url:''};
+</script>
+<!-- 购买url变量获取end -->
+<script type="text/javascript">
+  var category =  '143746642;143746653;212846158;223864775;425011016';  var videoNum = 0;  var relate_from_sohu = true;
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script src="http://www.sohu.com/sohuflash_1.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://js.sohu.com/library/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/tongji_v2013110101.js"></script>
+
+<script type="text/javascript">
+jQuery(function(jq){
+	//标签
+	function changeTab(lis, divs, nums, nowCls){
+		lis.each(function(i){
+			var els = jq(this);
+			els.mouseenter(function(){
+				lis.removeClass(nowCls);
+				divs.stop().hide();
+				jq(this).addClass(nowCls);
+				divs.eq(i).show();
+			});
+		}).eq(nums).mouseenter();
+	}
+	
+	
+	jq(".fontsize").hover(function(){
+		jq(".fontsize-layer").show();
+		},function(){
+		jq(".fontsize-layer").hide();
+	});
+	
+        jq(".print").hover(function(){
+                   jq(".print-layer").show();
+                   },function(){
+                   jq(".print-layer").hide();
+         });
+
+	var phoneNumInput = jq(".rightbar-wrapper .phoneNews .rssArea .Ftxt"),
+		phoneNumBtn = jq(".rightbar-wrapper .phoneNews .rssArea .Fbtn");
+	phoneNumInput.hover(function(){  // xlx
+		jq(this).parent().addClass("current");
+	},function(){
+		jq(this).parent().removeClass("current");
+	});
+	phoneNumInput.focus(function(){
+		var _this = $(this);
+		var val = _this.val();
+		if(val == '输入手机号码'||val == '手机号码输入错误！'||val == '此号码发送次数过多！'||val == '失败！'){
+			_this.val("");
+			_this.parent().removeClass("error");
+		}
+	}).blur(function(){
+		var _this = $(this);
+		if(_this.val() == ''){
+			_this.val('输入手机号码');
+			_this.parent().removeClass("error");
+		}
+	});
+	
+	jq(".rightbar-wrapper .phoneNews .Fbtn").click(function(){// 订阅按钮点击
+		var _mobile = phoneNumInput.val();	
+		if(!(/^1[3458]\d{9}$/.test(_mobile))){
+			phoneNumInput.val("手机号码输入错误！");
+			phoneNumInput.parent().addClass("current error");
+		}else{
+			var formData = {
+					"number" : _mobile
+					};
+			var submitUrl = "http://api.k.sohu.com/api/client/sendmsg.go?callback=?";
+			$.ajax({
+				url: submitUrl,
+				data: formData,
+				dataType:"jsonp",
+				success: function(data){
+					var _code = data.data;				
+					var _msg = "";
+					switch(_code){
+						case "1":
+							phoneNumInput.parent().addClass("current error succeed");
+							phoneNumInput.add(phoneNumBtn).hide();
+							break;
+						case "0":
+							_msg = "失败！";
+							break;
+						case "12001":
+							_msg = "手机号码输入错误！";	
+							break;
+						case "12003":
+							_msg = "此号码发送次数过多！";
+							break;			
+					};
+					phoneNumInput.val(_msg);
+					phoneNumInput.parent().addClass("current error");
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown){
+					alert("error");
+				}
+			});			
+		}
+	});
+});
+//去搜狐首页的检测
+function toHomePage(){
+                   var serverUrl = "http://www.n-s.cn/news.png";
+                   $.ajax({
+                type: "GET",
+                url: serverUrl,
+                dataType: "jsonp",
+                success:function(){}
+            });             
+}
+//转换字号
+function doZoom(size){	
+	jQuery("#contentText").css("fontSize",size);
+}
+var printArticle = function(){
+	jQuery.getScript("http://news.sohu.com/upload/article/2012/js/print_roll.js",function(){printer.print()},true)
+}
+var topicId = 334087882;
+var grobal_arg={};
+grobal_arg['topicId']=topicId;
+var jumpUrl=function(x){
+	var url = '', e = encodeURIComponent, s = screen, d = document, wd = 0, hg = 0, u = d.location , y = x,topicId =grobal_arg.topicId;
+	//缺个我的搜狐的分享的跳转URL
+	//topicId的确认方式
+	switch (y)
+	{
+	case 't':	url ="http://t.sohu.com/third/post.jsp?link="+e(u.href)+"&title="+e(d.title);wd = 660;hg = 470;break;
+	case 'bai':	url ="http://bai.sohu.com/share/blank/addbutton.do?link="+e(u.href)+"&title="+e(d.title);wd = 480;hg = 340;break;
+	case 'douban':	url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(d.title);wd = 460;hg = 340;break;
+	case 'renren':	url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(d.title);wd = 590;hg = 430;break;
+	case 'kaixin':	url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(d.title);wd = 540;hg = 360;break;
+	case 'itb':     var ctxt = $('#contentText').length>0?$('#contentText').text().replace(/<[^>].*?>/g,'').substr(0,120):'';
+			url ="http://tieba.baidu.com/i/sys/share?link="+e(u.href)+"&type=text&title="+e(d.title)+"&content="+e(ctxt);wd = 626;hg = 436;
+			break;
+	case 'go139':	url ="http://go.139.com/ishare.do?shareUrl="+e(u.href)+"&title="+e(d.title)+"&sid=20dd04a99380c2e8d56cf187f6658169";wd = 630;hg = 500;break;
+	case 'qq':	url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+e(u.href);wd = 900;hg = 500;break;
+           case 'sohukan': url ="http://kan.sohu.com/share/?href="+e(u.href)+"&title="+e(d.title)+"&appkey=1550c1b2513a1461a4ea4914af8aa8fe";wd = 760;hg = 477;break;
+	default :	return false;
+	}
+	var a=function(){
+		if (!window.open(url, 'sohushare', ['toolbar=0,status=0,resizable=1,width='+ wd +',height='+ hg +',left='+ (s.width - wd) / 2+ ',top='+ (s.height - hg) / 2]))
+			u.href = [url].join('');
+	}
+	if (/Firefox/.test(navigator.userAgent)){
+		setTimeout(a, 0);
+	}else{
+		a();
+	}
+
+	var stat = (new Image);
+	try{stat.src = "http://219.234.82.222/zhuanfa/index.php?newsId=" + /http:\/\/(.*)(\.sohu.com\/.*\/n)(.{9})/g.exec(document.location)[3] + "&newsName=" + e(d.title) + "&newsUrl=" + d.location.href + "&postId=" + x;
+	}catch(e){}
+}
+//媒体来源
+function media_span_url(id_media_span_url) {
+    if(id_media_span_url) {
+        id_media_span = jQuery('#media_span');
+        if(!id_media_span.find('a').length) {
+            id_media_span.html('<a href=\'' + id_media_span_url + '\' target=\'_blank\'>' + id_media_span.html() + '</a>');			
+        }
+    }
+}
+ 
+</script>
+<script src="http://img.wan.sogou.com/cdn/ufo/fid/fid.js"></script>
+<script>
+    var fid;
+    Sogou_FID.get(function(sid){
+        fid = sid;       
+    });
+</script>
+<link type="text/css" rel="stylesheet" href="http://css.sohu.com/upload/global1.4.1.css" />
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/article/2012/style.v20150623.css" />
+
+<script  type='text/javascript'>
+var sogou_is_brand = new Object();
+sogou_is_brand["pid"]  = 'sohu__brand';
+sogou_is_brand["charset"]   = 'gb2312';
+sogou_is_brand["sohuurl"] = document.location.href;
+</script>
+
+</head>
+
+<body>
+<div data-type="roll" data-appid="1079" id="isohu-topbar"></div>
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/itoolbar/cms/itoolbar.201410281438.css" charset="UTF-8" />
+<style type="text/css"> 
+#innerToolBar{width:980px;}
+</style>
+<script src="http://news.sohu.com/upload/itoolbar/itoolbar.cms.loader.201410281438.js" charset="UTF-8"></script>
+
+<!-- 导航 st -->
+<div id="nav" class="area"><a class="first" href="http://www.sohu.com/">首页</a>-<a href="http://news.sohu.com/">新闻</a>-<a class="n3" href="http://mil.sohu.com/">军事</a>-<a href="http://cul.sohu.com/">文化</a>-<a href="http://history.sohu.com/">历史</a>-<a class="n3" href="http://sports.sohu.com/">体育</a>-<a href="http://sports.sohu.com/nba.shtml">NBA</a>-<a href="http://tv.sohu.com/">视频</a>-<a class="n3" href="http://yule.sohu.com/">娱乐</a>-<a href="http://business.sohu.com/">财经</a>-<a href="http://stock.sohu.com/">股票</a>-<a class="n3" href="http://it.sohu.com/">科技</a>-<a href="http://auto.sohu.com/">汽车</a>-<a href="http://www.focus.cn">房产</a>-<a class="n3" href="http://fashion.sohu.com/">时尚</a>-<a href="http://health.sohu.com/">健康</a>-<a href="http://learning.sohu.com/">教育</a>-<a class="n3" href="http://baobao.sohu.com/">母婴</a>-<a href="http://travel.sohu.com/">旅游</a>-<a href="http://chihe.sohu.com/">美食</a>-<a class="last" href="http://astro.women.sohu.com/">星座</a></div>
+<!-- 导航 end -->
+
+
+<!-- 翻牌广告 st -->
+<div id="turn-ad" class="area">
+	<div class="left">
+		<SOHUADCODE><script type="text/javascript" src="http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"></script>
+<script type="text/javascript" src="http://txt.go.sohu.com/ip/soip"></script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird950100V20140925.js" ></script><div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="center">
+		<SOHUADCODE><script> var config = { passion:{ PAGEID : "news-article" , CHANNELID : "2"} }; </script>
+<script src="http://images.sohu.com/saf/static/0/1000060.shtml"></script>
+<script src="http://txt.go.sohu.com/ip/soip"></script>
+<script src="http://images.sohu.com/bill/s2013/gates/js/Sohu-0.3.8.min.js"></script>
+<script src="http://images.sohu.com/bill/default/sohu-require.js"></script><div class=TurnAD20> 
+<div id=TurnAD20 width=970 height=90>
+ <script language=javascript>
+try{
+var TurnAD20=new Cookie(document,"TurnAD20",24);
+TurnAD20.load();
+TurnAD20.visit=(TurnAD20.visit==null)?parseInt(Math.random()*2+1):TurnAD20.visit;
+if(TurnAD20.visit!=0)var intTurnAD20=TurnAD20.visit;
+TurnAD20.visit++;
+TurnAD20.visit=(TurnAD20.visit>2)?1:TurnAD20.visit;
+TurnAD20.store();
+function showTurnAD20(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+
+document.getElementById('TurnAD20').innerHTML ='<iframe width=970 height=90 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=932:5&location_info=0&callback=getjjsku_callback></iframe>';
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9613d5ba8f97474f83901795d19d2686.php?a=0");}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD20",_ID = "10013",_W = 970,_H = 90,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD20(intTurnAD20);
+}catch(e){}
+</script>
+</div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="right">
+		<SOHUADCODE><div>
+</div>
+</SOHUADCODE>
+	</div>
+</div>
+<!-- 翻牌广告 end -->
+
+
+<!-- 频道导航 st -->
+<div id="channel-nav" class="area">
+	<div id="mypos" class="left" itemprop="mypos"><a href="http://news.sohu.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/news_logo3.gif" width="110" height="24" alt="" /></a><span>&gt; <a href=http://news.sohu.com/1/0903/61/subject212846158.shtml>国内要闻</a> &gt; <a href=http://news.sohu.com/s2005/shishi.shtml>时事</a></span></div>
+	<div class="navigation" style="display:none" ><a href=http://news.sohu.com/>新闻中心</a> &gt; <a href=http://news.sohu.com/guoneixinwen.shtml>国内新闻</a> &gt; <a href=http://news.sohu.com/1/0903/61/subject212846158.shtml>国内要闻</a> &gt; <a href=http://news.sohu.com/s2005/shishi.shtml>时事</a></div>
+	<div class="right"><a href="http://news.sohu.com/guoneixinwen.shtml" target="_blank">国内</a> | <a href="http://news.sohu.com/guojixinwen.shtml" target="_blank">国际</a> | <a href="http://news.sohu.com/shehuixinwen.shtml" target="_blank">社会</a> | <a href="http://mil.news.sohu.com/" target="_blank">军事</a> | <a href="http://star.sohu.com/" target="_blank">评论</a>
+
+
+<style>
+
+                   #channel-nav{position:relative;}
+
+                   #channel-nav .logo-ad{position:absolute; left:490px; top:5px;}
+
+         </style>
+
+         <div class="logo-ad">
+
+                   
+         </div></div>
+</div>
+<!-- 频道导航 end -->
+<div id="container" class="area" itemscope itemtype="http://schema.org/NewsArticle" itemref="mypos">
+	<div class="content-wrapper grid-675">
+		<!-- 广告 -->
+		<div class="ad675">
+			<SOHUADCODE>
+</SOHUADCODE>
+		</div>		
+		<div class="content-box clear">
+			<!-- 文章标题 -->
+			<h1 itemprop="headline">国务院印发《深化农村改革综合性实施方案》</h1>
+			<!-- 正文标签 -->
+			<div class="label-ad clear" id="commentTab">
+				<div class="label">
+					<ul>
+						<li class="text-label" itemprop="isHot" content="true"><em>正文</em></li>
+						<li class="com-label"><em><a href="http://pinglun.sohu.com/s425011016.html" itemprop="discussionUrl">我来说两句<span class="f12">(<span class="red" id="changyan_parti_unit"><img src="http://comment.news.sohu.com/upload/comment4/images/loading_blue.gif" width="16px" height="16px" /></span>人参与)</span></a></em></li>
+					</ul>
+				</div>
+				<div class="ad">
+					<div class="adFrag"><SOHUADCODE>
+</SOHUADCODE></div>
+					<div class="scan-handset" id="scan-handset"><a class="scan-icon" href="javascript:void(0)">扫描到手机</a></div>
+				</div>
+				<div class="scan-layer" id="scan-layer-id">
+					<div class="scan-pic"><img width="99" height="99" alt="" src="http://news.sohu.com/upload/article/2012/images/pic/scan_pic_98x98.gif"></div>
+					<div class="scan-layer-close"><a href="javascript:void(0)">关闭</a></div>
+				</div>
+				<script type="text/javascript">
+					jQuery(function(jq){
+					    if(jq("#scan-layer-id .scan-pic img").length > 0){
+	                           var theU = "http://s1.rr.itc.cn/qrcode/m/n/"+425011016+".png";
+	                           jq("#scan-layer-id .scan-pic img").attr("src",theU);
+	                    }
+						jq("#scan-handset").click(function(){
+							jq("#scan-layer-id").show();
+						});
+						jq("#scan-layer-id .scan-layer-close a").click(function(){
+							jq("#scan-layer-id").hide();
+						});
+					});
+				</script>
+			</div>				
+			<!-- 时间 来源 -->
+		    <div class="time-fun clear">
+				<div class="time-source">
+					<div class="time" id="pubtime_baidu" itemprop="datePublished" content="2015-11-02T20:25:17+08:00">2015-11-02 20:25:17</div>						
+					<div class="source">
+						
+						<span class="sc" id="source_baidu" >来源：<span id="media_span" itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">新华网</span></span></span>
+						
+						
+					</div>				
+				</div>
+				<style>
+				#container .time-fun .time-source{width:420px}
+				#container .time-fun .time-source .source{width:293px}
+				#container .time-fun .function .phone-ctcp a{padding-left:16px;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 1px}
+				</style>
+                <div class="function">
+					<ul>
+						<li class="phone-ctcp"><a href="http://k.sohu.com/" target="_blank">手机看新闻</a></li>
+						<li class="transmit_txt"><a href="javascript:void(0)">保存到博客</a></li>
+						<li class="fontsize"><a href="javascript:void(0)"></a>
+							<div class="fontsize-layer"><a href="javascript:doZoom(16)">大</a>|<a href="javascript:doZoom(14)">中</a>|<a href="javascript:doZoom(12)">小</a></div>
+						</li>
+						<li class="print"><a href="javascript:printArticle()"></a>
+							<div class="print-layer"><a href="javascript:printArticle()">打印</a></div>
+						</li>                                      
+					</ul>
+				</div>
+			</div>
+			<SOHUADCODE>
+</SOHUADCODE>
+			
+            
+            			
+			<!-- 正文 -->
+			<div class="text clear" id="contentText">
+				<div itemprop="articleBody"><p>　　<strong>二、关键领域和重大举措</strong></p>
+<p>　　全面深化农村改革涉及经济、政治、文化、社会、生态文明和基层党建等领域，涉及农村多种所有制经济主体。当前和今后一个时期，深化农村改革要聚焦农村集体产权制度、农业经营制度、农业支持保护制度、城乡发展一体化体制机制和农村社会治理制度等5大领域。对这5大领域改革的核心问题，要明确大的方向、主要内容和重大方针对策，进一步理清改革思路。</p>
+<p>　　<strong>（一）深化农村集体产权制度改革</strong></p>
+<p>　　以土地集体所有为基础的农村集体所有制，是社会主义公有制的重要形式，是实现农民共同富裕的制度保障。在土地集体所有基础上建立的农村集体经济组织制度，与村民自治组织制度相交织，构成了中国农村治理的基本框架，为中国特色农业农村现代化提供了基本的制度支撑。建立健全符合社会主义市场经济体制要求和社会主义初级阶段实际的农村集体产权制度，必须以保护农民集体经济组织成员权利为核心，以明晰农村集体产权归属、赋予农民更多财产权利为重点，探索社会主义市场经济条件下农村集体所有制经济的有效组织形式和经营方式，确保集体经济发展成果惠及本集体所有成员，进一步发挥集体经济优越性，进一步调动集体经济组织成员积极性。</p>
+<p>　　1.深化农村土地制度改革。坚守土地公有性质不改变、耕地红线不突破、农民利益不受损“三条底线”，防止犯颠覆性错误。深化农村土地制度改革的基本方向是：落实集体所有权，稳定农户承包权，放活土地经营权。落实集体所有权，就是落实“农民集体所有的不动产和动产，属于本集体成员集体所有”的法律规定，明确界定农民的集体成员权，明晰集体土地产权归属，实现集体产权主体清晰。稳定农户承包权，就是要依法公正地将集体土地的承包经营权落实到本集体组织的每个农户。放活土地经营权，就是允许承包农户将土地经营权依法自愿配置给有经营意愿和经营能力的主体，发展多种形式的适度规模经营。</p>
+<p>　　一是开展农村土地征收、集体经营性建设用地入市、宅基地制度改革试点。及时总结经验、不断完善，形成可复制、可推广的改革成果。农村土地征收制度改革的基本思路是：缩小土地征收范围，规范土地征收程序，完善对被征地农民合理、规范、多元保障机制，建立兼顾国家、集体、个人的土地增值收益分配机制，合理提高个人收益。集体经营性建设用地制度改革的基本思路是：允许土地利用总体规划和城乡规划确定为工矿仓储、商服等经营性用途的存量农村集体建设用地，与国有建设用地享有同等权利，在符合规划、用途管制和依法取得的前提下，可以出让、租赁、入股，完善入市交易规则、服务监管制度和土地增值收益的合理分配机制。宅基地制度改革的基本思路是：在保障农户依法取得的宅基地用益物权基础上，改革完善农村宅基地制度，探索农民住房保障新机制，对农民住房财产权作出明确界定，探索宅基地有偿使用制度和自愿有偿退出机制，探索农民住房财产权抵押、担保、转让的有效途径。</p>
+<p>　　二是深化农村土地承包经营制度改革。抓紧修改有关法律，落实中央关于稳定农村土地承包关系并保持长久不变的重大决策，适时就二轮承包期满后耕地延包办法、新的承包期限等内容提出具体方案。在基本完成农村集体土地所有权确权登记颁证的基础上，按照不动产统一登记原则，加快推进宅基地和集体建设用地使用权确权登记颁证工作。明确和提升农村土地承包经营权确权登记颁证的法律效力，扩大整省推进试点范围，总体上要确地到户，从严掌握确权确股不确地的范围。出台农村承包土地经营权抵押、担保试点指导意见。在有条件的地方开展农民土地承包经营权有偿退出试点。制定出台完善草原承包经营制度的文件，规范草原承包行为和管理方式，充分调动广大牧民保护和建设草原的积极性。引导农村集体所有的荒山、荒沟、荒丘、荒滩使用权有序流转。</p>
+<p>　　三是健全耕地保护和补偿制度。严格实施土地利用总体规划，加强耕地保护，全面开展永久基本农田划定工作，实行特殊保护。完善土地复垦制度，盘活土地存量，建立土地复垦激励约束机制，落实生产建设毁损耕地的复垦责任。加大中低产田改造力度，以增加高产稳产基本农田、改善农业生产条件和生态环境为目标，完善农村土地整治办法。依法加强耕地占补平衡规范管理，强化耕地占补平衡的法定责任，完善占补平衡补充耕地质量评价体系，确保补充耕地数量到位、质量到位。完善耕地和基本农田保护补偿机制。采取更有力的措施，加强对耕地占补平衡的监管，坚决防止占多补少、占优补劣、占水田补旱田现象，杜绝违规占用林地、湿地补充耕地。进一步落实耕地保护政府领导干部离任审计制度。按照有关法律法规，完善和拓展城乡建设用地增减挂钩、“地票”等试点，推动利用城乡建设用地增减挂钩政策支持易地扶贫搬迁。</p>
+<p>　　2.分类推进农村集体资产确权到户和股份合作制改革。在确认农村集体经济组织成员身份、全面核实农村集体资产基础上，对土地等资源性资产，重点是抓紧抓实土地承包经营权确权登记颁证工作；对非经营性资产，重点是探索有利于提高公共服务能力的集体统一运营管理有效机制；对经营性资产，重点是将资产折股量化到本集体经济组织成员，赋予农民对集体资产更多权能，发展多种形式的股份合作。健全农村集体“三资”管理监督和收益分配制度。明确集体经济组织市场主体地位。建立符合实际需求的农村产权流转交易市场，保障农村产权依法自愿公开公正有序交易。现阶段农村集体产权制度改革严格限定在本集体经济组织内部进行，切实防止集体经济组织内部少数人侵占、支配集体资产，防止外部资本侵吞、控制集体资产。</p>
+<p>　　3.深化林业和水利改革。实行最严格的林地用途管制制度。以放活经营权、落实处置权、保障收益权为重点，深化配套改革，完善集体林权制度。实行森林分类经营管理，完善林木采伐权，管好公益林、放活商品林，调动林农和社会力量发展林业的积极性。稳步推进国有林场和国有林区改革。研究提出加强天然林资源保护的指导意见，有序停止天然林商业性采伐。开展小型水利工程管理体制改革，明确工程所有权和使用权，落实管护主体，促进水利工程良性运行。</p>
+<p>　　<strong>（二）加快构建新型农业经营体系</strong></p>
+<p>　　发展多种形式的农业适度规模经营是农业现代化的必由之路，必须以提高土地产出率、资源利用率、劳动生产率为核心，加快培育家庭农场、专业大户、农民合作社、农业产业化龙头企业等新型农业经营主体，构建符合国情和发展阶段的以农户家庭经营为基础、合作与联合为纽带、社会化服务为支撑的立体式、复合型现代农业经营体系，提高农业经营集约化、规模化、组织化、社会化、产业化水平。</p>
+<p>　　4.推动土地经营权规范有序流转。在农村耕地实行所有权、承包权、经营权“三权分置”的基础上，按照依法自愿有偿原则，引导农民以多种方式流转承包土地的经营权，以及通过土地经营权入股、托管等方式，发展多种形式的适度规模经营。把握好土地经营权流转、集中和规模经营的度，不片面追求超大规模经营，不搞大跃进，不搞强迫命令，不搞行政瞎指挥，使适度规模经营与农村劳动力转移、农业科技进步、农业社会化服务水平相适应。提升农户家庭经营能力和水平，重点发展以家庭成员为主要劳动力、以农业为主要收入来源、从事专业化集约化农业生产的规模适度的农户家庭农场，使之成为发展现代农业的有生力量。适时提出促进家庭农场发展的相关立法建议。</p>
+<p>　　5.加强农民合作社规范化建设。加强农民专业合作社和土地股份合作社规范化建设，深入推进示范社建设行动。鼓励农民合作社发展农产品加工业务，创新农业产业链组织形式和利益联接机制，构建农户、合作社、企业之间互利共赢的合作模式，让农民更多分享产业链增值收益。进一步创新财政支持农民合作社发展机制，允许政府项目直接投向符合条件的合作社。完善农民以承包土地经营权入股发展农业产业化经营的政策。</p>
+<p>　　6.创新农业社会化服务机制。家庭经营在相当时期内仍是农业生产的基本力量，要通过周到便利的社会化服务，把农户经营引入现代农业发展轨道。充分发挥农业公益性服务机构作用，大力培育多种形式的农业经营性服务组织，健全覆盖全程、综合配套、便捷高效的社会化服务体系。开展政府向农业经营性服务组织购买公益性服务机制创新试点。</p>
+<p>　　7.培养职业农民队伍。制定专门规划和切实可行的政策，吸引年轻人务农，培育新型职业农民，造就高素质的新型农业生产经营者队伍。扶持有技能和经营能力的农民工返乡创办家庭农场、领办农民合作社，创立农产品加工、营销企业和农业社会化服务组织。</p>
+<p>　　8.健全工商资本租赁农地的监管和风险防范机制。对工商资本租赁农户承包地作出明确规定，建立严格的资格审查、项目监管和定期督查机制，禁止以农业为名圈占土地从事非农建设，防止“非粮化”现象蔓延。鼓励和支持工商企业发展适合企业化经营的现代种养业、农产品加工流通和农业社会化服务，向农业输入现代生产要素和经营模式。探索建立工商资本农地租赁风险保障金制度。</p>
+<p>　　9.推进农垦改革发展和全面深化供销合作社综合改革。研究出台推进农垦改革发展的政策措施，深化垦区集团化、农场企业化改革，创新行业指导管理体制、企业市场化经营体制、农场经营管理体制，明晰农垦国有资产权属关系，建立符合农垦特点的国有资产监管体制，进一步推进农垦办社会职能改革。按照为农服务的宗旨和政事分开、社企分开的方向，因地制宜推进体制改革和机制创新，把供销合作社打造成为与农民利益联结更紧密、为农服务功能更完备、市场化运作更高效的合作经济组织体系，使之成为服务农民生产生活的生力军和综合平台。</p>
+<p>　　</p>
+<div style="z-index: 100; left: 0px; position: absolute; top: 0px;">
+<table cellpadding="2" align="center">
+<tbody>
+<tr>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--page-->
+<p>　　<strong>（三）健全农业支持保护制度</strong></p>
+<p>　　对农业实行必要的支持保护是发展现代农业的客观需要，要坚持多予少取放活的基本方针，以保障主要农产品供给、促进农民增收、实现农业可持续发展为重点，加大农业支持保护力度，提高农业支持保护效能，完善农业生产激励机制，加快形成覆盖全面、指向明确、重点突出、措施配套、操作简便的农业支持保护制度。</p>
+<p>　　10.建立农业农村投入稳定增长机制。把农业农村作为财政支出的优先保障领域，中央预算内投资继续向农业农村倾斜，确保农业农村投入只增不减。进一步优化财政支农支出结构，转换财政资金投入方式，通过政府与社会资本合作、政府购买服务、担保贴息、以奖代补、民办公助、风险补偿等措施，带动金融和社会资本投向农业农村，发挥财政资金的引导和杠杆作用。大力清理、整合、规范涉农转移支付资金，对“小、散、乱”及效果不明显的涉农专项资金要坚决整治；对目标接近、投入方向类同的涉农专项资金予以整合；对地方具有管理信息优势的涉农支出，划入一般性转移支付切块下达，由地方统筹支配，落实监管责任。建立规范透明的管理制度，杜绝任何形式的挤占挪用、层层截留、虚报冒领，切实提高涉农资金投入绩效。合理划分中央与地方支农事权，明确政府间应承担和分担的支出责任，推进各级政府支农事权规范化、法律化。</p>
+<p>　　11.完善农产品价格形成机制和农产品市场调控制度。根据各类主要农产品在国计民生中的重要程度，采取“分品种施策、渐进式推进”的办法，完善农产品价格形成机制。改进并继续执行稻谷、小麦最低收购价政策。按照“价补分离”的思路，继续实施棉花和大豆目标价格改革试点，完善补贴发放办法。改革、完善玉米收储政策。改进农产品市场调控方式，避免政府过度干预，搞活市场流通，增强市场活力。完善农产品收储政策，坚持按贴近市场和保障农民合理收益的原则确定收储价格，降低储备成本，提高储备效率。加强粮食现代仓储物流设施建设，积极鼓励引导流通、加工等各类企业主体参与粮食仓容建设和农产品收储，规范收储行为，培育多元化市场主体。创新农产品流通方式，强化以信息化为支撑的农产品现代流通体系建设，大力发展农产品流通新型业态，发挥电子商务平台在联结农户和市场方面的作用。</p>
+<p>　　12.完善农业补贴制度。保持农业补贴政策连续性和稳定性，调整改进“黄箱”支持政策，逐步扩大“绿箱”支持政策实施规模和范围，提高农业补贴政策效能。开展农业补贴改革试点，将现行的“三项补贴”（农作物良种补贴、种粮直补、农资综合补贴）合并为“农业支持保护补贴”，优化补贴支持方向，突出耕地保护和粮食安全。保持与现有政策的衔接，调整部分存量资金和新增补贴资金向各类适度规模经营的新型农业经营主体倾斜，合理确定支持力度，不人为“垒大户”。进一步拓宽财政支农资金的渠道，突出财政对农业的支持重点，持续增加农业基础设施建设、农业综合开发投入，完善促进农业科技进步、加强农民技能培训的投入机制，强化对农业结构调整的支持，加大对农业投入品、农机具购置等的支持力度。健全粮食主产区利益补偿机制。健全快捷高效的补贴资金发放办法，鼓励有条件的地方探索对农民收入补贴的办法。</p>
+<p>　　13.建立农田水利建设管理新机制。积极推进农业水价综合改革，对农业用水实行总量控制和定额管理，配套完善供水计量设施，建立有利于节水的农业水价形成机制。建立农业用水精准补贴制度和节水激励机制。鼓励社会资本参与农田水利工程建设和运营维护。</p>
+<p>　　14.深化农业科技体制改革。坚持科技兴农、人才强农，推进农业科研院所改革，打破部门条块分割，有效整合科技资源，建立协同创新机制，促进产学研、农科教紧密结合。完善科研立项和成果转化评价机制，强化对科技人员的激励机制，促进农业科研成果转化。扶持种业发展，做强一批“育繁推”一体化的大型骨干种子企业。完善基层农技推广服务体系，探索公益性农技推广服务的多种实现形式。</p>
+<p>　　15.建立农业可持续发展机制。推广减量化和清洁化农业生产模式，健全农业标准化生产制度，完善农业投入品减量提效补偿机制。发展生态循环农业，构建农业废弃物资源化利用激励机制。实施耕地质量保护与提升行动，加强重金属污染耕地治理和东北黑土地保护。深入推进退耕还林还草、还湿还湖、限牧限渔。完善森林、草原、湿地、水源、水土保持等生态保护补偿制度。建立健全生态保护补偿资金稳定投入机制。</p>
+<p>　　16.加快农村金融制度创新。坚持商业性金融、合作性金融、政策性金融相结合，健全政策支持、公平准入和差异化监管制度，扩大农村金融服务规模和覆盖面，创新农村金融服务模式，全面提升农村金融服务水平，促进普惠金融发展，加快建立多层次、广覆盖、可持续、竞争适度、风险可控的现代农村金融体系。健全金融机构农村存款主要用于农业农村的制度，完善政策性金融支持农业开发和农村建设的制度。进一步完善中国农业银行“三农金融事业部”的管理体制和运行机制，全面提升服务“三农”和县域经济的能力和水平。稳定农村信用社县域法人地位，完善治理结构。鼓励邮政储蓄银行拓展农村金融业务。鼓励组建政府出资为主、重点开展涉农担保业务的县域融资担保机构或担保基金。完善农村信贷损失补偿机制，探索建立地方财政出资的涉农信贷风险补偿基金。稳妥开展农村承包土地的经营权和农民住房财产权抵押贷款试点，创新和完善林权抵押贷款机制，拓宽“三农”直接融资渠道。坚持社员制、封闭性原则，在不对外吸储放贷、不支付固定回报的前提下，以具备条件的农民合作社为依托，稳妥开展农民合作社内部资金互助试点，引导其向“生产经营合作＋信用合作”延伸。金融监管部门负责制定农村信用合作组织业务经营规则和监管规则，地方政府切实承担监管职责和风险处置责任。完善地方农村金融管理体制，推动地方建立市场化风险补偿机制，有效防范和化解地方金融风险。推进农村信用体系建设，开展新型农业经营主体信用评级与授信。完善农业保险制度，支持有条件的地区成立农业互助保险组织，扩大农业保险覆盖面，开发适合新型农业经营主体需求的保险品种，提高保障水平。深入开展农产品目标价格保险试点。研究完善农业保险大灾风险分散机制。</p>
+<p>　　<strong>（四）健全城乡发展一体化体制机制</strong></p>
+<p>　　城乡发展一体化是解决我国“三农”问题的根本途径，必须坚持工业反哺农业、城市支持农村的基本方针，协调推进城镇化和新农村建设，加快形成以工促农、以城带乡、工农互惠、城乡一体的新型工农城乡关系，努力缩小城乡发展差距。</p>
+<p>　　17.完善城乡发展一体化的规划体制。加快规划体制改革，构建适应我国城乡统筹发展的规划编制体系，完善各类规划编制、审批和实施监管制度，健全县市域空间规划衔接协调机制。尽快修订完善县域乡村建设规划和镇、乡、村庄规划，在乡镇土地利用总体规划控制下，探索编制村土地利用规划，提高规划科学性和前瞻性，强化规划约束力和引领作用。</p>
+<p>　　18.完善农村基础设施建设投入和建管机制。进一步加大公共财政对农村基础设施建设的投入力度。加快基础设施向农村延伸，探索建立城乡基础设施和公共服务设施互联互通、共建共享的机制。创新农村基础设施和公共服务设施决策、投入、建设和运行管护机制，建立自下而上的民主决策机制，通过村民自选、自建、自管、自用等方式，更好地发挥农民主体作用。积极引导社会资本参与农村公益性基础设施建设、管护和运营。</p>
+<p>　　19.推进形成城乡基本公共服务均等化的体制机制。完善县域城乡义务教育资源均衡配置的机制。建立城乡统筹的公共文化服务体系建设协调机制。建立覆盖城乡的基本医疗卫生制度，整合城乡居民基本医疗保险制度。健全全国统一的城乡居民基本养老保险制度，完善待遇确定和正常调整机制。推进最低生活保障制度城乡统筹发展。加强农村留守儿童、妇女、老人关爱服务体系建设。规范基本公共服务标准体系，促进城乡区域标准水平统一衔接可持续，完善综合监测评估制度。鼓励地方开展统筹城乡的基本公共服务制度改革试点。</p>
+<p>　　20.加快推进户籍制度改革。充分考虑各类城镇的经济社会发展水平、综合承载能力和提供基本公共服务能力，细化完善和实施差别化落户政策，促进有能力在城镇稳定就业和生活的常住人口有序实现市民化。加快建立和实施居住证制度，以居住证为载体，逐步实现基本公共服务对常住人口的全覆盖。构建政府、企业、个人共同参与的农业转移人口市民化成本分担机制，明确各级政府承担的相应支出责任，增强吸纳农业转移人口较多地区政府公共服务保障能力。切实维护进城落户农民的土地承包权、宅基地使用权、集体收益分配权。</p>
+<p>　　21.完善城乡劳动者平等就业制度。进一步清理针对农民工就业的歧视性规定，保障城乡劳动者平等就业的权利。加强覆盖城乡的公共就业创业服务体系建设。完善就业失业登记管理制度。落实鼓励农村劳动力创业政策。落实农民工与城镇职工同工同酬原则，突出解决好农民工工资拖欠问题。扩大农民工参加城镇社会保障覆盖面，把进城落户的农业转移人口完全纳入城镇社会保障体系。完善社会保障关系转移接续政策。</p>
+<p>　　</p>
+<p>　　<strong>（五）加强和创新农村社会治理</strong></p>
+<p>　　随着市场化、工业化、城镇化的快速推进，农村社会治理面临新挑战，必须坚持党政主导、农民主体、社会协同，围绕提高农村基层治理水平，加强乡镇服务型政府建设，发挥好基层党组织在农村各类经济、社会组织中的领导核心作用，完善村民自治组织民主制度，形成规范有序、充满活力的乡村治理机制。</p>
+<p>　　22.加强农村基层党组织建设。认真贯彻党要管党、从严治党的要求，始终坚持农村基层党组织领导核心地位不动摇，深入整顿软弱涣散村党组织，把农村基层党组织建设成坚强的战斗堡垒，不断夯实党在农村基层执政的组织基础。创新完善农村基层党组织设置和活动方式，扩大组织覆盖和工作覆盖。加强乡村两级党组织班子建设，选好用好管好带头人，向软弱涣散村党组织和贫困村党组织选派第一书记。严肃农村基层党内政治生活，用严以修身、严以用权、严以律己和谋事要实、创业要实、做人要实的要求，加强党员日常教育管理，做好农村发展党员工作，发挥党员先锋模范作用。严肃处理违反党纪党规的行为，坚决查处挤占挪用惠农资金、侵占征地补偿款、侵吞集体资产等发生在农民身边的腐败行为，建立健全党组织领导下的村务监督机制，保持农村基层党组织的纯洁性和凝聚力。进一步加强农村基层服务型党组织建设，强化县乡村三级便民服务网络建设，多为群众办实事，贴近群众、团结群众、引导群众、赢得群众，带领群众共同脱贫致富奔小康。严格落实农村基层党建责任制，发挥县级党委“一线指挥部”作用，加大抓乡促村工作力度。</p>
+<p>　　23.健全农村基层民主管理制度。以扩大有序参与、推进信息公开、健全议事协商、强化权力监督为重点，健全村党组织领导的充满活力的村民自治机制，探索村民自治的有效实现形式。在有实际需要的地方，依托土地等集体资产所有权关系和乡村传统社会治理资源，开展以村民小组或自然村为基本单元的村民自治试点；在已经建立新型农村社区的地方，开展以农村社区为基本单元的村民自治试点。探索以村民会议、村民代表会议为载体，创新村民议事形式，完善议事决策主体和程序，落实群众知情权和决策权。建立务实管用的村务监督机制，理顺村务监督机构与其他村级组织的关系，切实发挥村务监督机构作用，落实群众监督权。积极探索村民议事会、村民理事会等协商形式，重视吸纳利益相关方、社会组织、驻村单位参加协商。研究明确村党组织、村民委员会、村务监督机构、农村集体经济组织的职能定位及相互关系。在进行农村集体产权制度改革、组建农村股份合作经济组织的地区，探索剥离村“两委”对集体资产经营管理的职能，开展实行“政经分开”试验，完善农村基层党组织领导的村民自治组织和集体经济组织运行机制。</p>
+<p>　　24.加强农村精神文明建设。加大农村思想道德建设力度，有针对性地开展社会主义核心价值观教育，提高农民综合素质，提升农村社会文明水平。开展文明村镇创建活动，修订乡规民约。充分发挥公共文化服务在农村精神文明建设中的平台和支撑作用，加强农村基层公共文化体育资源的整合利用，提高设施利用效能。建立广播电视村村通、文化信息资源共享、乡镇综合文化站、农村电影放映、农家书屋、体育健身等重点文化体育工程有效合作机制。采取政府购买、项目补贴、定向资助等方式，支持社会各类文化组织和机构参与农村公共文化服务。抓好农村业余文化骨干队伍建设，加强农村题材文艺作品的创作生产。保护和传承具有民族特色的农耕文明，加强农村地区的文化遗产保护。广泛开展具有乡土特色的文化活动，推动文化与特色农业有机结合，提升农产品文化附加值。引导和组织农民成立村民议事会、道德评议会、禁赌禁毒会、红白理事会，发挥乡规民约的积极作用。</p>
+<p>　　25.创新农村扶贫开发体制机制。着眼全面建成小康社会、不让农村贫困人口掉队的要求，分类施策，加快健全精准扶贫工作机制，完善贫困县考核机制，完善干部驻村帮扶机制，完善扶贫资金管理机制，完善金融服务机制，创新社会参与机制，建立扶贫对象动态调整机制，完善扶贫开发与农村低保有效衔接的机制。完善片区联系工作机制，推动片区规划实施与减少贫困人口的目标相结合，将政策、项目等落到实处。抓紧研究制定扶贫开发的重大举措，确保在既定时间节点打赢扶贫开发攻坚战，加快贫困群众脱贫致富、贫困地区全面建成小康社会步伐。</p>
+<p>　　26.深化农村行政执法体制改革。加强农村基层执法力量，推行对食品药品安全、工商质检、公共卫生、安全生产、文化旅游、资源环境、农林水利、交通运输、城乡建设、海洋渔业等领域的综合执法，确保有关法律法规执行，依法维护农村生产生活秩序，提高农村基层法治水平。</p>
+<p>　　<strong>三、（略）</strong></p>
+<p>　　<strong>四、加强组织领导</strong></p>
+<p>　　各级党委和政府要按照党中央、国务院的总体部署，切实增强领导、组织、监督农村改革工作的主动性和自觉性。要坚持问题导向，下大力气解决好农民群众最关心最直接最现实的利益问题。要完善各级党委和政府推进农村改革的领导体制和工作机制，健全和落实责任制度。主要负责同志要亲自抓农村改革工作，把握好方向和路径，加强对农村改革工作的指导，确保各项农村改革措施落到实处。</p>
+<p>　　</p>
+<div style="z-index: 100; left: 0px; position: absolute; top: 0px;">
+<table cellpadding="2" align="center">
+<tbody>
+<tr>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--page-->
+<p>　　新华网北京11月2日电近日，中共中央办公厅、国务院办公厅印发了《深化农村改革综合性实施方案》，并发出通知，要求各地区各部门结合实际认真贯彻执行。</p>
+<p>　　《深化农村改革综合性实施方案》主要内容如下。</p>
+<p>　　农村改革是全面深化改革的重要内容。根据党中央、国务院的决策部署，农村各项改革正在扎实开展，一些重要改革事项试点工作正在有序推进。当前，中国经济发展进入新常态，新型工业化、信息化、城镇化、农业现代化持续推进，农村经济社会深刻变革，农村改革涉及的利益关系更加复杂、目标更加多元、影响因素更加多样、任务也更加艰巨。农村改革综合性强，靠单兵突进难以奏效，必须树立系统性思维，做好整体谋划和顶层设计，找准牵一发而动全身的牛鼻子和主要矛盾，进一步提高农村改革决策的科学性。要从总体上把握好农村改革的方向，提出深化农村改革总的目标、大的原则、基本任务、重要路径，从全局上更好地指导和协调农村各项改革，加强各项改革之间的衔接配套，最大限度释放改革的综合效应。</p>
+<p>　　根据中央统一部署，从提高农村改革的系统性、整体性、协同性出发，特制定深化农村改革综合性实施方案。</p>
+<p>　　<strong>一、总体要求</strong></p>
+<p>　　（一）指导思想。全面贯彻党的十八大和十八届二中、三中、四中全会精神，以邓小平理论、“三个代表”重要思想、科学发展观为指导，深入贯彻习近平总书记系列重要讲话精神，认真落实党中央、国务院的决策部署，主动适应经济发展新常态，紧紧围绕全面建成小康社会、全面深化改革、全面依法治国、全面从严治党的战略布局，不断巩固和完善中国特色社会主义农村基本经济制度，加快农业发展方式转变，健全保障国家粮食安全、促进农业可持续发展和农民持续增收的体制机制，着力破除城乡二元结构的体制障碍，为加快推进中国特色农业农村现代化提供制度保障，为实现“两个一百年”奋斗目标和中华民族伟大复兴的中国梦奠定坚实基础。</p>
+<p>　　（二）目标任务。到2020年，农村各类所有制经济尤其是农村集体资产所有权、农户土地承包经营权和农民财产权的保护制度更加完善，新型农业经营体系、农业支持保护体系、农业社会化服务体系、农业科技创新体系、适合农业农村特点的农村金融体系更加健全，城乡经济社会发展一体化体制机制基本建立，农村社会治理体系和农村基层组织制度更加完善，农民民主权利得到更好保障，农业农村法律法规进一步完善并加强，农村基层法治水平进一步提高，农业现代化水平和农民生活水平进一步提升，农村经济社会发展更具活力。</p>
+<p>　　（三）基本原则</p>
+<p>　　1.坚持农村多种所有制经济共同发展。在坚持土地公有制性质基础上，加强对农村各种所有制经济组织和农民家庭合法财产权益的保护，赋予农村各种所有制经济组织同等的市场主体地位，保证其依法公平参与市场竞争、同等受到法律保护，促进农村集体经济、农户家庭经济、农民合作经济、各种私人和股份制经济、供销合作社经济以及国有农场林场等国有经济共同发展。</p>
+<p>　　2.坚持和完善农村基本经营制度。把握好土地集体所有制和家庭承包经营的关系，现有农村土地承包关系保持稳定并长久不变，落实集体所有权，稳定农户承包权，放活土地经营权，实行“三权分置”。坚持家庭经营在农业中的基础性地位，创新农业经营组织方式，推进家庭经营、集体经营、合作经营、企业经营等共同发展。</p>
+<p>　　3.坚持社会主义市场经济改革方向。调整不适应农村社会生产力发展要求的生产关系，健全符合社会主义市场经济要求的农村经济体制，充分发挥市场在资源配置中的决定性作用，加强国家对农业的支持保护，促进农业尽快转到数量质量效益并重、注重提高竞争力、注重农业技术创新、注重可持续的集约发展上来。</p>
+<p>　　4.坚持保障农民权益。把实现好、维护好、发展好广大农民的根本利益作为深化农村改革的出发点和落脚点，切实保障农民合法经济利益，尊重农民民主权利。</p>
+<p>　　5.坚持统筹兼顾。统筹考虑农业和农村发展，统筹考虑城乡改革发展，统筹考虑公平和效率。</p>
+<p>　　6.坚持循序渐进、试点先行。发挥好基层和群众首创精神，在把握方向、坚守底线前提下，鼓励积极探索、大胆创新，允许采取差异性、过渡性的制度和政策安排。认真组织好农村改革试点工作，及时总结可复制、可推广的经验。对突破现行法律法规的重大改革，要按程序报批，取得授权，在一定范围内开展试点。</p>
+<p>　　7.坚持党对“三农”工作的领导。必须始终把加强党对“三农”工作的领导作为推进农村改革发展的政治保证，提高依法做好“三农”工作的能力和水平。在中央的统一领导下，积极稳妥深化农村各项改革。</p><script type="text/javascript">// <![CDATA[
+media_span_url('http://news.xinhuanet.com/politics/2015-11/02/c_1117016978_2.htm')
+//]]></script></div>
+                                
+				<!-- seo标签描述 -->
+				<div style="display:none;">
+					<span id="url" itemprop="url">http://news.sohu.com/20151102/n425011016.shtml</span>
+					<span id="indexUrl" itemprop="indexUrl">news.sohu.com</span>
+					<span id="isOriginal" itemprop="isOriginal">false</span>
+					<span id="sourceOrganization" itemprop="sourceOrganization" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">新华网</span></span>
+					<span id="author" itemprop="author" itemscope itemtype="http://schema.org/Organization"><span itemprop="name"></span></span>
+					<span id="isBasedOnUrl" itemprop="isBasedOnUrl">http://news.xinhuanet.com/politics/2015-11/02/c_1117016978_2.htm</span>
+					<span id="genre" itemprop="genre">report</span>
+					<span id="wordCount" itemprop="wordCount">12595</span>
+					<span id="description" itemprop="description">二、关键领域和重大举措全面深化农村改革涉及经济、政治、文化、社会、生态文明和基层党建等领域，涉及农村多种所有制经济主体。当前和今后一个时期，深化农村改革要聚焦农</span>
+				</div>
+			</div>	
+           <div class="original-title"><span class="editer" id="editor_baidu">(责任编辑：un659)</span>
+					
+			</div>					
+			<!-- 分享 -->
+			<div class="share clear" id="share">
+				
+				
+				
+              <ul>
+                                               <li class="share-tt">分享：</li>
+                                               <li class="blg"><a href="javascript:void(0)" onclick="jumpUrl('t')" title="分享到搜狐微博"></a><em></em></li>
+                                               <li class="qq"><a href="javascript:void(0)" onclick="jumpUrl('qq')" title="分享给QQ好友"></a><em></em></li>
+                                               <li class="rrw"><a href="javascript:void(0)" onclick="jumpUrl('renren')" title="分享到人人网"></a></li>
+                                               <li class="sohukan"><a href="javascript:void(0)" onclick="jumpUrl('sohukan')" title="收藏到搜狐随身看"></a><em></em></li>
+                                               <li class="pr-code" id="uc_reader"><a href="javascript:void(0)"></a>
+						<div class="pr-code-con">
+							<div id="ucshare_config"  appid="142"  width="116" server="http://plus.uc.cn" appCenter="http://app.uc.cn"></div>
+							<div id="ucshare_picture" ></div>
+							<script  type="text/javascript" src="http://ccs.ucweb.com/ccs/13?_e=1h&_t=http%3A%2F%2Fplus.uc.cn%2Fpublic%2Fjs-min%2Fucshare_qrcode_normal.js"></script>
+						</div>
+					</li>
+
+                                               <li class="transmit_txt"><a href="javascript:void(0)">[保存到博客]</a></li>
+                                     </ul>
+				<div class="go_sohu_home"><a href="http://www.sohu.com" target="_blank" onclick="toHomePage();"></a></div>
+				<script type="text/javascript">
+				(function(){
+					var $uvReader = $('#uc_reader');
+					$uvReader.hover(function(){
+						$uvReader.find('.pr-code-con').show();
+					},function(){
+						$uvReader.find('.pr-code-con').hide();
+					});
+				})();
+				</script>
+				<style>
+				#container .share .world-link{float:left;display:inline;margin:5px 0 0 160px;line-height:20px}
+				#container .share .world-link a{padding-left:16px;display:inline-block;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 2px}
+				</style>
+				<div class="world-link"><a href="http://k.sohu.com" target="_blank">手机看新闻</a></div>
+				     				
+                
+				
+            </div>			
+			<!-- 相关 -->
+			
+			
+			
+			<!-- 本文相关推荐-->
+            <!-- 其它频道 -->
+<style>
+#container .tagHotg .tagIntg li a{color:#000}
+#container .tagHotg .tagIntg li a:hover{color:#c00}
+</style>
+			<style>
+/* 相关热点 2010-09-09 */
+#contentA .tagHotg{clear:both;margin:10px auto 0;text-align:left}
+#contentA .tagHotg h3{height:24px;font:600 14px/24px "宋体";color:#333}
+#contentA .tagHotg .tagIntg{display: block;overflow:hidden;zoom:1;clear:both;width:100%;margin:3px auto 0}
+#contentA .tagHotg .tagIntg li{float:left;width:205px;font:14px/24px "宋体"}
+#contentA .tagHotg .tagIntg li a{ text-decoration:none !important;}
+#contentA .tagHotg .tagIntg li a:hover{text-decoration:underline !important;}
+#contentA .text .line{width:100%}
+</style>
+<div class="tagHotg">
+  <h3><a href="http://www.sogou.com/" target="_blank">本文相关推荐</a></h3>
+  <div class="tagIntg">
+    <ul>
+                        <li><a class="hot-icon" href="http://www.sogou.com/web?query=农村土地承包经营权调查规程&p=02210102&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len
+="12" ind="1">农村土地承包经营权调...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=国务院关于印发深化农村信用社&p=02210102&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="2">
+国务院关于印发深化农...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权流转合同&p=02210102&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="3">
+农村土地承包经营权流...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权&p=02210102&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="4">
+农村土地承包经营权</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权流转管理办法&p=02210102&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="5">
+农村土地承包经营权流...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权要素编码规则&p=02210102&fhintidx=5" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="6">
+农村土地承包经营权要...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权流转合同范本&p=02210102&fhintidx=6" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="7">
+农村土地承包经营权流...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权出租合同&p=02210102&fhintidx=7" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="8">
+农村土地承包经营权出...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权流转协议&p=02210102&fhintidx=8" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="9">
+农村土地承包经营权流...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权确权登记&p=02210102&fhintidx=9" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="10">
+农村土地承包经营权确...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权确权登记颁证&p=02210102&fhintidx=10" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="11">
+农村土地承包经营权确...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=农村土地承包经营权确权工作汇报&p=02210102&fhintidx=11" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="12">
+农村土地承包经营权确...</a></li>
+                                </ul>
+  </div>
+</div>
+			<script type="text/javascript">var entityId = 425011016;</script>	
+			
+				<div id="SOHUCS" sid=""></div>
+<script>
+document.domain = "sohu.com";
+if(typeof entityId != 'undefined'){
+    document.getElementById('SOHUCS').setAttribute('sid',entityId); 
+    var category = typeof category != 'undefined' ? category :'';                 
+    var _config = {
+                   hideList: true,               
+                   hideSubList: true,            
+                    jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
+                    varName: entityId, 
+                    customSohu: true,
+                    cyanTitle : '我来说两句',
+                    commentHide : true ,
+                    pageSize: 10,
+                    categoryId: category
+                }
+    }
+    window.SCS_NO_IFRAME = true;
+</script>
+
+<script src="http://assets.changyan.sohu.com/upload/changyan.js?appid=cyqemw6s1&conf=prod_0266e33d3f546cb5436a10798e657d97" charset="utf-8"></script>
+<script type="text/javascript" src="http://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+				
+			<!--图文转载-->
+			<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/pubPicTextV6_20130926.js"></script>
+			<script type="text/javascript">
+				var newsId = 425011016;
+				jQuery.picText.init();
+			</script>
+			<!--图文转载 end-->
+			<!-- 广告 -->
+			<div class="ad590">
+				<div><SOHUADCODE><div>
+<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13022651"></script>
+    <script language=javascript>
+        require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_12022'}); 
+});
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9c21da63769d55542c77e7d98c9c4531.php?a=0");
+</script></div>
+</SOHUADCODE></div>
+			</div>
+			<!-- 20130121 st -->
+			<div class="lottery-box clear" id="sougocaipiao1"><a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">杭州彩民独享2040万大奖</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">双色球头奖8注1118万</a>&nbsp;&nbsp;<a  href="http://caipiao.sohu.com" target="_blank" rel="nofollow">河南彩民随意刮中"富贵8"100万</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com/video/tycpkj/index.shtml" target="_blank" rel="nofollow">体彩开奖</a></div	
+			<!-- 20130121 end -->
+			<div class="mutu clear">
+				<div class="mutu-title">
+					<div class="mutu-news-tt">
+                   <h2><span>相关新闻</span></h2>
+                    </div>
+					<div class="mutu-keyWord-tt">
+                   <h2><span>相关推荐</span></h2>
+                    </div>
+				</div>
+				<div class="mutu-news">
+						<div class="list14">
+							
+
+			 <ul> 		<li><span>15-09-14</span><a href="http://news.sohu.com/1/0204/34/subject219193482.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="1" target="_blank">中共中央发出第一个“一号文件”,对迅速推开的农</a></li>
+								<li><span>15-09-08</span><a href="http://news.sohu.com/20150908/n420654742.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="2" target="_blank">刘奇葆:以美丽乡村建设为主题 深化农村精神文明建</a></li>
+								<li><span>15-07-18</span><a href="http://news.sohu.com/20150718/n417019481.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="3" target="_blank">湖北襄阳推“最彻底户改”:农民进城落户不退地(图</a></li>
+								<li><span>15-07-16</span><a href="http://news.sohu.com/20150716/n416892661.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="4" target="_blank">党史专家:万里搞农村改革 承担了很大政治风险(图)</a></li>
+								<li><span>15-07-16</span><a href="http://news.sohu.com/20150716/n416867362.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="5" target="_blank">外媒称中国厕所革命遇难题:农民如厕习惯难改</a></li>
+								<li><span>14-12-31</span><a href="http://news.sohu.com/20141231/n407432007.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="6" target="_blank">全面深化改革365天:深改小组七次会议传递的信号</a></li>
+		 </ul> 	
+
+							
+								<div class="more"><a href="http://news.sogou.com/news?query=深化 放活&pid=31023101&md=listTopics&name=&mode=0&sort=0" rel="nofollow" target="_blank" >更多关于 <strong>深化 放活</strong> 的新闻&gt;&gt;</a> </div>
+							
+						</div>
+				</div>
+				<div class="mutu-keyWord">
+						<div class="list14">
+							<ul>
+	<li><a href="http://www.sogou.com/web?query=农村土地承包经营权确权调研报告&p=31210100&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="1">农村土地承包经营...</a></li>
+	<li><a href="http://www.sogou.com/web?query=那里有手工放活&p=02210100&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="2">那里有手工放活</a></li>
+	<li><a href="http://www.sogou.com/web?query=潍坊床品外放活&p=02210100&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="3">潍坊床品外放活</a></li>
+	<li><a href="http://www.sogou.com/web?query=青岛加工放活&p=02210100&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="4">青岛加工放活</a></li>
+	<li><a href="http://www.sogou.com/web?query=高阳毛巾砸边外放活&p=02210100&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="5">高阳毛巾砸边外放活</a></li>
+	<li><a href="http://www.sogou.com/web?query=白沟河网最新放活信息&p=02210100&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="6">白沟河网最新放活信息</a></li>
+<script >
+try{    
+        var i=new Image();
+        i.src='http://pingback.sogou.com/rltpv.png?surl='+escape(window.location)+'&'+Math.random();
+}catch(err){
+}       
+</script></ul>
+						</div>
+				</div>
+			</div>
+	
+			<!-- 搜狗服务 -->
+			<div class="sogouService clear">
+            	<h2><span><a href="http://www.sogou.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/sogou.png" width="74" height="22" alt="" /></a></span><a href="http://www.sogou.com/fuwu/" rel="nofollow" target="_blank"><strong>我要发布</strong></a></h2>
+                <script type="text/javascript">
+	                var sogou_ad_id=13273;
+	                var sogou_ad_height=90;
+	                var sogou_ad_width=580;
+                </script>
+                <script language='JavaScript' type='text/javascript' src='http://images.sohu.com/cs/jsfile/js/c.js'></script>
+            </div>
+		</div>
+	</div>	
+	<div class="rightbar-wrapper grid-300">
+		<!-- 搜索 热词 -->
+		<div class="search-hotword clear">
+			<div class="search">
+				<form action="http://news.sogou.com/news" method="get" target="_blank" id="searchform" name="searchform" onsubmit="return CheckKeyWord();" autocomplete="off"> 
+					<input type="text" name="query" id="query" class="search-in" value="深化 放活" />
+					<input type="hidden" name="t" id="t" value="news" />
+					<input type="submit" class="search-btn" value="搜狗搜索" onmouseover="this.className='search-btn search-btn-over'" onmouseout="this.className='search-btn'" />
+				</form>
+			</div>
+			<div class="hotword">
+				<p>热词：
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E5%B0%8F%E6%89%8E%E5%BD%93%E7%88%B9" target="_blank" rel="nofollow">小扎当爹</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=+%E8%8B%8F%E6%A0%BC%E5%85%B0%E7%8E%B0%E6%80%AA%E9%B2%A8" target="_blank" rel="nofollow">苏格兰怪鲨</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E8%AE%A8%E8%B4%BC%E6%AA%84%E6%96%87" target="_blank" rel="nofollow">讨贼檄文</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E7%B9%81%E4%BD%93%E5%AD%97%E7%94%B3%E9%81%97" target="_blank" rel="nofollow">繁体字申遗</a></p>
+				<p>热剧：<a href="http://tv.sohu.com/s2014/qsmy/" target="_blank">秦时明月</a> <a href="http://tv.sohu.com/s2015/wonderlady4/" target="_blank">极品女士4</a> <a href="http://tv.sohu.com/s2015/yxss/" target="_blank">夜行书生</a> <a href="http://tv.sohu.com/s2015/thenightshift2/" target="_blank">夜班医生2</a> <a href="http://tv.sohu.com/s2015/dyg/" target="_blank">大秧歌</a></p>
+			</div>
+		</div>
+        <script type="text/javascript">
+        function CheckKeyWord(){
+                 var sf = document.searchform;
+                 with(sf){
+          //if (query.value == "深化 放活") {
+          //                query.value = "";
+          //                setTimeout("query.value='深化 放活'", 1000);
+          //       }
+        }
+                 return true;
+        }
+        
+        // 改变提交的查询动作
+        function CheckFormAction(v){
+                 var sf = document.searchform;
+                 with(sf){
+          if (v=='web') {
+                          action = "http://www.sogou.com/web";
+            p.value = "02240100";                                 
+                 } else {
+                          p.value = "02240101";
+                          action = "http://news.sogou.com/news";
+                 }
+        }
+                 return true;
+        }
+
+        jQuery(function(jq){
+                 var searchValue = jq(".search-in").val();
+                 jq(".search-in").focus(function(){
+                          jq(this).val("").css("color","#333");
+                          jq(".search").addClass("search-act");
+                 }).blur(function(){
+                          if(jq(this).val() == ""){
+                                    jq(this).val(searchValue).css("color","#666");
+                                    jq(".search").removeClass("search-act");
+                          } 
+                 })
+        });
+        </script>
+		
+		<!-- 广告 -->
+		<SOHUADCODE><script type="text/javascript" src="http://txt.go.sohu.com/ip/soip"></script>
+<script type="text/javascript">
+if(typeof(document.pv)=="undefined") document.pv = new Array();var _a=new Image();
+_a.src="http://imp.optaim.com/201408/227508674023a85b81418b2fd35d3b5a.php?a=1";
+document.pv.push(_a);
+</script><script type="text/javascript">
+Passion.tclick=function(ctid){
+    Passion.pv.imp("http://xls.go.sohu.com/201301/dec6fec990dffa2804915cbc46fbefee.php?a="+ctid);
+}
+</script><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD472 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD472=new Cookie(document,"TurnAD472",24);
+TurnAD472.load();
+TurnAD472.visit=(TurnAD472.visit==null)?parseInt(Math.random()*3+1):TurnAD472.visit;
+if(TurnAD472.visit!=0)var intTurnAD472=TurnAD472.visit;
+TurnAD472.visit++;
+TurnAD472.visit=(TurnAD472.visit>3)?1:TurnAD472.visit;
+TurnAD472.store();
+function showTurnAD472(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+jQuery("#TurnAD472").attr('id','tanx-a-mm_17187609_2273741_13026471');
+document.write('<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13026471"></sc'+'ript>');
+require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_11953'}); 
+});
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/19b28503a51ae5fecca69243df588209.php?a=0");}
+else if(basenum==2){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD472",_ID = "10108",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD472",_ID = "10108",_W = 300,_H = 250,_T = 3,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD472(intTurnAD472);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<script>var divid300500 = 'TurnAD472';</script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird300500V20140925.js" ></script></SOHUADCODE>		
+		<!-- 手机看新闻 -->
+		<script src="http://a1.itc.cn/pv/js/pvcode.1312101227.js"></script>
+<div class="phone_rss">
+   <a href="http://k.sohu.com" onclick="_pv.send('5af69b5503b22dd5')" target="_blank"><img src="http://i1.itc.cn/20151202/a75_ca5db141_b629_d6b5_049a_e7699eee5e37_1.jpg" width="300" height="92"></a></div>
+<div class="blank5B"></div>		
+		<!-- 相关微博 -->
+		
+		<div class="news-frag clear">
+		 <h2><span>点击今日</span><a href="http://news.sohu.com/dianjijinri/" target="_blank">更多&gt;&gt;</a></h2>
+
+		 <div class="clk-today clear">
+
+  <div class="pic-text">
+    <div><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml"><img src="http://i0.itc.cn/20151202/360f_d2d9c787_24c1_a2d3_80ff_af60630c9f23_1.jpg" alt="" width="115" height="75" border="0"></a></div>
+    <h4><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml">
+“仁波切”们的敛财秘术
+</a></h4>
+<p>[<a target="_blank" href=http://news.sohu.com/s2015/dianji-1759/index.shtml>详细</a>]</p>
+  </div>
+  <div class="list12">
+    <ul>
+      <li><span>数字之道：</span><a href="http://news.sohu.com/s2015/xlygxw/index.shtml" target="_blank">俄土敌盟关系网：冲突一触即发</a></li>
+      <li><span>独家策划：</span><a href="http://news.sohu.com/s2015/2016huochepiao/index.shtml" target="_blank">2016春运购票日历!回家必备快收藏!</a></li>
+    </ul>
+  </div>
+</div>
+<div class="rightbar-foot" style="margin-top:10px;"></div>
+		</div>
+		
+		
+		
+
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD473 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD473=new Cookie(document,"TurnAD473",24);
+TurnAD473.load();
+TurnAD473.visit=(TurnAD473.visit==null)?parseInt(Math.random()*2+1):TurnAD473.visit;
+if(TurnAD473.visit!=0)var intTurnAD473=TurnAD473.visit;
+TurnAD473.visit++;
+TurnAD473.visit=(TurnAD473.visit>2)?1:TurnAD473.visit;
+TurnAD473.store();
+function showTurnAD473(basenum){
+if (basenum==1){
+document.getElementById('TurnAD473').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/ebec5d3797ed1fd700981efee250e193.php?a=0");}
+else{
+document.getElementById('TurnAD473').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/34267707dd3559f0d0de354375cc3c04.php?a=0");}
+}
+showTurnAD473(intTurnAD473);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>		
+		<!-- 广告列表 a -->
+		<SOHUADCODE>
+</SOHUADCODE>		
+		<!-- 相关图片 -->
+		<style>
+.news-frag { border-bottom:5px solid #fff;padding-bottom:0;}
+</style>
+<div class="mutu-pic kind-video clear"  id="hotpicnew" style="height:auto">
+			<h2><span>热门图片</span></h2>
+			<style>
+			#container .mutu-pic .list12 ul{margin:0 auto 12px;width:272px}
+			</style>
+			<div class="pic-group">
+				<ul>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201510/6241.html" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_301bc9e4_d62a_8c9e_c4b2_440948d6b56c_1.jpg
+" width="125" height="85" alt="" /><span>中国四千年第一美女</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6493.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151130/3436_aab09cad_2738_7c7c_1f8b_38b8ee208f0b_1.jpg
+" width="125" height="85" alt="" /><span>红孩儿成最高学历童星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/qwys/ywbd/201511/6420.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151120/332d_954a81f7_1794_612c_2137_018fc7aa3040_1.jpg
+" width="125" height="85" alt="" /><span>演14亿票房电影却不红
+</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6510.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151202/3436_a956c964_453b_87b7_9da9_22438d58cc97_1.jpg
+" width="125" height="85" alt="" /><span>好莱坞最穷最孤独巨星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6362.html
+" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_86ac5a2d_3189_0dff_42c6_c648eba0aeae_1.jpg
+" width="125" height="85" alt="" /><span>苏有朋林心如好事将近</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6359.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151110/3436_68a20f34_35da_1e42_a7a7_ca77c78f3111_1.jpg
+" width="125" height="85" alt="" /><span>他们不再是“中国人”</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6462.html 
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151125/3436_27d1f69a_2226_6539_9169_e49c486e346f_1.jpg
+" width="125" height="85" alt="" /><span>锤哥拍片太拼突然暴瘦</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/hqsy/yxgw/201511/6406.html?1447659664
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151117/332d_83725e76_e951_f92b_c484_5d5fb91ef569_1.jpg
+" width="125" height="85" alt="" /><span>男子钓出食人怪惊骇人</span></a></li>
+
+					
+			</ul>
+			</div>
+		</div>
+                <!-- 淘宝客广告 -->
+                <SOHUADCODE><div class="ad300">
+<div>
+<script type="text/javascript">
+        document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_32412711"></a>');
+        tanx_s = document.createElement("script");
+        tanx_s.type = "text/javascript";
+        tanx_s.charset = "gbk";
+        tanx_s.id = "tanx-s-mm_17187609_2273741_32412711";
+        tanx_s.async = true;
+        tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_32412711";
+        tanx_h = document.getElementsByTagName("head")[0];
+        if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/32f6f843b7342a720cb81048acd8fc90.php?a=0");
+</script></div>
+</div>
+</SOHUADCODE>			
+		<!-- 广告列表 b -->
+		<SOHUADCODE><div>
+<div>
+<iframe width=300 height=200 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/jctj/bj/index.html></iframe>
+</div></div>
+</SOHUADCODE>		
+		<div class="rightbar-foot"></div>		
+		<SOHUADCODE></SOHUADCODE>
+		<!-- 影视视频 -->
+		<div class="kind-video video-kink clear pvblock1" id="kind-video">
+			<div class="video-menu">
+				<ul>
+					
+					<li class="video-menu-now">热点视频</li>
+					<li><a href="http://tv.sohu.com/drama/" target="_blank">影视剧</a></li>
+					<li><a href="http://tv.sohu.com/show/" target="_blank">综艺</a></li>
+					<li class="video-menu-end"><a href="http://tv.sohu.com/ugc/" target="_blank">自媒体</a></li>
+				</ul>
+			</div>
+			<div class="scroll-box">
+				<div class="scroll-con">
+
+                        	
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429174623.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151201/70b_29e67fbe_1273_f059_c13f_05e285b9f706_1.jpg" width="278" height="144" alt="极品女士" /><em class="layer-txt"><i></i><b>极品女士 | 文章变疯狂粉丝追星停不下来</b></em><em ></em></a></div>
+                                
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429164659.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3498_d866e1b0_274c_9068_1cb9_2df98f6cb38b_1.jpg" width="278" height="144" alt="夜行书生" /><em class="layer-txt"><i></i><b>夜行书生 | 美男李准基上演凄美人鬼恋</b></em><em></em></a></div>
+		
+                        <div class="picA"><a href="http://tv.sohu.com/20151202/n429175566.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151201/70b_b5a0a3e8_35ee_57e6_65f2_bc3374e9c8c4_1.jpg" width="278" height="144" alt="秦时明月" /><em class="layer-txt"><i></i><b>秦时明月|天明大败秦兵后险对月儿下毒手</b></em><em></em></a></div>
+
+				</div>
+			</div>
+			<div class="scroll-btns"><a href="javascript:void(0)" class="up uN"></a><a href="javascript:void(0)" class="down"></a></div>
+			<script type="text/javascript" src="http://news.sohu.com/upload/dynamic/dynamic.js"></script>
+			<script type="text/javascript">
+			SOHU_MDC_PU.autoScroll({
+				slideOuter : jQuery('#kind-video'),
+				picList : jQuery('#kind-video .scroll-con .picA'),
+				showCount : 1,
+				auto : true,
+	            stayTime : 5000
+			});
+			</script>
+			<div class="pic-group">
+				<ul>
+
+
+<li><a href="http://tv.sohu.com/20151201/n429042891.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_9534c7f8_0640_9a3a_213b_12751fd920be_1.jpg" width="134" height="86" alt="6名壮汉酒后围殴服务员" /><span>6名壮汉酒后围殴服务员</span><em ></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429110627.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_163db251_fbdb_486f_0b6e_a1874c3d9bf8_1.jpg" width="134" height="86" alt="网曝高中女生暴打女同学" /><span>网曝高中女生暴打女同学</span><em ></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151201/n429171084.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_dee2528f_f324_0898_517d_3215c0080de1_1.jpg" width="134" height="86" alt="小伙被同性强暴染艾滋" /><span>小伙被同性强暴染艾滋</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429094186.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_da04741a_faa2_14b2_dd8a_45f03fa7495b_1.jpg" width="134" height="86" alt="实拍冰球选手遭冰刀割喉 " /><span>实拍冰球选手遭冰刀割喉 </span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151202/n429207005.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/3411_48527663_5761_8529_c33e_c519fb8b2733_1.jpg" width="134" height="86" alt="女子扯毛衣油枪瞬间起火" /><span>女子扯毛衣油枪瞬间起火</span><em></em></a></li>                                                                                
+
+<li class="end"><a href="http://tv.sohu.com/20151202/n429217904.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151202/3411_2243e5a3_708e_2a67_334c_58de2b5fab1e_1.jpg" width="134" height="86" alt="兰博基尼街头飙车撞树" /><span>兰博基尼街头飙车撞树</span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20140418/n398425147.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/330c_bf85a25d_76e9_ba97_9980_4c931d445358_1.jpg" width="134" height="86" alt="郭天王为“帅”吃尽苦头" /><span>郭天王为“帅”吃尽苦头</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151113/n426396064.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/330c_ccaaa692_8911_da63_8565_5f7078fd52c0_1.jpg" width="134" height="86" alt="揭秘图坦卡蒙死亡之谜" /><span>揭秘图坦卡蒙死亡之谜</span><em ></em></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="rightbar-foot"></div>
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD474 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD474=new Cookie(document,"TurnAD474",24);
+TurnAD474.load();
+TurnAD474.visit=(TurnAD474.visit==null)?parseInt(Math.random()*2+1):TurnAD474.visit;
+if(TurnAD474.visit!=0)var intTurnAD474=TurnAD474.visit;
+TurnAD474.visit++;
+TurnAD474.visit=(TurnAD474.visit>2)?1:TurnAD474.visit;
+TurnAD474.store();
+function showTurnAD474(basenum){
+if (basenum==1){
+document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_14706573"></a>');
+     tanx_s = document.createElement("script");
+     tanx_s.type = "text/javascript";
+     tanx_s.charset = "gbk";
+     tanx_s.id = "tanx-s-mm_17187609_2273741_14706573";
+     tanx_s.async = true;
+     tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_14706573";
+     tanx_h = document.getElementsByTagName("head")[0];
+     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/2335dd35a7246956fea8dfb9055eeed8.php?a=0");}
+else{
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD474",_ID = "10111",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });}
+}
+showTurnAD474(intTurnAD474);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>
+		<!-- 中视网盟 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<div>
+<iframe width=300 height=238 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/alw/bj/index.html></iframe>
+</div></div>
+</div>
+</SOHUADCODE>
+		<!-- 彩票 st -->
+		
+		<!-- 彩票 end -->		
+		<!-- 我来说两句排行榜 -->
+		
+
+<div class="comment-rank clear">
+    <h2>
+        <span>我来说两句排行榜</span>
+    </h2>
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429199542.html" target="_blank">3145</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429199542" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429199542.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429215319.html" target="_blank">1813</a>
+        </dt>
+        <dd>
+            <a href="http://mt.sohu.com/20151202/n429215319.shtml" target="_blank">重不重？大学生掏鸟16只被判10年半-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429215319.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429084947.html" target="_blank">1800</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429084947" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429084947.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429242989.html" target="_blank">1210</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429242989" target="_blank">圈子 - 报告建议2018年开始延退 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429242989.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">1037</a>
+        </dt>
+        <dd>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">村官黑老大的“家伙事儿”-新闻图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429239636.html" target="_blank">934</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429239636" target="_blank">圈子 - 报告建议2018年延迟退休 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429239636.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188284.html" target="_blank">911</a>
+        </dt>
+        <dd>
+            <a href="http://news.sohu.com/20151202/n429188284.shtml" target="_blank">女子闹分手 男友：你的内衣我买的当街脱了让你走-搜狐新闻</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188284.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">801</a>
+        </dt>
+        <dd>
+            <a href="http://pic.yule.sohu.com/group-699931.shtml" target="_blank">李小璐出席活动表情僵硬 网友：满脸硅胶！-娱乐频道图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429193521.html" target="_blank">764</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429193521" target="_blank">圈子 - 统计局官员:中国人口结构扭曲 人口危机现端倪</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429193521.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188042.html" target="_blank">726</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429188042" target="_blank">圈子 - 女公务员贪污出逃6年后身亡 怀孩子嫁泰国残疾人</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188042.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    
+</div>
+		<div class="rightbar-foot"></div>		
+		<div class="leisure clear">
+<h2><span>社区热帖推荐</span></h2>
+<div class="pic-text">
+<div><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank"><img 
+src="http://i2.itc.cn/20151202/2db9_28c70263_05f7_ca7c_14e4_40e79cce5ff5_1.jpg" width="125" height="85" alt="" /></a></div>
+<h4><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">多名女子在KTV打架！高跟鞋狂踹</a></h4>
+<p>短裙女当众被往死打……[<a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">详细</a>]</p>
+</div>
+<div class="broken-line"></div><div class="list12">
+<ul>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxxfamubru" target="_blank">残忍 深圳货车司机把小狗绑在车尾拖死</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxv54td53z" target="_blank">实拍“最牛”违停司机： 贴条死爹</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnjvnollz" target="_blank">小情侣座椅上揉胸玩亲热 不顾及旁人</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxyq8qicol" target="_blank">怀疑人偷东西 就可以把她绑在树上挂牌示众？</a></a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnazy0umf" target="_blank">19岁美女原来是名高材生 却为这种理由休学</a></li>
+</ul></div></div>
+
+<div class="rightbar-foot"></div>		
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<script src="http://images.sohu.com/saf/static/8/13568.shtml"></script>
+
+
+<div id=beans_13568 width=300 height=90 align="center"></div>
+<script type="text/javascript">
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _ID = "13568",_W = 300,_H = 90,_T =1,_F=201;
+    if(_ID){jQuery('#beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+</script></div>
+</div>
+</SOHUADCODE>		
+		<div class="rightbar-head"></div>				
+		<!-- 信息 -->
+		<div class="sohu-info clear" >
+			<div class="contact-icon"></div>
+			<div class="contact-txt">
+				<p>客服热线：86-10-58511234</p>
+				<p>客服邮箱：<a href="mailto:kf@vip.sohu.com" target="_blank">kf@vip.sohu.com</a></p>
+			</div>
+		</div>		
+	</div>
+	<div class="content-footer"></div>
+</div>
+
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/business_news_1.1.3.js"></script>
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/related_stock_1.0.1.js"></script>
+<script type="text/javascript" src="http://getip.js.sohu.com/ip/"></script>
+<script type="text/javascript"> 
+if (new_ip == null) var new_ip=2130706433;
+var dns_requrl="\<script type=\"text/javascript\" src=\"http://" + new_ip +".sohuns.com/ip/\"\>\</script\>";
+document.write(dns_requrl);
+</script>
+
+<!-- 标准尾 start -->
+<div collection="Y">
+<div class="clear"></div>
+	<div id="foot" class="Area area">
+		<a href="javascript:void(0)" onClick=this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sohu.com');return false;>设置首页</a>
+		- <a href=http://pinyin.sogou.com/ target=_blank rel="nofollow">搜狗输入法</a>
+		- <a href=http://pay.sohu.com/ target=_blank rel="nofollow">支付中心</a>
+		- <a href=http://hr.sohu.com target=_blank rel="nofollow">搜狐招聘</a>
+		- <a href=http://ad.sohu.com/ target=_blank rel="nofollow">广告服务</a>
+		- <a href=http://sohucallcenter.blog.sohu.com/ target=_blan rel="nofollow"k>客服中心</a>
+		- <a href=http://corp.sohu.com/s2006/contactus/ target=_blank rel="nofollow">联系方式</a>
+		- <a href=http://www.sohu.com/about/privacy.html target=_blank rel="nofollow">保护隐私权</a>
+		- <a href=http://investors.sohu.com/ target=_blank rel="nofollow">About SOHU</a>
+		- <a href=http://corp.sohu.com/indexcn.shtml target=_blank rel="nofollow">公司介绍</a>
+		- <a href=http://sitemap.sohu.com/ target=_blank>网站地图</a>
+		- <a href=http://roll.sohu.com/ target=_blank>全部新闻</a>
+		- <a href=http://blog.sohu.com/roll target=_blank>全部博文</a>
+		<br />Copyright <span class="fontArial">&copy;</span> 2015 Sohu.com Inc. All Rights Reserved. 搜狐公司 <span class="unline"><a href="http://corp.sohu.com/s2007/copyright/" target="_blank" rel="nofollow">版权所有</a></span>
+		<br />搜狐不良信息举报邮箱：<a href="mailto:jubao@contact.sohu.com">jubao@contact.sohu.com</a>
+	</div>
+	<SCRIPT language=JavaScript src="http://a1.itc.cn/pv/js/spv.1309051632.js"></SCRIPT>
+	<script language="javascript" src="http://js.sohu.com/wrating20120726.js"></script>
+	<script language="javascript"> 
+		var  _wratingId = null;
+		try{
+		_wratingId = _getAcc();
+		}catch(e){}
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');
+		}
+		</script>
+		<script language="javascript"> 
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript">');
+		document.write('var vjAcc="'+_wratingId+'";');
+		document.write('var wrUrl="http://sohu.wrating.com/";');
+		document.write('try{vjTrack();}catch(e){}');
+		document.write('</scr'+'ipt>');
+		}
+	</script>
+	<!--SOHU:DIV_FOOT-->
+</div>
+<!-- 标准尾 end -->
+
+<script type="text/javascript">
+<!--
+	function sogouRelateNews(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");   var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len;   ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+	    return true;
+	}
+
+	function sogouRelateWeb(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len; ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+	 	     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+		     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+		return true;
+	}
+
+	function sogouRelateSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+	function sogouRelateBlog(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltblog.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+	
+	function sogouHotSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rlthotsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+    function sogouRelateVideoNews(itm){
+      var i=new Image();
+      var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+      len=(len==null)?"":len;    ind=(ind==null)?"":ind;
+      if(len == "" || ind == "" ) {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+      } else {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+      }
+	  return true;
+    }
+
+
+//-->
+</script>
+<SOHUADCODE>																																																																																																																																																																								<Script language="Javascript">var cWidth=980;</script>
+
+<script type="text/javascript">
+	require(["sjs/matrix/ad/special"], function(special) {
+	special.ones({
+		itemspaceid : 10632,
+		adsrc : 201,
+		max_turn : 1,
+		order : 3,
+		options:{
+			pos : "left"
+		}
+	});
+
+	special.start();
+	});
+</script>
+
+
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/PVJS/adm2012-20130926min.js"></Script>
+<script src='http://images.sohu.com/bill/s2010/gates/sohucstech/javascript/954092d923b0e377f0a9d4d41a0937c4.js' type='text/javascript'></script>
+<!—不能删除 投飞行广告时也必须带上—>
+<script type="text/javascript">
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();
+_a.src='http://xls.go.sohu.com/201012/ee970cf0f5c53c86014a16fd32d9629a.php?a=0';
+document.pv.push(_a);
+imp(urlpath,133);
+if(PVUV_CheckArticle("gn11",24,1)){imp(urlpath,134);}
+if(PVUV_CheckArticle("gn12",24*365,1)){imp(urlpath,135);}
+
+</script>
+
+<script type="text/javascript">
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();
+_a.src='http://xls.go.sohu.com/201204/ba6906fb71bb9c0a5d72babe338483b9.php?a=9';
+document.pv.push(_a);
+</script>
+<!—不能删除—>
+<!--<Script language="Javascript">
+AD = new ADM("FLOAT", 2);
+    AD.src = "http://images.sohu.com/bill/s2009/shanbai/baojie/6yue/1001000602.swf";
+    AD.href="http://goto.sogou.com/200905/256711c20f526ea88028870e1a36e2cc.php";
+    AD.tag="";
+    AD.imp="";
+    AddSchedule(AD);
+</script>-->
+<script type="text/javascript">SohuAd.createScript("sohucsjs","http://imp.go.sohu.com/201111/ee4f7cebb2ef825bf6b3c8730c929929_31.js");</script>
+
+<script type="text/javascript">
+SohuAdPv_CPD   = {"#TurnAD472":"10108","#TurnAD20":"10013","#TurnAD473":"10110","#TurnAD474":"10111"};
+SohuAdFly_nCPD = {"float_r":"10632"};
+setpopslotid = '12409';
+</script><Script language="Javascript">if(jQuery){jQuery.getScript("http://images.sohu.com/bill/s2012/gates/all/map.2013040302.js");}</script>
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/gates/js/fad_v9.js"></Script>
+<Script language="Javascript" src="http://images.sohu.com/bill/default/auto/pop.1.4.js?t=168"></Script></SOHUADCODE>
+<SOHUADCODE></SOHUADCODE>
+<script type='text/javascript'>	
+	function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}	
+	var sogou_is_brand_url = "http://cpc.brand.sogou.com/brand_ad_new";	
+	var brand_cnt = 0;	
+	for(var p in sogou_is_brand)	
+	{	           if(typeof(sogou_is_brand[p]) == "string")
+	               sogou_is_brand_url += (brand_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_brand[p]);	
+	}	
+	if (brand_cnt>3)	
+	{	
+	         var test= document.createElement('SCRIPT');	
+	         test.src=sogou_is_brand_url;	
+	         document.getElementsByTagName('head')[0].appendChild(test);	
+	}	
+</script>
+<div style="display:none" id="sohu-dt0220mine-tag">news</div><script src='http://news.sohu.com/upload/pop/mytag.min.js' type='text/javascript'></script>
+
+
+
+<script>
+pv_area_register("401832","pvblock1");
+</script>
+</body>
+</html>

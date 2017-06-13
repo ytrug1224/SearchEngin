@@ -1,0 +1,976 @@
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>飞天媒体圈：神六飞天你问我答-搜狐新闻中心</title>
+<meta http-equiv=content-type content='text/html; charset=gb2312'>
+<sohu_cms_include:subject_style><style type=text/css>
+/*style7*/
+td,body,input,select {font-size: 12px;font-family:'宋体,arial';color:#333333;line-height:18px;}
+
+a.title1,a.title1:visited {color: #D70709;text-decoration:none;}
+a.title1:hover{text-decoration:underline;}
+
+.title1 a:link{color: #D70709;text-decoration:none;}
+.title1 a:visited {color: #D70709;text-decoration:none;}
+.title1 a:hover{text-decoration:underline;}
+
+.ui_nav1,a.ui_nav1:visited {color: #D91200;line-height:20px;text-decoration: none;}
+a.ui_nav1:hover{color: #D91200;text-decoration:underline;}
+
+
+.ui{font-size:12px;color:#333333}
+
+.navigater,a.navigater:visited {color: #D91200;line-height:20px;text-decoration: none;}
+a.navigater:hover{color: #D91200;text-decoration:underline;}
+
+.top_red {font-size: 12px; color:#D70709; text-decoration: none}
+a.top_red:hover {text-decoration:underline;}
+
+.topred,a.topred:visited {color: #D91200;line-height:20px;text-decoration: none;}
+a.topred:hover{color: #D91200;text-decoration:underline;}
+
+.tt1,a.tt1:visited {color: #D91200;line-height:20px;text-decoration: none;}
+a.tt1:hover{color: #D91200;text-decoration:underline;}
+
+.top {font-size: 12px;line-height: 20px;color: #000000;text-decoration: none;}
+
+.nav1 {color:#696969;line-height:18px;}
+.nav1 a:link{color: #696969;text-decoration:none;}
+.nav1 a:visited {color: #696969;text-decoration:none;}
+.nav1 a:hover{text-decoration:underline;}
+
+/*以上不变*/
+
+/*ad*/
+.ad1 td {color:#1072CF;line-height:18px;}
+.ad1 a:link{color: #696969;text-decoration:none;}
+.ad1 a:visited {color: #696969;text-decoration:none;}
+.ad1 a:hover{text-decoration:underline;}
+
+/*title1*/
+.block_title1 {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title1.gif);background-repeat: no-repeat;}
+/*.block_title1{background-color:#9374E1;}*/
+.block_title1b {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title1b.gif);background-repeat: no-repeat;
+/*background-color:#000000;*/
+font-size:16px;
+font-weight:bold;
+color:#0051B8;
+height:30px;}
+/*title2*/
+.block_title2 {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title2.gif);background-repeat: no-repeat;background-color:#000000;}
+.block_title2b {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title2b.gif);background-repeat: repeat-x;
+/*background-color:#000000;*/
+font-size:12px;
+color:#0051B8;
+font-weight:bold;
+height:24px;}
+/*title3*/
+.block_title3 {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title3.gif);background-repeat: no-repeat;background-color:#000000;}
+.block_title3b {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title3b.gif);background-repeat: repeat-x;
+/*background-color:#000000;*/
+font-size:12px;
+color:#0051B8;
+height:24px;}
+/*title4*/
+.block_title4 {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title4.gif);background-repeat: no-repeat;background-color:#000000;}
+.block_title4b {background-image: url(http://images.sohu.com/uiue/zy/images/7block_title4b.gif);background-repeat: repeat-x;
+/*background-color:#000000;*/
+font-size:12px;
+color:#0051B8;
+height:24px;}
+
+
+/*left*/
+.lblock1 {background-image: url(http://images.sohu.com/uiue/zy/images/7ld01.gif)}
+.lblock1 td{line-height:18px;color: #000000}
+.lblock1 a:link{color: #696969;text-decoration:none;}
+.lblock1 a:visited {color: #696969;text-decoration:none;}
+.lblock1 a:hover{color: #cc0000;text-decoration:underline;}
+.lblock1 img{border:1px solid #ffffff;}
+.lblock1 div{padding:2px;color:#ffffff;}
+
+.lblock1b {background-color:#C3C3C3;}
+
+.lblock_title td{
+background-image: url(http://images.sohu.com/uiue/zy/images/7ld02.gif);
+text-align:center;
+height:24px;
+color:0051B8;}
+
+/*center*/
+.block1 td{color: #ffffff;}
+.block1 a:link{color: #ffffff;text-decoration:none;}
+.block1 a:visited {color: #ffffff;text-decoration:none;}
+.block1 a:hover{text-decoration:underline;}
+
+.block2 td{color: #363636;font-size:14px;line-height:20px;}
+.block2 a:link{color: #363636;text-decoration:underline;}
+.block2 a:visited {color: #363636;text-decoration:underline;}
+.block2 a:hover{color: #000000;text-decoration:underline;}
+
+.block3 {background-color:#E2E2E2;}
+.block3 {color:#4E4E4E;line-height:18px;}
+.block3 img{border:1px solid #4E4E4E;}
+.block3 div{padding:2px;color:#4E4E4E;}
+.block3 a:link{color: #4E4E4E;text-decoration:none;}
+.block3 a:visited {color: #4E4E4E;text-decoration:none;}
+.block3 a:hover{color: #4E4E4E;text-decoration:underline;}
+
+/*.block3b {background-color:#5E9ADC;}*/
+.block3b {color:#004AAE;line-height:18px;}
+.block3b td{color:#004AAE;line-height:18px;}
+.block3b img{border:1px solid #ffffff;}
+.block3b div{padding:2px;color:#004AAE;}
+.block3b a:link{color:#004AAE;text-decoration:none;}
+.block3b a:visited {color: #004AAE;text-decoration:none;}
+.block3b a:hover{color: #cc0000;text-decoration:underline;}
+
+.block4_title{
+color:#000000;
+font-size:16px;
+font-weight:bold;
+}
+.block4 td{color: #434343;line-height:18px;}
+.block4 a:link{color: #434343;text-decoration:none;}
+.block4 a:visited {color: #434343;text-decoration:none;}
+.block4 a:hover{text-decoration:underline;}
+
+.block5 img{border:1px solid #ffffff;}
+.block5 td{color: #434343;font-size:12px;line-height:20px;}
+.block5 a:link{font-size:14px;color: #434343;text-decoration:underline;}
+.block5 a:visited {font-size:14px;color: #434343;text-decoration:underline;}
+.block5 a:hover{font-size:14px;color: #000000;text-decoration:underline;}
+
+.block6 {background-color:#ECF7FF;}
+.block6 img{border:1px solid #ffffff;}
+.block6 td{color:#0051B8;line-height:18px;}
+.block6 a:link{color: #0051B8;text-decoration:none;}
+.block6 a:visited {color: #0051B8;text-decoration:none;}
+.block6 a:hover{text-decoration:underline;}
+
+.block7 td{color: #333333;line-height:18px;}
+.block7 a:link{color: #333333;text-decoration:none;}
+.block7 a:visited {color: #333333;text-decoration:none;}
+.block7 a:hover{text-decoration:underline;}
+
+.block8 td{color: #434343;font-size:14px;line-height:20px;}
+.block8 a:link{color: #434343;text-decoration:underline;}
+.block8 a:visited {color: #434343;text-decoration:underline;}
+.block8 a:hover{color: #000000;text-decoration:underline;}
+
+.block9 {background-attachment: fixed;background-image: url(http://images.sohu.com/uiue/zy/images/cd01.gif);background-repeat: repeat-x;}
+.block9 td{background-image: url(http://images.sohu.com/uiue/zy/images/cd02.gif);color:ffffff;height:24px;width:124px;text-align:center;}
+
+.block10 td{color: #434343;font-size:14px;line-height:20px;}
+.block10 a:link{color: #434343;text-decoration:underline;}
+.block10 a:visited {color: #434343;text-decoration:underline;}
+.block10 a:hover{color: #000000;text-decoration:underline;}
+
+.block11 td{color: #FBFCFD;background-color:#2A528B;}
+.block11 a:link{color: #FBFCFD;text-decoration:none;}
+.block11 a:visited {color: #FBFCFD;text-decoration:none;}
+.block11 a:hover{text-decoration:underline;}
+
+/*right*/
+.rblock {color: #000000;background-color:#EEEEEE;}
+.rblock a:link{color: #696969;text-decoration:none;}
+.rblock a:visited {color: #696969;text-decoration:none;}
+.rblock a:hover{color: #696969;text-decoration:underline;}
+.rblock img{border:1px solid #ffffff;}
+
+.rblock_title td{background-image: url(http://images.sohu.com/uiue/zy/images/7rd01.gif);background-repeat: no-repeat;text-align:center;height:24px;color:0051B8;}
+
+.rblock2 td {color:#000000;line-height:18px;}
+.rblock2 a:link{color: #696969;text-decoration:none;}
+.rblock2 a:visited {color: #696969;text-decoration:none;}
+.rblock a:hover{color: #696969;text-decoration:underline;}
+
+/*other*/
+.small_9{font-size:9px;color:#BEBEBE}
+.font14{font-size:14px;}
+td.font14{font-size:14px;}
+
+.img_white{border:1px solid #ffffff}
+
+.dz td{font-weight:bold;line-height:55px;}
+
+.list12 a:link{font-size:12px;color: #666666;text-decoration:underline;}
+.list12 a:visited {font-size:12px;color: #666666;text-decoration:underline;}
+.list12 a:hover{font-size:12px;color: #cc0000;text-decoration:underline;}
+ 
+ a.list12:link{font-size:12px;color: #666666;text-decoration:none;}
+ a.list12:visited {font-size:12px;color: #666666;text-decoration:none;}
+ a.list12:hover{font-size:12px;color: #cc0000;text-decoration:underline;}
+ 
+.list14 a:link{font-size:14px;color: #666666;text-decoration:underline;}
+.list14 a:visited {font-size:14px;color: #666666;text-decoration:underline;}
+.list14 a:hover{font-size:14px;color: #cc0000;text-decoration:underline;}
+ 
+ a.list14:link{font-size:14px;color: #666666;text-decoration:underline;}
+ a.list14:visited {font-size:14px;color: #666666;text-decoration:underline;}
+ a.list14:hover{font-size:14px;color: #cc0000;text-decoration:underline;}
+ 
+ a.red_12:link{font-size:12px;color: #cc0000;text-decoration:none;}
+ a.red_12:visited {font-size:12px;color: #cc0000;text-decoration:none;}
+ a.red_12:hover{font-size:12px;color: #cc0000;text-decoration:underline;}
+ 
+ a.white_12:link{font-size:12px;color: #ffffff;text-decoration:none;}
+ a.white_12:visited {font-size:12px;color: #ffffff;text-decoration:none;}
+ a.white_12:hover{font-size:12px;color: #ffffff;text-decoration:underline;}
+ 
+.cmore{color: #363636;font-size:12px;}
+.cmore a:link{color: #363636;text-decoration:none;font-size:12px;}
+.cmore a:visited {color: #363636;text-decoration:none;font-size:12px;}
+.cmore a:hover{color: #363636;text-decoration:underline;font-size:12px;}
+ a.cmore:link{color: #363636;text-decoration:none;font-size:12px;}
+ a.cmore:visited {color: #363636;text-decoration:none;font-size:12px;}
+ a.cmore:hover{color: #363636;text-decoration:underline;font-size:12px;}
+
+
+
+
+
+/*style7*/
+</style>
+			 </sohu_cms_include>
+</head>
+<body bgcolor=#ffffff leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
+<center><img src=http://images.sohu.com/ccc.gif width=1 height=5 border=0><br>
+<sohu_cms_include:sohu_news_head_news><style type=text/css>
+.ui_top{color:#000000;font-size:12px;line-height:18px;}
+.ui_top a:link{color:#000000;text-decoration:none;}
+.ui_top a:visited{color:#000000;text-decoration:none;}
+.ui_top a:hover {color:#000000;text-decoration:underline;}
+
+.up1 {color:656565;line-height:18px;font-size:12px}
+.up1 td{color:#656565;line-height:18px;font-size:12px}
+.up1 A:link {color:#656565;text-decoration:none;line-height:18px;font-size:12px}
+.up1 A:Visited {color:#656565;text-decoration:none;}
+.up1 A:Hover {color:#656565;TEXT-DECORATION: underline;}
+</style>
+<img src=http://images.sohu.com/ccc.gif width=1 height=5><br>
+<table width=760 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=87><img src=http://images.sohu.com/uiue/sohu_logo/2005/sohu_logo2.gif height=22 border=0></td>
+<td bgcolor=#EFEBEF><a href=http://news.sohu.com><img src="http://images.sohu.com/uiue/sohu_logo/2005/news_logo2.gif" height="22" border="0"></a></td>
+<td align=right class=ui_top valign=bottom bgcolor=#EFEBEF><a href=http://www.sohu.com/>搜狐首页</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://news.sohu.com/>新闻</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://sports.sohu.com/>体育</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://yule.sohu.com/>娱乐</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://business.sohu.com/>财经</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://it.sohu.com/>IT</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://auto.sohu.com/>汽车</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://house.sohu.com/>房产</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://women.sohu.com/>女人</a><font style="font-size:4px"> </font><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://sms.sohu.com/>短信</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://mms.sohu.com/>彩信</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://alumni.sohu.com/ >校友录</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://login.mail.sohu.com/>邮件</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://store.sohu.com/>商城</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://club.sohu.com/>BBS</a><font style="font-size:4px"> </font>-<font style="font-size:4px"> </font><a href=http://www.sogou.com/
+><font color=#ff0000>搜狗</font></a>&nbsp;</td></tr>
+<tr><td height=3 colspan=3><img src=http://images.sohu.com/ccc.gif width=1 height=1></td></tr>
+</table>
+<!--sohu_top:end--> </sohu_cms_include>
+<img src=http://images.sohu.com/ccc.gif width=1 height=3><br>
+<sohu_cms_include:news_sogou1>  <SCRIPT>
+
+function search()
+
+{
+
+       if (document.searchform.opt.selectedIndex == 0)
+
+         document.searchform.action='http://www.sogou.com/web';
+
+       else if (document.searchform.opt.selectedIndex == 1)
+
+               document.searchform.action='http://news.sogou.com/news';
+
+       else if (document.searchform.opt.selectedIndex == 2)
+
+               document.searchform.action='http://d.sogou.com/music';
+
+            else if (document.searchform.opt.selectedIndex == 3)
+
+               document.searchform.action='http://shopping.sogou.com/web';
+
+            else if (document.searchform.opt.selectedIndex == 4){
+
+               document.searchform.action='http://s.sogou.com/say';
+
+                     document.searchform.md.value="listTopics";
+
+                     document.searchform.name.value=document.searchform.query.value;
+
+              document.searchform.name.value=document.searchform.query.value;
+
+              }
+
+}
+
+ 
+
+function openzt(){
+
+       window.open("http://zt.search.sohu.com/sq.jsp?query=" + document.searchform.query.value);
+
+}
+
+</SCRIPT>
+<style type="text/css">
+<!--
+.V12 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #C70426;
+text-decoration: none;
+}
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+-->
+</style>
+<table width=760 height="34" border="0" cellpadding="0" cellspacing="0" background="http://agent.sohu.com/new_cuxiao/images/bg_34x2.gif">
+ <tr>
+   <td width="140" align="center"><a href="http://www.sogou.com" target="_blank"><img src="http://agent.sohu.com/new_cuxiao/images/logo_30x120.gif" border="0"></a></td>
+    <form name="searchform" action=http://search.sohu.com/web target=_blank>
+      <td>
+
+            <input type="hidden" name="md">
+            <input type="hidden" name="class" value="1">
+            <input type="hidden" name="name">
+
+            <input name=query type=text style='width:240px'>
+
+            <select name=opt style='width:65px'>
+
+            <option  value="0" selected>网页</option>
+
+            <option value="1">新闻</option>
+
+            <option  value="3">音乐</option>
+
+            <option value="2">购物</option>
+
+            <option value="4">说吧</option>
+			
+            </select>
+
+            <input type="submit" name="Submit" value="搜狗搜索" align=absmiddle onClick="search();">
+			
+&nbsp;<a href="http://s.sogou.com/jifen/jifen.html" target="_blank"><font color=black><B>搜索积分活动</B></font></a>&nbsp;&nbsp;<a href="http://www.chinaren.com/s2005/sogou.shtml" target="_blank"><font color=black><B>搜狗音乐排行榜</B></font></a></td>
+    </form>
+  </tr>
+</table> </sohu_cms_include>
+
+<!--top:end-->
+<div class=ad1>
+ <!--Ad1-->
+ <sohu_cms_include:cs_subject_tongyi_ad1> </sohu_cms_include>
+ <!--Ad1:end-->
+</div>
+<!--dd1-->
+<table width=760 border=0 cellpadding=0 cellspacing=0>
+<tr><td width=760 class=dz>
+ <!--flag-->
+ <sohu_cms_include:sohu_news_subject_frag1> </sohu_cms_include>
+ <!--flag-->
+</td></tr>
+</table>
+<!--dd1:end-->
+<!--bt-->
+<div class=block1>
+ <sohu_cms_include:sohu_news_subject_frag2><style type="text/css">
+<!--
+.style3 {color: #000000}
+.style5 {color: #000000; font-weight: bold; }
+-->
+</style>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="572"><img src="http://photocdn.sohu.com/20051009/Img227151728.gif" width="143" height="96"></td> <td><img src="http://photocdn.sohu.com/20051014/Img227200359.gif" width="617" height="96"></td>
+    
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="143"><img src="http://photocdn.sohu.com/20051009/Img227151730.gif" width="143" height="34"></td>
+    <td background="http://photocdn.sohu.com/20051008/Img227144728.gif" > 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class=yl2><div align="center"><a href="http://news.sohu.com/s2005/shenzhouliuhao.shtml" target="_blank">神六专题</a> 
+              | <a href="http://news.sohu.com/20051011/b227169518.shtml" target="_blank">飞天视频</a> 
+              | <a href="http://news.sohu.com/s2005/feitianrenwu.shtml" target="_blank">英雄谱</a> 
+              | <a href="http://news.sohu.com/s2005/feixingrizhi.shtml" target="_blank">飞天日志</a> 
+              | <a href="http://news.sohu.com/s2005/05ftfengshenbang0.shtml" target="_blank">每日报道精华</a> 
+              | <a href="http://it.sohu.com/s2005/6tuji.shtml" target="_blank">精彩图集</a> 
+              | <a href="http://news.sohu.com/s2005/shenliudl.shtml" target="_blank">对联接龙</a> 
+              | <a href="http://news.sohu.com/s2005/05shihui.shtml" target="_blank">网友诗会</a> 
+              | <a href="http://product.news.sohu.com/shenliu/wish.php" target="_blank">祝福神六</a></div></td>
+          </tr>
+      </table>
+        
+      
+    </td>
+  </tr>
+</table>
+<table width="760" height="4" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="E7EDF9">
+  <tr>
+    <td height="5"></td>
+  </tr>
+</table>
+<table width="760" height="13" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td height="13" background="http://photocdn.sohu.com/20050515/Img225573343.gif"></td>
+  </tr>
+</table>
+
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td height="10" bgcolor="E7EDF9"></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td height="162" valign="top" bgcolor="E7EDF9">
+<table width="746" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="180" height="193" valign="top">
+
+            
+            
+            
+            
+            
+            
+            
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="35" background="http://photocdn.sohu.com/20051008/Img227145404.gif">
+<div align="center"><strong><font color="#FFFFFF">你问我答合作伙伴</font></strong></div></td>
+              </tr>
+            </table>
+            <table width="100%" height="10" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td> </td>
+              </tr>
+            </table>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% 
+                  border=0>
+              <TBODY>
+                <TR> 
+                  <TD><div align="center"><img src="http://photocdn.sohu.com/20051014/Img227199519.jpg" width="145" height="56" border="0"></div></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            
+            <table width="100%" height="15" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td> </td>
+              </tr>
+            </table>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% 
+                  border=0>
+              <TBODY>
+                <TR> 
+                  <TD><div align="center"><img src="http://photocdn.sohu.com/20051014/Img227199520.jpg" width="145" height="51" border="0"></div></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% 
+                  border=0>
+              <TBODY>
+                <TR> 
+                  <TD></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </td>
+          <td width="566" valign="top"><table width="564" height="3" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td width="8"></td>
+                <td width="556" height="4" bgcolor="#404813"></td>
+              </tr>
+            </table>
+            <table width="566" height="19" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td width="8"> <div align="right"></div></td>
+                <td width="558"><img src="http://photocdn.sohu.com/20051014/Img227200295.gif" width="556" height="35"></td>
+              </tr>
+            </table>
+            <table width="564" height="3" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td width="8"></td>
+                <td width="556" height="4" bgcolor="#404813"></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><div align="right"><img src="http://photocdn.sohu.com/20051008/Img227145385.jpg" width="558" height="30"></div></td>
+              </tr>
+              <tr>
+                <td valign="top">
+<table width="566" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="10"></td>
+                      <td width="556">
+<table width="552" border="0" cellpadding="0" cellspacing="0">
+                          <tr> 
+                            <td background="http://photocdn.sohu.com/20050515/Img225573354.jpg"> 
+                              <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.1 
+                                          问：宇航员在太空是否可以上网？网速和地面一样吗？(网友：我也叫杨利伟)</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p><FONT color=#0000ff><FONT color=#000000>答：据我所知现在尚无这种安排。</FONT></FONT></p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="78%"><span class="style5">■NO.2 
+                                          问：在太空，是否可以感觉到四维空间的存在？在不同的时间轴里，思维有什么不一样的感觉？(网友：f__d007)</span></td>
+                                        <td width="22%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p><FONT color=#0000ff><FONT color=#000000>答：有机会去问上过天的航天员；不过飞船的速度比起光速来要慢得多，相对论效应感觉不出来。</FONT></FONT></p></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> 
+                                    <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="78%"><span class="style5">■NO.3 
+                                          问：卫星和飞船顺着地球自转方向发射可以节省很多火箭动力，但是为什么总是向西南方向发射，而没有向东北方向发射？(网友IP:218.5.203.*)</span></td>
+                                        <td width="22%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p><FONT color=#0000ff><FONT color=#000000>答：向东发射确实可省些燃料，不过发射方向还有很多更主要的因素要考虑，如跟踪测量站的布局，一、二级火箭的落点是否避得开人口稠密地区或国外领土，所需的地面覆盖范围，回收落点是否合适等。</FONT></FONT></p>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table> 
+                              <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.4 
+                                          问：发射时通讯、视频可以全程保持联系，可为什么回来时就会有几分钟的通讯盲区？这怎么解释？（网友：粤北小城）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p><FONT color=#0000ff><FONT color=#000000>答：再入时从80千米下降到40千米一段，由于地球引力，速度很大，舱体与大气作用形成的等离子体包围了舱体，阻碍了电波传播，俗称黑障；发射时从零加速往上，经过这个高度范围时速度没有这么快。</FONT></FONT></p></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                              <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.5 
+                                          问：船箭点火升空不久，电视直播中看到有黑色片状物体相继落下，为什么？（包小姐部委机关）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：地面测试时，外面包有保温材料，发射后自行脱落。</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.6 
+                                          问：画面上看到航天员用一个很长的操纵杆来点击，看起来很笨拙，为什么不用遥控器呢？（学生）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：要操作的按钮很多，用遥控噐有电磁信号，会引起电磁干扰。</p></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.7 
+                                          问：神舟六号飞船返回舱返回进入大气层时，温度高达1000摄氏度以上，请问舱体上的玻璃是什么材质的，能耐如此高温？（张先生首钢工人石景山区）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：用烧蚀材料（有升华型、熔化型、碳化型等），高温燃烧时把热量带走。</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.8 
+                                          问：航天员回来后要不要再隔离一段时间？（网友：ruc）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：各国情况不尽相同，如美国从登月返回要检疫、适应重力等。</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.9 
+                                          问：航天员在太空会觉得寂寞吗？他们有什么消遣的方式？（网友：ruc）</span></td>
+                                        <td width="23%"><span class="style3">来源：京华时报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：短时间的航天，各类工作安排很紧，顾不上感到寂寞，长时期单人航天难免会有孤独感。</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%"><span class="style5">■NO.10 
+                                          问：航天员如何在狭小的飞船里解闷放松心情？</span></td>
+                                        <td width="23%"><span class="style3">来源：新京报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：地面会安排心理教员和航天员沟通，帮助他们排遣寂寞，还会安排他们与家人、领导通话，从心理上缓解航天员的心理压力。例如聂海胜的女儿对着镜头大声说：“爸爸，我永远爱你！”。航天员在太空可以把玩名叫“航天员电子手册”的掌上电脑，航天员可以看家人的照片和录像。为了避免航天员在太空寂寞，电脑里有他们喜欢的电影，喜欢的歌曲、小游戏、小品，还有可以录音的MP3。在空闲的时间，航天员还可以在电脑上写一些自身的体会，可以拍些照片，每个航天员都可以用自己的方式给妻子孩子留下最有意义的画面。
+
+</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  
+							  <table width="93%" border="0" align="center" cellpadding="0" cellspacing="8">
+                                <tr> 
+                                  <td valign="top"> <table width="100%" border="0" align="center">
+                                      <tr> 
+                                        <td width="77%" class=14 style3><span class="style5">■NO.11 
+                                          问：能从神六看到中国土地吗？</span></td>
+                                        <td width="23%"><span class="style3">来源：新京报</span></td>
+                                      </tr>
+                                    </table>
+                                    <table width="100%" border="0">
+                                      <tr> 
+                                        <td><p class="style3">答：在白天，我国的大部分国土看起来是浅蓝色的。森林的颜色是蓝色，西藏高原地区呈绿色，可以清晰地看见喜马拉雅山的地貌。</p></td>
+                                      </tr>
+                                    </table>
+									<table width="100%" height="4" border="0" bgcolor="eeeede">
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+							  
+							  </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table> 
+                  
+                </td>
+              </tr>
+              <tr>
+                <td><div align="right"><img src="http://photocdn.sohu.com/20051008/Img227145386.jpg" width="558" height="27"></div></td>
+              </tr>
+            </table>
+            
+            
+            
+            
+            
+            
+             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td height="10" bgcolor="E7EDF9"></td>
+  </tr>
+</table>
+<table width="760" height="13" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td height="13" background="http://photocdn.sohu.com/20050515/Img225573343.gif"></td>
+  </tr>
+</table>
+ </sohu_cms_include>
+</div>
+<!--bt:end-->
+<!--1-->
+<table width=760 border=0 cellpadding=0 cellspacing=0>
+<tr valign=top>
+<td width=590>
+ <!--block_title1-->
+ <sohu_cms_include:sohu_news_subject_frag10> </sohu_cms_include>
+ <!--block_title1:end-->
+ <!--block_590-->
+<sohu_cms_include:sohu_news_subject_frag11> </sohu_cms_include>
+ <!--block_590:end-->
+ 
+ <table width=590 border=0 cellpadding=0 cellspacing=0>
+ <tr valign=top>
+ <td width=250 align=center class=block6>
+  <!--block6-->
+  <sohu_cms_include:sohu_news_subject_frag15> </sohu_cms_include>
+  <!--block6:end-->
+  
+  
+ </td>
+ <td width=10><img src=http://images.sohu.com/ccc.gif width=1 height=1></td>
+ <td width=330 align=center>
+  <!--block5-->
+  <sohu_cms_include:sohu_news_subject_frag16> </sohu_cms_include>
+  <!--block5:end-->
+  
+  <!--lm:st-->
+  <!--block_title2-->
+  
+    
+  
+ </td></tr>
+ </table>
+ 
+</td>
+<td width=10><img src=http://images.sohu.com/ccc.gif width=1 height=1></td>
+<td width=160 align=center class=rblock>
+ <sohu_cms_include:cs_subject_tongyi_ad2> </sohu_cms_include>
+ <sohu_cms_include:cs_subject_tongyi_ad3> </sohu_cms_include>
+ 
+ <sohu_cms_include:sohu_news_subject_frag17> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag19> </sohu_cms_include>
+ 
+</td></tr>
+</table>
+<img src=http://images.sohu.com/ccc.gif width=1 height=5><br>
+<sohu_cms_include:news_sogou2><table width="758" border="0" cellspacing="1" bgcolor="#000000">
+  <tr>
+    <td bgcolor="#FFFFFF">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="756" height="80">
+        <param name="movie" value="http://photocdn.sohu.com/20051122/Img227562746.swf">
+        <param name="quality" value="high">
+        <embed src="http://news.sohu.com/upload/sogo1/sogo1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="756" height="80"></embed></object></td>
+  </tr>
+</table> </sohu_cms_include>
+
+<!--590-2-->
+<table width=760 border=0 cellpadding=0 cellspacing=0>
+<tr valign=top>
+<td width=590>
+ <!--block_title3-->
+ <sohu_cms_include:sohu_news_subject_frag101> </sohu_cms_include> 
+ <!--lm1:end-->
+ <!--lm2-->
+ <!--block_title3-->
+ <sohu_cms_include:homepage_0803_frag24> </sohu_cms_include> 
+ <!--lm2:end-->
+  
+</td>
+<td width=10><img src=http://images.sohu.com/ccc.gif width=1 height=1></td>
+<td width=160 align=center class=rblock>
+ <sohu_cms_include:homepage_0803_frag26> </sohu_cms_include>
+</td></tr>
+<tr><td colspan=3 height=5><img src=http://images.sohu.com/ccc.gif width=1 height=1></td></tr>
+</table>
+<!--3-->
+<table width=760 border=0 cellpadding=0 cellspacing=0>
+<tr valign=top>
+<td width=160 align=center class=lblock1>
+ 
+ <sohu_cms_include:homepage_0803_frag28> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag20> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag5> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag6> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag7> </sohu_cms_include>
+ 
+</td>
+<td width=10><img src=http://images.sohu.com/ccc.gif width=1 height=1></td>
+<td width=420>
+<sohu_cms_include:sohu_news_subject_frag12> </sohu_cms_include>
+ 
+    
+ 
+ 
+ 
+</td>
+<td width=10><img src=http://images.sohu.com/ccc.gif width=1 height=1></td>
+<td width=160 class=rblock align=center>
+ <sohu_cms_include:sohu_news_subject_frag8> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag9> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag1105_1> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag1105_2> </sohu_cms_include>
+ <sohu_cms_include:sohu_news_subject_frag1105_3> </sohu_cms_include>
+</td></tr>
+<tr>
+<td class=lblock1b><img src=http://images.sohu.com/ccc.gif width=1></td>
+<td><img src=http://images.sohu.com/ccc.gif width=1></td>
+<td><img src=http://images.sohu.com/ccc.gif width=1></td>
+</tr>
+</table>
+<!--bd-->
+<sohu_cms_include:sohu_news_subject_frag21> </sohu_cms_include>
+<!--bd:end-->
+<!--copyright-->
+<sohu_cms_include:sohu_news_copyright><br>
+<script language="javascript" src="http://www.sohu.net/common/sohunettail_local.js"></script>
+<hr size="1" width="760" noshade>
+<table width=760 border=0 cellspacing=0 cellpadding=0>
+  <tr> 
+    <td align=center><a href=http://www.chinaren.com/  class="black" target=_blank>ChinaRen</a> - <a
+href=http://hr.sohu.com/hrm.html class="black" target=_blank>搜狐招聘</a> - <a
+href=http://add.sohu.com/ class="black" target=_blank>网站登录</a> - <a href=http://help.sohu.com/ class="black" target=_blank>帮助中心</a> 
+      - <a
+href="" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sohu.com');return false;" class="black" target=_blank>设置首页</a> - <a
+href=http://adinfo.sohu.com class="black" target=_blank>广告服务</a> - <a
+href=http://www.sohu.com/about/lianxi.htm class="black" target=_blank>联系方式</a> - <a
+href=http://www.sohu.com/about/privacy.html class="black" target=_blank>保护隐私权</a> - <a href="http://www.sohu.com/about/English" class="black" target=_blank>About SOHU</a> - <a href=http://www.sohu.com/about/  class="black" target=_blank>公司介绍</a><br>
+      <span class=eng>Copyright &copy; 2005 Sohu.com Inc. All rights reserved. 
+      搜狐公司 <a href=http://www.sohu.com/about/copyright.html target=_blank class=black>版权所有</a></span></td>
+  </tr>
+</table><p></p>
+<script language="JavaScript" src="http://nielsen.js.sohu.com/nnselect.js">
+</script>
+<noscript>
+<img src='http://ping.nnselect.com/ping.gif?c=119' height='1' width='1'>
+</noscript> </sohu_cms_include>
+</center>
+</body>
+</html>
+
+
+

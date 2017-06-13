@@ -1,0 +1,403 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv=content-type content="text/html; charset=GBK">
+<script src="http://www.sohu.com/sohuflash_1.js" type=text/javascript></script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>新闻当事人 12306-搜狐新闻</title>
+<meta name="description" content="新闻当事人 12306" />
+<meta name="keywords" content="新闻当事人 12306" />
+<meta name="robots" content="all" />
+
+<script type="text/javascript" src="http://news.sohu.com/upload/ghostren/js/jquery-1.5.2.min.js"></script>
+<link href="http://news.sohu.com/upload/ghostren/global.css" type="text/css" rel="stylesheet" />
+<link href="http://news.sohu.com/upload/ghostren/news_people/main.css" type="text/css" rel="stylesheet" />
+<style>
+/*以下样式可以根据不同页面使用不同背景、banner图*/
+html {background:#FFF url(http://news.sohu.com/upload/ghostren/news_people/images/bgtiao.jpg) 0 213px repeat-x;}
+body{font:12px/22px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; color:#333; }
+a{color:#333}
+a:hover{color:#930; border-bottom:1px #930 dotted; text-decoration:none; padding-bottom:2px}
+
+.header{width:950px; height:185px; margin-bottom:5px; position:relative; background:none}
+.header h1{font:48px/48px \5fae\8f6f\96c5\9ed1; color:#491E17; line-height:48px; padding-top:50px; _height:135px;}
+
+.logo{text-align:right; background:#fff url(http://news.sohu.com/upload/ghostren/news_people/images/logo.png) no-repeat;}
+
+/* 非新闻专题，请将此注释打开
+.header .logo{ background:url(http://news.sohu.com/upload/ghostren/news_people/images/logo2.png) no-repeat;}
+*/
+.focus em{width:138px;height:66px;float:left;margin-right:20px; font:16px/58px \5fae\8f6f\96c5\9ed1;color:#000;background:url(http://news.sohu.com/upload/ghostren/news_people/images/tipic.jpg) right center no-repeat;}
+</style>
+
+</head>
+
+<body>
+<center>
+<div id=fullscreenad style="display:none">&nbsp;</div>
+<!--标准矸 st-->
+<div class="Area" id="indexNav">
+<a href="http://www.sohu.com/" target="_blank"><img src="http://images.sohu.com/uiue/sohu_logo/2005/sohu_logo2.gif" height="22" alt="搜狐网站" border="0" class="left" /></a><a href="http://news.sohu.com/" target="_blank"><img src="http://images.sohu.com/uiue/sohu_logo/2006/news_logo2.gif" height="22" alt="搜狐新闻" border="0" class="left" /></a>
+<style>#channelNav ul {margin-right:5px;width:auto;clear:none}</style>
+<ul class="right">
+	<li><a href="http://www.sohu.com/">搜狐首页</a></li><li>-</li>
+	<li class="red"><a href="http://news.sohu.com/">新闻</a></li><li>-</li>
+	<li><a href="http://sports.sohu.com/">体育</a></li><li>-</li>
+	<li><a href="http://s.sohu.com/">S</a></li><li>-</li>
+	<li><a href="http://yule.sohu.com/">娱乐</a></li><li>-</li>
+	<li><a href="http://tv.sohu.com/yule/">V</a></li><li>-</li>
+	<li class="red"><a href="http://business.sohu.com/">财经</a></li><li>-</li>
+	<li><a href="http://it.sohu.com/">IT</a></li><li>-</li>
+	<li><a href="http://auto.sohu.com/">汽车</a></li><li>-</li>
+	<li><a href="http://www.focus.cn">房产</a></li><li>-</li>
+	<li><a href="http://women.sohu.com/">女人</a></li><li>-</li>
+	<li><a href="http://tv.sohu.com/">视频</a></li><li>-</li>
+	<li><a href="http://my.tv.sohu.com/">播客</a></li><li>-</li>
+	<li><a href="http://t.sohu.com/">微博</a></li><li>-</li>
+	<li><a href="http://login.mail.sohu.com/">邮件</a></li><li>-</li>
+	<li><a href="http://blog.sohu.com/">博客</a></li><li>-</li>
+	<li><a href="http://club.sohu.com/">BBS</a></li><li>-</li>
+	<li><a href="http://comment2.news.sohu.com/">我说两句</a></li><li>-</li>
+	<li class="end"><a href="http://www.sogou.com/">搜狗</a></li>
+</ul>
+</div>
+<!--标准矸 end-->
+
+<div class="Area header clearfix">
+<h1>12306抢票助手诞生记:小插件引发的大风波</h1>
+<style>
+.fengxiang {width:250px; height:18px; padding-left:15px; background:#FFF; float:right; margin-top:8px}
+.fengxiang img {margin-right:5px;}
+.fengxiang span { font-weight:bold;}
+</style>
+
+<div class="logo">
+<b>146</b>
+ <div class="fengxiang">
+ <span>转发至：</span> <a href="javascript:void(0)" onClick="javascript:jump('weibosohu')"><img src="http://i3.itc.cn/20100928/7c2_1fb3afa7_e660_4c22_9a09_9c5ad2d8d5f8_0.gif" onMouseOver="this.className='opbg'" onMouseOut="this.className=''" width="16" height="16" alt="搜狐微博" /></a>
+	
+<a href="javascript:void(0)" onClick="javascript:jump('kaixin001')"><img src="http://v.sohu.com/upload/v091216csss/images/icon_kx.gif" onMouseOver="this.className='opbg'" onMouseOut="this.className=''" width="16" height="16" alt="开心网" /></a>
+
+   <a href="javascript:void(0)" onClick="javascript:jump('renren')"><img src="http://v.sohu.com/upload/v091216csss/images/icon_rr.gif" onMouseOver="this.className='opbg'" onMouseOut="this.className=''" width="16" height="16" alt="人人" /></a>
+
+    <a href="javascript:void(0)" onClick="javascript:jump('baishehui')"><img src="http://v.sohu.com/upload/v091216csss/images/icon_bai.gif" onMouseOver="this.className='opbg'" onMouseOut="this.className=''" width="16" height="16" alt="白社会" /></a>
+	
+<a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)
++'&url='+encodeURIComponent(location.href)+'&source=bookmark','_blank','width=450,height=400');})()" title="分享到新浪微博"><img  src="http://i1.itc.cn/20101207/a00_74a2236f_7793_4fc4_9432_c2c2cdac15de_4.gif"  alt="分享到新浪微博" border="0"></a>
+
+<a href="javascript:void(0)" onClick="javascript:jump('qq')" style="height:16px;font-size:12px;line-height:16px;"><img src="http://i2.itc.cn/20110307/a00_913406cb_c341_4a62_aff7_37d57e477f50_0.png" align="absmiddle"/></a>
+
+ <a href="javascript:(function(){window.open('http://t.163.com/article/user/checkLogin.do?link=http://news.163.com/&source='+'土豆网'+ '&info='+encodeURIComponent(document.title)+' '+encodeURIComponent(location.href),'_blank','width=510,height=300');})()" title="分享到网易微博"><img src="http://i3.itc.cn/20101207/a00_74a2236f_7793_4fc4_9432_c2c2cdac15de_2.png " alt="分享到网易微博" border="0"></a>
+ <script>
+//一键转帖
+function jump(x){
+    var cover="http://i2.itc.cn/20130130/8ad_7285b137_e8bf_1dd7_06cc_32e021335d3a_1.jpg";//分享自定义图片
+    var tit="12306抢票助手诞生记:小插件引发的大风波";//分享自定义标题
+    if(tit=="")
+     tit=document.title;
+    if(x=='renren'){
+       url ="http://share.renren.com/share/buttonshare.do?link="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(tit);
+    }else if(x=='baishehui'){
+       url ="http://bai.sohu.com/share/blank/add.do?from=vsohu&link="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(tit);
+    }else if(x=='douban'){
+        url ="http://www.douban.com/recommend/?url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(tit);
+    }else if(x=='qq'){
+       url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+encodeURIComponent(location.href);
+    }else if(x=='kaixin001'){
+       url ="http://www.kaixin001.com/repaste/share.php?rurl="+encodeURIComponent(location.href)+"&rtitle="+encodeURIComponent(tit);
+    }else if(x=='myspace'){
+       url ="http://zt.myspace.cn/ri.php?act=upload&urlI="+encodeURIComponent(location.href)+"&rtitleI="+encodeURIComponent(tit)+"&contentT="+encodeURIComponent(document.tit);
+    }else if(x=='weibosohu'){
+       url ="http://t.sohu.com/third/post.jsp?url="+encodeURIComponent(location.href)+"&pic="+cover+"&title="+escape(tit);
+    }
+    window.open(url);
+}
+</script>
+</div>
+</div>
+</div>
+
+<sohuadcode></sohuadcode>
+
+<div class="Area"> <img src=" http://news.sohu.com/upload/ghostren/news_people/images/topline.png" width="950" height="40"> </div>
+<DIV class="Area contD clearfix">
+<DIV class=blank15></DIV>
+<DIV class=lc><IMG src="http://i1.itc.cn/20130130/8ad_4ae839b5_41d3_d043_6566_2c8b7d9f2512_1.jpg" width=450 height=380><br></DIV>
+<DIV class=rc>
+<H3>新闻背景：</H3>
+<BR>
+<p>“地球人已经无法阻止猎豹浏览器抢票专版了！”1月底，一位借其顺利买到火车票的网友感叹。另一位网友则发现，12306官网都打不开时，自己竟然可以通过猎豹浏览器订到票。</p><BR>
+<p>那张以往让无数人排长队的粉红薄纸片，如今看似唾手可得了。</p><BR>
+<p>这款带抢票插件的浏览器，在2013年春运订票如火如荼之际火了。其广告甚至出现在了居民楼电梯里：“全自动刷票，无需排队订票。”它成了今年春运最大的赢家。</p><BR>
+<p>它的开发者，是成立仅两年的金山网络，一家金山公司控股的子公司；以及倪超，一位远在宁波的网络工程师。</p><BR>
+<p>他们始料未及的是，因为它，他们名扬全国，却在随后被卷入了一场风波。
+[<A href="http://news.sohu.com/20130130/n365075587.shtml" target=_blank>详细</A>]
+</p></DIV></DIV>
+
+
+<div class="Area contB clearfix">
+  <h2>抢票专版开发记</h2>
+  <div class="blank10"></div>
+  <div class="left"><p>　　金山网络公司称，开发12306抢票专版浏览器，事发偶然。</p>
+<p>　　2012年12月，该公司产品和技术部的十来个员工开会，席间有人提及春运订票问题。金山网络有七百名员工，大部分选择坐火车回家，票年年难买。不仅春节，有员工国庆在一个多小时内登录了一百多次12306，死活买不到票。发动几个人连抢两天才成功，他感觉几率“跟买彩票一样”。</p>
+<p>　　其实，2012年国庆时，金山网络已经有了一款抢票产品，但包装简单，未大力推广，连很多员工都不知道。</p>
+<p>　　在2012年底的这次会议上，有类似经历的人你一言我一语，展开了头脑风暴。他们决定开发一款新产品，解决自己员工和网民的购票问题，并大力推广。</p>
+<p>　　公司开始寻找与此有关的相关插件。此时各种小型的抢票插件已经散布于网络。金山的老对头360更是在2011年春运时就推出了抢票助手，但影响不大。</p>
+<p>　　很快，金山网络发现了一款相对成熟的插件——“12306.CN订票助手”。</p>
+<p>　　它的开发者是年仅26岁的倪超，一个深受春运买票之苦的年轻人。他性格开朗，喜欢“卖萌”，身上有工科男的特质：对世界和新事物好奇，喜欢探究原因，动手解决问题。</p>
+<p>　　倪超老家在安徽，在宁波工作。他的父亲曾冒着大雪，早晨7点就去为他买票，但直到12个小时后，才买到一张无座票。“这个事情对我打击很大。我很难过。”他说。从此，孝顺的他再不同意父亲去为自己买票。</p>
+<p>　　但用电话买票同样痛苦。一次电话预订成功后，他到火车站取票。从早晨开始在售票窗口排长队，挤了足足11个小时。他也曾产生过找黄牛买高价票的想法，但不幸的是，黄牛手头也没票。</p>
+<p>　　2012年春节，为了一张回家的火车票，登录12306五六十次购票都未能成功，倪超崩溃了。</p>
+<p>　　他萌生了开发抢票助手自救的想法。很快，他编了一款小插件，只有约150K。</p>
+<p>　　一开始，他只打算将它自用。但当看到无数跟自己一样为买票犯愁的小白领，他觉得，“有这么个东西能帮忙却藏着掖着的是很可耻的。”他很快将“12306.CN订票助手”免费发布到了网上。接下来的近一年里，他利用业余时间无常修补软件漏洞，解答网友问题，还成立了QQ群。</p>
+<p>　　他也留意到，抢票插件成了新的商机，淘宝上已有店家在贩卖。而对绝大多数国人来说，抢票助手还很陌生，未引起关注。</p>
+<p>　　对比了网上各种抢票助手，金山网络公司认为，“12306.CN订票助手”口碑好，知名度高，更新频率快，是所有抢票插件中最好用的。公司决定找到倪超，与他合作。</p>
+<p>　　在网上，他们取得了联系，双方一拍即合。“完全是公益的合作，没有涉及商业利益的来往。一说他就答应了，没多问为什么。”金山网络一个部门负责人表示。</p>
+<p>　　木鱼软件被植入金山猎豹浏览器中，成为春运抢票专版的一部分。金山网络公司与倪超共同开发，各司其职：前者主要负责浏览器抢票专版的界面、用户功能改进；倪超负责技术脚本的实现，“并不需要很高深的技术，整个过程很顺利”。 为此，金山网络公司投入较大，产品、市场、营销部门共有二三十名员工参与开发。产品部员工对产品进行了反复测试，尤其是在下单和最后支付环节。</p>
+<p>　　其间，倪超对金山网络提出过一些要求，比如软件自动刷新频率保持在6秒（12306要求5秒）。后者称自己严格遵守了。金山网络也提出一些意见，如界面打开出现4个弹窗，打扰用户，后倪超对此进行了改善。</p>
+<p>　　1月14日，抢票专版推出，旋即在全国引起巨大轰动。</p>
+<p>　　时值春运订票高峰，12306网站的覆盖人数攀至近千万的峰值猎，猎豹浏览器抢票专版的每日下载量随机从零飙升到100万。铁道部每天网络放票100万，这意味着猎豹占据了半壁江山。</p>
+<p>　　“在火车票突出的供需矛盾下，猎豹浏览器凭借出色的抢票功能悄然走红。”艾瑞咨询称。
+[<A href="http://news.sohu.com/20130130/n365075587.shtml" target=_blank>详细</A>]
+</p>
+
+</DIV>
+<DIV class=right><IMG src="http://i0.itc.cn/20130130/8ad_b16ebff6_adfd_b716_bd66_2b2d61db7592_1.jpg" width=210 height=151> 
+<P>2013年1月19日，北京火车站窗口抢票人数骤降九成
+</DIV></DIV></DIV>
+<div class="Area contB clearfix">
+  <h2>被铁道部约谈</h2>
+  <div class="blank10"></div>
+  <div class="left">
+<p>　　没人想到这个产品会带来麻烦。</p>
+<p>　　但很快，猎豹浏览器抢票专版被铁道部视为给12306网站带来压力的“罪魁祸首”。360、火狐、搜狗等同样有抢票功能的专版，则被视为从犯。</p>
+<p>　　倪超认为，出现在自己身上的风波，是因为枪打出头鸟——自己的插件胜过市场上的其他几款抢票工具，还有一家公司抄袭了自己的源代码。</p>
+<p>　　但网友并不这么看。“我认为猎豹太高调，为了推广猎豹浏览器，大力宣传，不顾后果。”有网友称。有传播学者认为，猎豹的成功原因之一，是不只动用了微博，还动用了传统广告和电视媒体。</p>
+<p>　　1月17日当晚，金山网络公司接到了铁道部的电话，要求其立即停止运营抢票专版。</p>
+<p>　　公司感到了巨大压力。“我们实在想不通，一个以科学进步为基点、为老百姓实际解决问题的产品，为什么会被叫停。”上述负责人称。</p>
+<p>　　同日晚上9点多，正在家里更新软件的倪超，也被三个找上门来的铁路警察约谈。“我觉得挺好玩的。这是我第一次和上门的警察对话，这个经历很神奇。”倪超半开玩笑地告诉记者。</p>
+<p>　　尽话虽如此，在谈话中，他还是委屈地哭了。</p>
+<p>　　谈话之后，他发了一条微博：“OK，因种种不可抗拒力的因素，12306订票助手即刻起停止公开提供，已下载的恕不提供更新服务。……感谢所有支持过、鼓励过的朋友。”</p>
+<p>　　但金山网络公司并不愿意放弃。“我个人不太好弄，就把源代码给他们，让他们自己去维护了。”倪超说。</p>
+<p>　　不久，有媒体报道，工信部正式下达通知，要求360、搜狗、金山、傲游等浏览器停用抢票插件。不过，实情并非如此。“这可能是我们的竞争对手所为，借部委炒作。后来工信部也说，叫停于法无据。”金山网络公司市场总监金磊说。</p>
+<p>　　事件继续发酵。1月23日，铁道部称，用抢票软件就像驾车闯红灯和逆行。抢票软件被看作作弊工具。</p>
+<p>　　与此同时，金山网络与铁道部展开了技术对抗，如同进行一场猫鼠游戏。媒体报道，猎豹浏览器团队称，12306不断通过升级后台代码的方式来与抢票插件周旋，具体举措包括屏蔽用户代理、反复修改函数名称、改善后台判断逻辑等，一天往往要升级两三次。在这时，网友往往突然无法使用自动订票功能；页面也会失效，出现“服务器忙”、“加载查询信息失败”等字样。</p>
+<p>　　兵来将挡，水来土掩。金山猎豹的工程师迅速应变。页面打不开时，改一个浏览器身份识别就可以继续使用。12306一屏蔽抢票插件，1-2个小时后，金山网络就会推出新版本。最高纪录是，一天内该公司连续推出了三个新版本。斗法一直持续至今，12306网站是惨败的一方。</p>
+<p>　　“就技术而言，这些都是低层次的对抗。”金山网络公司产品部门负责人称。一位叫“码农1999”的网友在冷眼旁观之后认为，“12306用的那些技术反制手段真心很糙，很临时工。一个词形容：傻大黑粗”。</p>
+<p>　　他尽情地把12306嘲笑了一把：“请不要再聘用实习生或者临时工进行屏蔽抢票插件，请尊重程序猿的智商。”“作为投资5亿的网站，请亮出你技术屏蔽的‘杀手锏’。”</p>
+<p>　　面对质疑，金山网络公司一直在反驳。首先是不绝于耳的“插队”指责。“如果要实现所谓插队，必须登录12306后台，实行黑客篡改才有可能。这样的违法行为我们不会去做，我们的软件也实现不了这个功能。”</p>
+<p>　　至于是否公平，“有的人有钱，买了有自动拨号功能的高级手机，有的人只能用街边的固定电话手动拨号，概率就低，这公平吗？不能说为了公平，你就把大家都赶到固定电话亭。”</p>
+<p>　　最后是挤占农民工车票问题。“12306网站提前20天预售，窗口是18天。‘焦点访谈’中铁道部工作人员证实，线下窗口售票是线上和电话订票卖剩下的。这就意味着，铁道部自己的规定已经把大量线下用户排除在外了。最大的不公平，铁道部比我们更加心知肚明。”金山网络上述部门负责人说。资料显示，目前网络售票约占铁道部总售票量的35%，电话售票占4%。</p>
+<p>　　尽管如此，该公司仍然紧急公关，从1月21日开始发布包车免费送农民工回家的消息。一开始因为时间急，三天只有一个农民工符合条件，大巴无法成行，公司便为其买了一张飞机票。几天后，通过不断宣传，数百名农民工决定乘坐该公司的免费大巴，经西安、呼和浩特、郑州等线路回家。</p>
+<p>　　“我们也认可铁道部说自己的运力不足。铁道部这么对待我们，我想我们还是社会人，得理性地真正解决问题，才想到了这一点。”金山网络公司对外表示。</p>
+<p>　　“我们呼吁铁道部网站真正解决提出来的问题，而不是解决提出问题的人。”该公司市场总监金磊说。
+[<A href="http://news.sohu.com/20130130/n365075587.shtml" target=_blank>详细</A>]
+</p>
+
+</DIV>
+<DIV class=right><IMG src="http://i0.itc.cn/20130130/8ad_8ebd999e_2851_15ef_2e69_97f641031339_1.jpg" width=210 height=163> 
+<P>2012年1月20日，北京，金山公司开发的猎豹浏览器的抢票的页面，里面有攻略指南，下载软件仍可继续使用<P></P></DIV></DIV></DIV>
+
+
+<div class="Area contB clearfix">
+  <h2>吐槽12306</h2>
+  <div class="blank10"></div>
+  <div class="left">
+<p>　　2011年6月，12306网站正式上线运行。从诞生至今，这一网站屡次陷入风波。</p>
+<p>　　最近的一次是在1月22日。著名爆料人周筱赟称，铁道部12306订票网站投入超5个多亿，远超此前媒体披露的3个多亿。他还在网上晒出了铁道部与太极集团的合同，这让铁道部很尴尬。</p>
+<p>　　网上针对12306网站的调侃和嘲讽更是屡见不鲜。一位程序员在网上为倪超辩护：抢票助手造成12306压力过大一说很可笑，因为不只今年春运，在过去的一年里，每次过节出行高峰，12306都在抽风。他更语带戏谑地称，12306身上集中了各种Web 开发的反面例子，如前端架构设计差、未合理使用负载均衡、无谓浪费带宽等。</p>
+<p>　　他列举了2012年11月11日支付宝的数据：1小时内处理598万笔订单，一天处理1亿多订单。而铁路系统一天不到200万个订单，已经慢如龟爬。“如果12306网站本身没有这么多问题，抢票软件会有生存的空间吗？”他反问。</p>
+<p>　　倪超认为，12306网站主要的问题是：作为一个订票网站，缺失一些必要的功能；不够人性化，对用户缺少步骤指引，出现问题时也没有给出解释。</p>
+<p>　　他说，自己设计插件时加入的一些功能，如自选铺位，是为了完善12306网站的订票功能。他一度幻想，铁道部发现自己的软件不错后，会直接集成到网站中。但铁道部的反应让他很失望。</p>
+<p>　　“我没看到一点更改。”他说。</p>
+<p>　　这还不是最大的问题。最大的问题，他觉得是12306网站自己无法解决的——票太少。</p>
+<p>　　某种意义上来说，在火车票稀缺的情况下，使用任何抢票软件，都是网民之间的零和博弈。</p>
+<p>　　倪超告诉记者，自己一直坚持的一个原则是：用高科技提供便利，但是不破坏游戏规则。他坚信，自己的抢票助手正是如此。</p>
+<p>　　在被警察找上门后，他写微博抒发内心的郁闷：“原谅我的年少无知，你们利益的博弈永远大过天的。只是想到那么多人买不到票，还眼巴巴地在电脑面前一遍一遍地点击着查询希望奇迹会出现，我却没法帮助他们从这种痛苦的事情中解脱，便充满了委屈。”</p>
+<p>　　他在抢票专版遇到问题时，仍然向金山网络公司提供建议。从未接受过媒体采访的他也一炮走红，已经不记得接过多少通媒体的电话，还有记者直接从外地找上门去。同事开玩笑：“你成了名人了。”</p>
+<p>　　在他的QQ群里，几乎都是支持之声。他也收到一些网络捐助，倪超说数目不多，算零花钱，“肯定比不上拿出去卖的零头。”</p>
+<p>　　倪超称，自己的目的是帮助人，并不在意是否出名。他以后会继续开发免费软件，不会局限于买票。眼下，他的生活正在恢复平静。</p>
+<p>　　而他在老家的父母，完全不知道自己孩子在这个冬天搅起那么大的风波。1月19日，倪超反复使用自己的抢票助手几小时后，买到了一张退票，准备回家。他计划回老家安徽发展，不再为折腾火车票头痛。</p>
+<p>　　对金山网络来说，立竿见影的是经济效益。1月22日，金山软件股价大涨约9%。交银国际在投资者报告中表示，猎豹浏览器的产品表现和市场推广表现，是刺激此次金山软件股价大涨的主要原因。</p>
+<p>　　在刚刚结束的年会上，猎豹抢票专版团队成为了金山网络五大优秀团队之一。公司高层评价，它真正地切中了用户需求。1月28日，春运返程票抢购高峰带来，金山网络公司称，会继续完善抢票专版，修正BUG，让更多用户更快地抢到票。</p>
+<p>　　它的竞争对手越来越多，铁道部的禁令俨然已经失效。国家队——人民网的“即刻搜索”推出了抢票工具，加入到混战中。网友惊呼，网络国家队默默给了12306一耳光。</p>
+<p>　　与民间队不同的是，使用“即刻搜索”抢票工具，用户甚至可以在预售前一天就提交订单。</p>
+<p>　　“那是真的影响公平了，但我不予置评。”倪超说。</p>
+<p>　　让各家抢票专版开发者松一口气的，是工信部的态度。1月23日，工信部再次否认“叫停抢票助手”，并表示，鼓励互联网企业改进、创新服务购票方式。</p>
+<p>　　在可以看见的未来，铁道部12306网站或将面对更大的压力、更多的“规则破坏者”。
+[<A href="http://news.sohu.com/20130130/n365075587.shtml" target=_blank>详细</A>]
+</p>
+
+</DIV>
+<DIV class=right><IMG src="http://i2.itc.cn/20130130/8ad_1394d117_1f1a_443b_d051_4389f584ad1a_1.jpg" width=210 height=154> 
+<P>2013年1月22日，浙江省嘉善县客运中心内，一位旅客正准备用手机加入抢票行列
+<P></P></DIV></DIV>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<style>
+.huigu li{display:inline;}
+</style>
+<DIV class="Area huigu clearfix" style="overflow:hidden">
+<H3><SPAN>往期回顾</SPAN></H3>
+<UL>
+
+<LI><EM>NO.146</EM> <A href="http://news.sohu.com/s2013/newsmaker1473/index.shtml"target=_blank><IMG src="http://i3.itc.cn/20130130/8ad_728a5cb5_4b01_a939_b7f6_d0ed66b66829_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker1473/index.shtml" target=_blank> 
+<H5>美国赴朝记者</H5></A>
+<P>代表作品《无可羡慕：朝鲜人的普通生活》</P></LI>
+
+<LI><EM>NO.145</EM> <A href="http://news.sohu.com/s2013/newsmaker1422/index.shtml" target=_blank><IMG src="http://i1.itc.cn/20130129/8ad_b7c6b4ae_ab74_18e5_8ffb_46b2bec2ccb1_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker1422/index.shtml" target=_blank> 
+<H5>李克强 </H5></A>
+<P>现任中央政治局常委，国务院副总理、党组副书记</P></LI>
+
+<LI><EM>NO.144</EM> <A href="http://news.sohu.com/s2013/newsmaker144/" target=_blank><IMG src="http://i0.itc.cn/20130128/2d71_355aa0c3_15c5_ad90_a15d_4c1fa68d7b8e_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker144/" target=_blank> 
+<H5>双面衣俊卿</H5></A>
+<P>原中央编译局局长，因生活作风落马。</P></LI>
+
+<LI><EM>NO.142</EM> <A href="http://news.sohu.com/s2013/newsmaker1411/index.shtml" target=_blank><IMG src="http://i1.itc.cn/20130120/2d70_0b7bbb3d_41ea_a055_1b29_8770870a9d27_1.gif" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker1411/index.shtml" target=_blank> 
+<H5>河北黑户警察群落</H5></A>
+<P>他们做着警察的工作，却没有警察的身份。</P></LI>
+
+<LI><EM>NO.141</EM> <A href="http://news.sohu.com/s2013/newsmaker141/index.shtml"target=_blank><IMG src="http://i0.itc.cn/20130118/2d70_5eb353ee_7198_1940_44fa_0b58e6230ff3_1.gif"width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker141/index.shtml" target=_blank> 
+<H5>一个记者的逐雾之旅</H5></A>
+<P>在北京市区，“雾气像水一样往上淹”。</P></LI>
+
+<LI><EM>NO.140</EM> <A href="http://news.sohu.com/s2013/newsmaker143/index.shtml" target=_blank><IMG src="http://i2.itc.cn/20130114/2d70_1d763c93_82ed_4f2e_a40a_7c7b4256060d_1.gif" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker143/index.shtml" target=_blank> 
+<H5>兰考妈妈袁厉害</H5></A>
+<P>她在昏迷前辩白： “我就是想让孩子有个活命。”</P></LI>
+
+<LI><EM>NO.139</EM> <A href="http://news.sohu.com/s2013/newsmaker145/index.shtml"target=_blank><IMG src="http://i2.itc.cn/20130107/2f52_10215813_aafb_1ecd_2560_72d32b5aa9df_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2013/newsmaker145/index.shtml"target=_blank> 
+<H5>刘强披露火烧靖国神社</H5></A>
+<P>爱国青年刘强火烧靖国神社全过程揭秘。</P></LI>
+
+<LI><EM>NO.138</EM> <A href="http://news.sohu.com/s2012/newsmaker139/index.shtml"target=_blank><IMG src="http://i0.itc.cn/20130104/2f52_9667b510_e3f2_34c8_fb9f_fc42b0439e9f_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2012/newsmaker139/index.shtml" target=_blank> 
+<H5>赵普毒胶囊事件</H5></A>
+<P>央视主持人是不是站着也能把实话说出来？</P></LI>
+
+<LI><EM>NO.137</EM> <A href="http://news.sohu.com/s2012/newsmaker137/index.shtml" target=_blank><IMG src="http://i0.itc.cn/20121226/2f52_432da3f8_94bd_e2a5_81fc_d405e574cc50_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2012/newsmaker137/index.shtml" target=_blank> 
+<H5>汪洋网事
+</H5></A>
+<P>执政广东五年间，汪洋从未中断过与网友的互动。</P></LI>
+
+<LI><EM>NO.136</EM> <A href="http://news.sohu.com/s2012/newsmaker136/index.shtml" target=_blank><IMG src="http://i0.itc.cn/20121224/2d71_73522b1a_29c9_747e_79af_eaed749e81e4_1.jpg" width=150 height=110></A><A href="http://news.sohu.com/s2012/newsmaker136/index.shtml" target=_blank> 
+<H5>沈阳小贩之妻张晶
+</H5></A>
+<P>“夏俊峰若死，我将永远沉默”，等待仍在继续。</P></LI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</UL></DIV>
+<DIV class=blank20></DIV>
+
+<div class="Area">
+<h6 class="edit">栏目策划：王鹏  主持人：沙莎  页面设计：Agui</h6>
+<div class="comment">
+<div class="reMark">
+   <div id="CMT_wrapper"></div>
+    <div id="CMT_showList"></div>
+</div>
+</div>
+
+<script type="text/javascript" src="http://js.sohu.com/passport/pp18030_25.js"></script>
+<script src="http://comment.news.sohu.com/upload/cmtlist20100519/news_comment_list.js" type="text/javascript"></script>
+<script type="text/javascript">
+CMT.init({
+    topicId:365075587,//专题ID
+         type:1,//1表示专题，默认为0表示新闻
+    domain:'news',//同新闻最终页
+    showForm:'CMT_wrapper',//登陆发表评论区域Node的ID值
+    showList:'CMT_showList',//显示平铺的Node的ID值
+    close:false//是否显示平铺
+})
+</script>
+<style type="text/css">
+.edit{margin:0; line-height:20px; text-align:left; background:url(http://news.sohu.com/upload/ghostren/news_people/images/dot_line.gif) bottom repeat-x;}
+.reMark{text-align:left; width:950px; zoom:1; overflow:hidden}
+.reMark a { color:#000}
+.reMark a:hover { color:#cc0000}
+#CMT_wrapper,.reMark .reCont,.reMark .line{width:99%;}
+.reMark h2{background:none}
+.reMark .reC{width:95%; margin:0 auto}
+.reMark .clear{visibility:visible;font-size:12px;margin-top:17px !important;margin-bottom:17px !important}
+.reMark .clear:after{display:none}
+</style>
+</div>
+
+<sohuadcode></sohuadcode>
+ 
+ 
+<table cellspacing=0 cellpadding=0 width=760 border=0>
+<tr><td class=ui_foot align=middle>Copyright &copy; 2015 Sohu.com Inc. All Rights Reserved.搜狐公司 <A href="http://corp.sohu.com/s2007/copyright/" target=_blank rel="nofollow">版权所有</A> <A href="http://roll.sohu.com" target=_blank>全部新闻</A> <A href="http://blog.sohu.com/roll" target=_blank>全部博文</A></td></tr>
+</table>
+<SCRIPT language=JavaScript src="http://a1.itc.cn/pv/js/spv.1309051632.js"></SCRIPT>
+<script language="javascript" src="http://js.sohu.com/wrating20120726.js"></script>
+<script language="javascript">
+var  _wratingId = null;
+try{
+_wratingId = _getAcc();
+}catch(e){}
+if(_wratingId !=null){
+document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');
+}
+</script>
+<script language="javascript">
+if(_wratingId !=null){
+document.write('<scr'+'ipt type="text/javascript">');
+document.write('var vjAcc="'+_wratingId+'";');
+document.write('var wrUrl="http://sohu.wrating.com/";');
+document.write('try{vjTrack();}catch(e){}');
+document.write('</scr'+'ipt>');
+}
+</script>
+<!--SOHU:SUB_FOOT-->
+
+
+
+</center>
+</body>
+</html>

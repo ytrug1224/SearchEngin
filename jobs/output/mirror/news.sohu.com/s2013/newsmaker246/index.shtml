@@ -1,0 +1,955 @@
+
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+
+<script type="text/javascript">
+  var pvinsight_page_ancestors = '143746642;255924763;270473450;392194646';
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<meta name="description" content="新闻当事人矢野浩二" />
+<meta name="keywords" content="新闻当事人矢野浩二" />
+<meta name="robots" content="all" />
+
+<script src="http://www.sohu.com/sohuflash_1.js" type="text/javascript"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>新闻当事人矢野浩二-搜狐新闻</title>
+
+<link type="text/css" href="http://news.sohu.com/upload/jieli/global2013.css" rel="stylesheet" />
+<link href="http://news.sohu.com/upload/dsr2013/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://news.sohu.com/upload/js/jquery-1.7.2.min.js"></script>
+<!--[if IE 6]>
+    <script src="http://news.sohu.com/upload/zhengyufeng/pngAlaph.js"></script>
+    <script>DD_belatedPNG.fix('#header,h3,h3 span,.shipin,.dashiye_list li,.liushengji_list li,#imgText b,img,.followScroll a,.goleft,.goright');
+    </script>
+    <![endif]-->
+<script type="text/javascript" src="http://news.sohu.com/upload/zhengyufeng/sliderz.js"></script>
+<script>
+$(function(){
+    silderz(".sliderz");
+});
+</script>
+<style type="text/css">
+#channelNav {display:none}
+.cut0 .lc .t { font-weight:600px;color:#53433a;border-bottom:1px solid #736259;font-size:22px;}
+.column {margin-top:0;}
+
+.vblog{position: absolute;bottom:0;right:0;}
+.cut0{position: relative;}
+
+
+.focus .fimg{width:560px;}
+.focus .fimg ul li{width:560px;}
+.focus .right{width:400px;}
+.focus .right .bg{width:1760px;opacity:0.2;filter:alpha(opactiy=20);}
+.focus .right .bg1{width:440px;height:360px;float:left;background:url(http://i0.itc.cn/20131210/3131_cfdd76f6_a641_44ff_f7d8_b9422fcc8da0_1.jpg);}
+.focus .right .bg2{width:440px;height:360px;float:left;background:url(http://i0.itc.cn/20131210/3131_7064e4c8_9b5e_e013_3c07_d7bfa5538fc6_2.jpg);}
+.focus .right .bg3{width:440px;height:360px;float:left;background:url(http://i0.itc.cn/20131210/3131_7064e4c8_9b5e_e013_3c07_d7bfa5538fc6_1.jpg);}
+.focus .right .bg4{width:440px;height:360px;float:left;background:url(http://i1.itc.cn/20131210/3131_72290397_3d2d_8139_4267_b6d7784ae5f1_1.jpg);}
+.sliderz{width: 560px;height: 360px;position:relative;overflow: hidden;}
+.sliderz ul{width: 2240px;position: absolute;left: 0;top: 0;}
+.sliderz ul li{float: left;width: 560px;}
+.sliderz ol{display: none;position: absolute;bottom: 10px;right: 10px;z-index:99999;}
+.sliderz ol li{float: left;width: 16px;height: 16px;line-height: 16px;text-align: center;border: 1px solid #fc0;background: #000;color: #fff;margin-right: 3px;cursor: pointer;
+}
+.sliderz ol li.current{background: #fff;color: #000;}
+.sliderz .introduce{height: 30px;line-height: 30px;width:100%;color: #fff;position: absolute;bottom:0;left: 0;background:#000;opacity:0.7;filter:alpha(opacity=70);text-align: left;padding-left: 20px;}
+.goleft{position: absolute;top:150px;left:20px;background:url(http://i2.itc.cn/20131212/3131_da418fd3_db82_5441_2744_adf6b6f87aa7_1.png) 0 0 no-repeat;width:50px;height:50px;display:block;text-indent:-9999px;}
+.goright{position: absolute;top:150px;right:20px;background:url(http://i2.itc.cn/20131212/3131_da418fd3_db82_5441_2744_adf6b6f87aa7_1.png) 0 -57px no-repeat;width:50px;height:50px;display:block;text-indent:-9999px;}
+a:hover.goleft{background:url(http://i2.itc.cn/20131212/3131_da418fd3_db82_5441_2744_adf6b6f87aa7_1.png) 0 -113px no-repeat;}
+a:hover.goright{background:url(http://i2.itc.cn/20131212/3131_da418fd3_db82_5441_2744_adf6b6f87aa7_1.png) 0 -172px no-repeat;}
+
+.sideNav{border: 1px solid #dedede;border-right: 1px solid #dedede;}
+.sideNav .mst li{border-top: 1px solid #dedede;border-bottom: 1px solid #dedede;background:#eceae9;color: #53433a;line-height: 39px;font-size: 15px;display: block;padding-left: 25px;cursor: pointer}
+.sideNav .mst li.cur{border-left: 10px solid #6c0000;border-top:0;border-bottom:0;color: #6c0000;}
+
+.cut0 .rc{position: relative;}
+#followScroll_w{width:50px;height:50px;position: absolute;top:0;left:350px;_position:absolute;_top:250px; _top:expression(eval(document.documentElement.scrollTop)+10);}
+.followScroll{width:50px;height:50px;text-align:left;background:url(http://i1.itc.cn/20131211/3131_4a9e9b9e_a75f_25ca_e44a_0a286d93d8c8_1.gif);position: fixed;z-index:333;top:544px;}
+.followScroll a{width:50px;height:50px;display: block;}
+.focus .right p{font-size:14px;color:#fff;}
+.cut0 .lc .num{background:none;}
+.cut0 .lc .num em{display:block;}
+.cut0 .lc .t em{color:#53433A;}
+
+#expo_number .btn{color:#333;}
+
+.focus .fimg .videofrag{width:560px;}
+
+#expo_number .con a{color:#333;}
+.edit .name{background:url(http://news.sohu.com/upload/dsr2013/images/edit3.gif) no-repeat;}
+.edit .wangpeng{background-position:0 0;}
+.edit .liuyangshuo{background-position:-546px 0;}
+.edit .haofeng{background-position:-264px 0;}
+.edit .wangchen{background-position:-88px 0;}
+.edit .wangyi{background-position:-176px 0;}
+.edit .yuanwen{background-position:-352px 0;}
+.edit .chenjunji{background-position:-440px 0;}
+.edit .wangxiao{background-position:-636px 0;}
+</style>
+</head>
+<body>
+<div id=fullscreenad style="display:none"></div>
+<!--标准矸 st-->
+<div id="channelNav" class="Area">
+	<!--sas:mt:xhtml:st-->
+	<a href="http://www.sohu.com/" target="_blank"><img src="http://images.sohu.com/uiue/sohu_logo/2005/sohu_logo2.gif" height="22" alt="搜狐网站" border="0" class="left" /></a><a href="http://news.sohu.com/" target="_blank"><img src="http://images.sohu.com/uiue/sohu_logo/2006/news_logo2.gif" height="22" alt="搜狐新闻" border="0" class="left" /></a>
+	<style>#channelNav ul {margin-right:5px;width:auto;clear:none}</style>
+<ul class="right">
+	<li><a href="http://www.sohu.com/">搜狐首页</a></li><li>-</li>
+	<li class="red"><a href="http://news.sohu.com/">新闻</a></li><li>-</li>
+	<li><a href="http://sports.sohu.com/">体育</a></li><li>-</li>
+	<li><a href="http://s.sohu.com/">S</a></li><li>-</li>
+	<li><a href="http://yule.sohu.com/">娱乐</a></li><li>-</li>
+	<li><a href="http://tv.sohu.com/yule/">V</a></li><li>-</li>
+	<li class="red"><a href="http://business.sohu.com/">财经</a></li><li>-</li>
+	<li><a href="http://it.sohu.com/">IT</a></li><li>-</li>
+	<li><a href="http://auto.sohu.com/">汽车</a></li><li>-</li>
+	<li><a href="http://www.focus.cn">房产</a></li><li>-</li>
+	<li><a href="http://women.sohu.com/">女人</a></li><li>-</li>
+	<li><a href="http://tv.sohu.com/">视频</a></li><li>-</li>
+	<li><a href="http://my.tv.sohu.com/">播客</a></li><li>-</li>
+	<li><a href="http://t.sohu.com/">微博</a></li><li>-</li>
+	<li><a href="http://login.mail.sohu.com/">邮件</a></li><li>-</li>
+	<li><a href="http://blog.sohu.com/">博客</a></li><li>-</li>
+	<li><a href="http://club.sohu.com/">BBS</a></li><li>-</li>
+	<li><a href="http://comment2.news.sohu.com/">我说两句</a></li><li>-</li>
+	<li class="end"><a href="http://www.sogou.com/">搜狗</a></li>
+</ul>
+	<!--sas:mt:xhtml:end-->
+</div>
+<!--标准矸 end-->
+
+<sohuadcode></sohuadcode>
+
+<!--sas:mt:xhtml:start-->
+<div data-type="roll" data-appid="1077" id="isohu-topbar"></div>
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/itoolbar/channel/itoolbar.201311041055.css" charset="UTF-8" />
+<script src="http://news.sohu.com/upload/itoolbar/itoolbar.channel.loader.201308301051.js" charset="UTF-8"></script>
+
+<style>
+#isohu-topbar .isohu-topbar {width: 950px;}
+#innerToolBar { width: 950px;}
+</style>
+
+
+
+<div class="column">
+    <div class="Area">
+        <div class="left">
+            <h2>总策划246期</h2>
+        </div>
+        <div class="line"></div>
+        <div class="columnlogo shixiang">
+            <p>第246期</p>
+        </div>
+    </div>
+</div>
+<!--sas:mt:xhtml:end-->
+<div class="Area">
+<sohuadcode></sohuadcode>
+</div>
+<!--sas:mt:xhtml:start-->
+<div class="focus">
+    <div class="Area">
+        <div class="left">
+            <div class="fimg">
+
+                <ul>
+                    <li>
+                        
+                            <img src="http://i2.itc.cn/20131222/3318_c332cf9e_171c_aa1c_bf2c_cac68da1d433_1.jpg" alt=""/>
+                            <p>矢野浩二在谍战剧《东风雨》中的剧照。图片来源：南方网</p>
+                            <i></i>
+                       
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+        <div class="right">
+
+            <h1 class="pr">“伪卖国贼”浩二的生存逻辑</a></h1>
+            <div class="line pr"></div>
+            <p class="pr"><span>导读</span>年前，一则消息迅速传开：日本右翼评出五大“卖国贼”，在中国工作的日本演员矢野浩二“再度”当选。他的同伙还有前首相鸠山由纪夫、历史学者井上清、宫崎骏以及苍井空。</p>
+<p class="pr">　　消息迅速被证实为谣言，但浩二仍被推上风口浪尖。回顾浩二的生存史，他演过残暴的日本军官、精明的日本商人、正义的日本卧底……他挨过中国人骂，也挨过日本人骂，骂来骂去，他却成了混在中国最成功的日本演员。
+</p>
+<p class="pr">　　如今，浩二已不用再演那些雪地里强奸妇女的荒唐“鬼子兵”。在民族主义的夹缝中，他在探寻着日本演员的中国生存逻辑。他的命运也随着中日两国的民间情绪起伏，成也在此，难也在此。
+</p>
+
+            <div class="bg"></div>
+        </div>
+    </div>
+</div> 
+
+
+
+
+
+
+<!-- 
+<div class="focus">
+    <div class="Area">
+        <div class="left">
+            <div class="fimg">
+<object width="560" height="360"><param name="movie" value="http://share.vrs.sohu.com/1437888/v.swf&autoplay=false&xuid=baa7af84585e4b0s"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed width="560" height="360"  allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://share.vrs.sohu.com/1437888/v.swf&autoplay=false&xuid=baa7af84585e4b0s" type="application/x-shockwave-flash"/></embed></object>
+
+               
+            </div>
+        </div>
+        <div class="right">
+
+            <h1 class="pr"><a href="#" target="_blank">鲁迅文化奖进已入评选阶段与您一起期待</a></h1>
+            <div class="line pr"></div>
+            <p class="pr"><span>导读</span>劳教永远成为历史，但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少看来，劝她支持废少除死刑师没少虽然她自己原但有一些事。唐慧仍然少不准备她说她目史但前最关心的两件事。
+                一件是湖劳教永远成为历史但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少劝她支持废除死刑，虽然她自己也动摇过是否去试着原谅，但有一些事唐慧仍然不准备“放下她说她目前最关心的...[<a
+                        href="#" target="_blank">详细</a>]</p>
+
+            <div class="bg"></div>
+        </div>
+    </div>
+</div> 
+-->
+
+
+<!--
+<div class="focus">
+    <div class="Area">
+        <div class="left">
+            <div class="fimg">
+
+<div class="sliderz">
+    <ul>
+        <li><a href="http://baidu.com" target="_blank"><img src="http://i1.itc.cn/20131210/3131_72290397_3d2d_8139_4267_b6d7784ae5f1_1.jpg" alt="在人大多名受访教授的描述中，纪宝成有着复杂的多重面目1"></a></li>
+        <li><a href="http://sohu.com"><img src="http://i0.itc.cn/20131210/3131_cfdd76f6_a641_44ff_f7d8_b9422fcc8da0_1.jpg" alt="在人大多名受访教授的描述中，纪宝成有着复杂的多重面目2"></a></li>
+        <li><a href="#3"><img src="http://i0.itc.cn/20131210/3131_7064e4c8_9b5e_e013_3c07_d7bfa5538fc6_2.jpg" alt="在人大多名受访教授的描述中，纪宝成有着复杂的多重面目3"></a></li>
+        <li><a href="#4"><img src="http://i0.itc.cn/20131210/3131_7064e4c8_9b5e_e013_3c07_d7bfa5538fc6_1.jpg" alt="在人大多名受访教授的描述中，纪宝成有着复杂的多重面目4"></a></li>
+    </ul>
+    <ol>
+        <li class="current">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    <p class="introduce">在人大多名受访教授的描述中，纪宝成有着复杂的多重面目1</p>
+</div>
+<div><a class="goleft" href="javascript:;">向左走</a> <a class="goright" href="javascript:;">向右走</a></div>
+
+               
+            </div>
+        </div>
+        <div class="right">
+
+            <h1 class="pr"><a href="#" target="_blank">鲁迅文化奖进已入评选阶段与您一起期待</a></h1>
+            <div class="line pr"></div>
+            <p class="pr"><span>导读</span>劳教永远成为历史，但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少看来，劝她支持废少除死刑师没少虽然她自己原但有一些事。唐慧仍然少不准备她说她目史但前最关心的两件事。
+                一件是湖劳教永远成为历史但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少劝她支持废除死刑，虽然她自己也动摇过是否去试着原谅，但有一些事唐慧仍然不准备“放下她说她目前最关心的...[<a
+                        href="#" target="_blank">详细</a>]</p>
+
+            <div class="bg">
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<!--?
+<div class="focus">
+    <div class="Area">
+
+                <div class="left">
+            <div class="fimg">
+
+                <div class="video">
+                    <span class="cur">图片</span>
+                    <span>视频</span>
+                </div>
+
+                <ul>
+                    <li>
+                  
+                            <img src="http://i0.itc.cn/20131206/2f52_1d2af585_c4fd_4b25_f649_7c9176e23489_1.png" alt=""/>
+                            <p>两人逝世的节点相隔久远，哀伤的思绪却如此相似。</p>
+                            <i></i>
+                        
+                    </li>
+                </ul>
+                <div class="videofrag">
+                  <object width="570" height="330"><param name="movie" value="http://share.vrs.sohu.com/1445397/v.swf&autoplay=false&xuid=138d37a94300466x"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed width="570" height="330"  allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://share.vrs.sohu.com/1445397/v.swf&autoplay=false&xuid=138d37a94300466x" type="application/x-shockwave-flash"/></embed></object>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="right">
+
+            <h1 class="pr"><a href="#" target="_blank">鲁迅文化奖进已入评选阶段与您一起期待</a></h1>
+            <div class="line pr"></div>
+            <p class="pr"><span>导读</span>劳教永远成为历史，但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少看来，劝她支持废少除死刑师没少虽然她自己原但有一些事。唐慧仍然少不准备她说她目史但前最关心的两件事。
+                一件是湖劳教永远成为历史但唐慧看来，有些事没能随着劳教制度的废除而完结。虽然律师没少劝她支持废除死刑，虽然她自己也动摇过是否去试着原谅，但有一些事唐慧仍然不准备“放下她说她目前最关心的...[<a
+                        href="#" target="_blank">详细</a>]</p>
+
+            <div class="bg"></div>
+        </div>
+
+    </div>
+</div>
+-->
+<!--sas:mt:xhtml:end-->
+
+<!--sas:mt:xhtml:start-->
+
+<!--sas:mt:xhtml:end-->
+
+<div class="blank5"></div>
+
+<div class="ad">
+<sohuadcode></sohuadcode>
+</div>
+
+
+ 
+<div class="cut0 Area">
+
+	<div class="lc">
+					<!--sas:mt:xhtml:start-->
+			
+
+			<!--sas:mt:xhtml:end-->
+<sohuadcode></sohuadcode>
+			<!--sas:mt:xhtml:start-->
+			
+			<!--sas:mt:xhtml:end-->
+
+			<!--sas:mt:xhtml:start-->
+			<div class="t ">
+            <em>1.</em>经纪人会将某些采访的问题标红，“我们不谈政治”
+        </div>
+<p> 12月18日中午，日本演员矢野浩二正在等待剧组通知，准备随时飞往山东完成新片的最后镜头。接受采访时，他对记者描述被斥为日本“卖国贼”的感受——“有点吃惊。”</p>
+<p> 尽管那则消息已经被证实为假新闻，几天前，他还是自嘲式地发了一条微博：“真是躺着也中枪啊。认真努力做好自己吧，加油吧浩二！”</p>
+<p> 留言很快达到了1700条的惊人数字——关注他的中国粉丝已经有132万。</p>
+<p> 43岁的矢野浩二算得上相貌英俊，保留着日本人特有的彬彬有礼。当然有些事他也早就入乡随俗，出门戴口罩防雾霾，被夸时谦称“哪里哪里”，见到公司领导会问候“×总辛苦了！”</p>
+<p> 对浩二的采访，需要费一些周折。经纪人孔屹会要求记者列出问题，然后将其中的一些标红，称“不便回答”。每次采访之前，这位经纪人都会如此过滤一些问题，尤其是“逼问中日关系的”。</p>
+<p> 公司要求矢野浩二不谈政治。“我们跟政治无关。政治留给懂政治的人来谈，我们是演员。”经纪人说，中日冲突、钓鱼岛归属、靖国神社、南京大屠杀等敏感问题，矢野浩二都不可以谈&hellip;&hellip;</p>
+<p> 但浩二是个日本人，混在中国，这些问题就在所难免。每当中日关系出状况，记者来访，说着说着就会拐到这些话题上去。经纪人就打圆场：“我们没法去评判。”</p>
+<p> 矢野浩二也会给出官样的回答：“要正确面对历史，但是互相包容，互相看到对方的好。”——这答案足够安全。</p>
+<p> 在浩二之前，“混”在中国最著名的日本人叫加藤嘉一。这位日本青年与中国媒体交往颇多，也喜欢公开谈论敏感问题。“但他就因为说这种事被赶出去了。”经纪人说。</p>
+<p> “我们尽量跟加藤嘉一不要有任何牵扯。”在公司的安排下，浩二需要走和平路线。公司宣传经理许清概说，对于一个在中国发展的日本艺人，这是特别好的一个路子，特别是中日关系不太好的情况下。他给浩二写宣传稿，两个关键词是：勤勤恳恳、热爱和平。</p>
+<p> 这果然成了日本演员最行得通的中国生存逻辑：一到中日重大事件的周年，矢野浩二会主动发微博呼吁和平。有时候公司也会提醒他发。经纪人对他开玩笑：“你越来越像公知。”</p>
+<p> 12月13日，侵华日军占领南京城76周年，矢野浩二发了一条微博：“应该共同缅怀逝去的人，同样应该正确地面对历史，和平友好才是共同进步的基础。”评论很快突破6000大关。留言多数是支持，也有人不那么客气：“如果是真心的挺你。如果利用这个炒作博取中国人的同情心，那么请滚蛋！”</p>
+<p> 当“卖国贼”的消息被证实并非出自日本右翼，而是从中国论坛流出的谣言，也有日本记者猜测这是矢野浩二的公司在借机炒作。但经纪人坚决否认这一点：“我们还怀疑苍井空他们炒作呢。标题都是他们的名字。”</p>
+<p> 如今的矢野浩二已经成了中日民间交流的“大使”。他到各地高校演讲，分享自己在中国打拼十几年的心路；他拜访北京的养老院，参加公益活动；他在日本地震时走上街头，请北京的路人为日本灾民录祝福视频&hellip;&hellip;</p>
+<p> 他还在各种中日文化交流会、博览会上露面。比如，2011年，他在中国国家博物馆与央视的朱迅搭档，主持日本动漫节启动仪式。比如今年7月，他被请到日本大使馆，刚上任的日本驻华大使木寺昌人夸他：“是最了解中国的日本名人之一，也是中国的友好伙伴”。</p>
+<p> 矢野浩二接受美国CNN的专访时，称自己“一直有一个中国梦”，他自己为这个梦而疯狂。</p>
+			<div class="t ">
+            <em>2.</em>浩二会笑着点点头：“对！我是小日本。”
+        </div>
+
+
+<p> 矢野浩二的“中国梦”开始于“日本梦”的破灭。他是最早来中国长期发展的日本演员，在此之前，他从家乡大阪去东京闯荡，当过酒吧招待、演员助手、电影龙套&hellip;&hellip;辛苦打拼6年，仍然前景渺茫。</p>
+<p> 2000年，他偶然来到北京，在电视剧《永恒恋人》中演一个日本留学生。那时的矢野浩二30岁，是一个典型的“屌丝”青年，没钱，没名气，中文只会“你好”，台词都是后期配音。电视剧拍了3个月，矢野浩二回到日本，翻译徐超隔空为他分析将来的发展道路：“你在日本相貌不占优，年龄不占优，只有在中国拍中国本土作品占优。”</p>
+<p> 一年后，矢野浩二重返北京，住进六里屯，后来搬到帽儿胡同。那时候拍戏心切，他被皮包公司骗过几万块钱。在焦灼等待的日子里，他沉闷，不说话，有时打电话向日本朋友借钱。日子过得节俭，他常喝的啤酒也从青岛换成了燕京。</p>
+<p> 在朋友的帮助下，2001年7月，矢野浩二被想开拓日本市场的中国导演杨阳选中，在电视剧《记忆的证明》中出演反一号——日本劳工营长官冈田，一个尚有人性的“日本鬼子兵”。那时候，跟他一起拍戏的，还有二十多个从日本临时请来的演员。片酬不多，浩二觉得“不给钱也可以，就是想要这么一个机会”。</p>
+<p> 然而中日关系风云突变。一个月后，日本首相小泉纯一郎参拜靖国神社，引发亚洲各国抗议，中日关系降至冰点。矢野浩二担心，这部电视剧拍了也不能播。他后来告诉媒体，自己是抱着赎罪的心态来演的。</p>
+<p> 电视剧后来播了，还得了中国的飞天奖——一个不错的开头。但这只是小概率事件：当时几乎所有的抗日片，对日本演员只有一个要求——演出“鬼子”的凶残。</p>
+<p> 为了生存，矢野浩二不挑角色，很快成了“鬼子专业户”。2005年，中国抗日战争胜利60周年，也是中国的“抗战剧年”。为了迎接这一年，2003年到2004年，中国投拍的抗战剧接连不断，矢野浩二应接不暇。他的生活不成问题了，也能再喝上青岛啤酒了。</p>
+<p> 他演《小兵张嘎》中的斋滕、《烈火金刚》中的毛利大队长、《野火春风斗古城》中的多田、《铁道游击队》中的冈村、《逐日英雄》中的阿部健雄&hellip;&hellip;电影里，他面目狰狞，对手下大声咆哮，杀人不眨眼。</p>
+<p> 当然，这些角色最后的结局都一样：“残忍、冷酷、无情、好色的日本鬼子，最后总是会被击败，肮脏地死去。”矢野浩二在演出札记里如此总结。</p>
+<p> 他内心也感觉痛苦，但他明白自己的地位，也明白自己没有讨价还价的资本。偶尔，他也会有小小的反抗，把“鬼子”演得“活”一些。在一场日军大队长死去的戏中，他让“鬼子”掉下了眼泪。“唯一能发挥的就是这最后一场戏，可能对我来说是最后的挣扎。”他说。</p>
+<p> 矢野浩二的发挥也常常会被拒绝。大多数导演只需要残暴的鬼子。</p>
+<p> 为了拍抗日剧，矢野浩二去过很多“革命老区”：枣庄、张家口、临沂&hellip;&hellip;围观的中国百姓会叫他：“日本鬼子”、“小日本”，尤其是上了年纪的人。</p>
+<p> “他认出我，我也很高兴。”浩二没放在心上，反而会笑着点点头：“对！我是小日本。”</p>
+			<div class="t ">
+            <em>3.</em>只要演日本人就会死。以前死得猥琐，现在死得悲壮
+        </div>
+
+ 
+<p> 直到成名，矢野浩二才开始得以转型：一是因为内心痛苦，不想再演鬼子。二是年纪大了，戏路需要拓宽。</p>
+<p> 他遇到过娱乐记者电话采访，对方一直追问：“在中国演伤害中国人的日本鬼子角色，你有什么感受？有没有愧疚？”到后来，浩二的情绪失控了，激动地问：“你跟我说这样的话有什么意义？！你让我做什么？！我代表日本，代表日本人吗？！”</p>
+<p> 最后，他哭了。</p>
+<p> 他的朋友徐超反而觉得，比起中国演员，由日本人来演一个被万人踩踏和唾弃的日本鬼子，观众会更好奇后者为何有此勇气——这，也正是矢野浩二的“卖点”。</p>
+<p> 在日本国内，民众也知道了他在中国演日本人。《记忆的证明》播出时，日本《产经新闻》引用了浩二的一句话：“片子很好，希望能在日本播出。”日本论坛上，有的日本网友直接开骂：“卖国贼！不要再回日本！”徐超安慰他：“你不是日奸。清者自清。”</p>
+<p> 但那时候，在中国“糊口”的浩二还得继续把“鬼子”演下去。徐超要他对媒体说话要中立，说自己只是一个普通老百姓，只是听导演的。但人身攻击还是不可避免。一次回日本，饭局上，一个熟人的朋友直接将一本杂志丢在他身上：“你在中国演这样的人，是什么意思？！”</p>
+<p> 浩二的转型得到了公司的支持。2009年，在王岳伦导演的喜剧《熊猫大侠》中，他演了一个古代的野生动物贩子。公司本想让矢野浩二坚决不再接有关“日本鬼子”的抗日剧，但选择极其有限，他的戏量降了。</p>
+<p> 替代方式，是接拍现代剧。公司通过私交，在现代剧《浮沉》中为他量身定做了一个日本公司在华销售的角色。而角色原本的人物设定其实是一个美国销售。公司想把矢野浩二往“成熟的日本雅致大叔”、“商务人士”方向推。</p>
+<p> 在公司争取下，矢野浩二也在往综艺主持人方向转。2008年，他成了湖南卫视综艺节目《天天向上》的主持。当时这档节目计划往国际化方向靠，也想找一些日韩脸。</p>
+<p> 节目中，矢野浩二和汪涵、欧弟等主持一起搞笑。他发挥自己的身份优势，故意词不达意，效果不错。</p>
+<p> 当然，混在中国的演员浩二仍然离不开抗战片。只是如今他成名了，角色已经可以选择“良心发现”的日本卧底。日本鬼子成了日本好人，刽子手成了反战人士&hellip;&hellip;每当看到这样的剧本，经纪人会马上拍板。</p>
+<p> 最开始，他饰演的卧底日本军人会偷偷把情报提供给国军。“后来此类电视剧太多了，广电总局说，不能过多地表现国民党抗战，所以现在变成了国共合作。”经纪人说。</p>
+<p> 矢野浩二开始像一个共产党员一样，被日本上司五花大绑，严刑逼供，浑身是血，从容就义。被杀前，他会告诉上司：“我做这样的间谍工作，是为了和平！”</p>
+<p> 当然，无论是演“鬼子”还是“卧底”，“只要演日本人就会死”。对于浩二来说，唯一不同的是，以前死得猥琐，现在死得悲壮。</p>
+			<div class="t ">
+            <em>4.</em> 浩二意识到，有的玩笑，中国人可以说，日本人不能
+        </div>
+
+ 
+<p> 历史问题，仍然是中日关系绕不过的一个槛。矢野浩二的成功得益于此，也受制于此。</p>
+<p> 矢野浩二看过日本反映二战历史的影片，拍的都是原子弹爆炸之后日本国内的惨状。“有些地方真的有些封闭性的东西。有些媒体也想说这样的话题，但是不敢。”而在中国则是大量的鬼子戏。中国人英明神武，一个人可以消灭一群日本人。有些雷剧，中国人可以双手凭空撕鬼子、投掷手雷炸飞机&hellip;&hellip;</p>
+<p> 矢野浩二说他没接过这种雷人剧。他知道，日本民众对中国的抗日雷剧有很多不满。日本的新闻报道里，电视主持人会介绍：“最近中国播了这样的抗战片。”接下来是对中国民众的采访，许多受访者会说，乱七八糟，很无聊。也有一位被采访的清洁大妈双手握拳，义正词严：“它增强了我们的民族精神！”</p>
+<p> 尽管广电总局曾对外表态，将纠正把抗日剧拍成科幻剧、武侠剧、狗血剧的现象，但抗日剧仍占中国电视剧市场的半壁江山——它们更好卖，过审压力也低。</p>
+<p> 而这些在抗日剧中的日本演员中，很多人正是得知浩二在中国发展得不错，才来到中国淘金——对于导演来说，他们伸手接物，鞠躬，说“哈伊”，更有日本味。</p>
+<p> 现在混在中国的日本演员有十来个。其中大部分是全职演员，还有少数兼职的日本留学生。但与可以演“好鬼子”的浩二不同，他们大部分还在演满目狰狞的小兵和小队长，在困境中漂在中国。</p>
+<p> 如今的矢野浩二已经可以在中国扎根。他娶了重庆妻子，生了混血女儿，为女儿选择了中国籍。有时候他感觉，自己已经是一个中国人。</p>
+<p> 但实际上他还是个日本人。2010年。《天天向上》的节目录制现场，汪涵问军旅歌手刘斌座右铭是什么。浩二兴致勃勃用带着日本腔的普通话插了嘴：“我的座右铭是：顺我者死，逆我者亡。”</p>
+<p> 这是朋友徐超给他的建议。他们原本认为，这个“包袱”可以引起观众爆笑。结果，台下死寂。汪涵悄悄提醒：“浩二，这句不对，这句不对。”</p>
+<p> 义愤填膺的刘斌拿过话筒：“你让我想起了九一八！”这位一本正经的军旅歌手，开始引述历史的40分钟滔滔演讲。现场空气凝固了，这是节目从未有过的氛围。</p>
+<p> 矢野浩二懵了。在那40分钟里，他突然意识到，有的玩笑，中国人可以说，日本人不能。而他，正是个日本人。</p>
+<p> 中日关系最微妙的时刻，身份认同问题更加令他苦恼。2012年秋，日本政府宣布将钓鱼岛国有化，随即引发中国大规模的抗议浪潮，西安出现了砸车伤人事件。《朝日新闻》派人去砸车者蔡洋的家乡采访，认为惨剧发生的一个重要原因是，“打人者在成长过程中看了过多的抗日剧”。</p>
+<p> 因为那一年的风波，矢野浩二无法再出现在《天天向上》中。他被一个剧组拒绝，几个原定参加的中日交流活动也被取消；他的广告也没拍成，中国厂家怕消费者骂自己不用中国明星，用日本人。外面不太平，他待在家里看剧本，但心里越来越不安，晚上会失眠。</p>
+<p> 很快，一则“矢野浩二已经死亡”的谣言出现。那时他在东京拍《金田一少年事件簿》，演香港人，拍自己被杀的一场戏。他发了一条微博：“我在东京拍戏，还活着。”</p>
+<p> 突然之间，他在片场感到呼吸困难，被救护车送到医院。诊断结果是，他在精神方面出了问题。“日本天天报道那些事情，都是砸日本餐厅、砸日本工厂的画面。那是我心理最不稳定的时候——考虑到将来，不知道会怎么样。”</p>
+<p> 在中国13年，他第一次有这样巨大的无助感。他在华的日本朋友，有人就此离开。到最后，矢野浩二开始实践日本的一个说法“断、舍、离”——不看、不听、不想。</p>
+<p> 当然，这个日本演员也开始反击。几天前，在云南拍戏，有个中国人与他擦身而过时，笑着蹦出一句：“哎！小日本！”</p>
+<p> “喂！”这一次，矢野浩二生气了。他用手指着那个中国人，直到对方脸上嘲弄的笑容开始变得僵硬，最终狼狈地逃进车子，一溜烟开走。</p>
+<p> 如今的浩二，已经不再是当年那个只会笑着点头说“对！我是小日本”的日本龙套演员。</p>
+			
+
+			<div class="edit">
+            <div class="line"></div>
+            <div class="name chenjunji"></div>
+        </div>
+			<div class="comment_news">
+            <div style="margin:0 auto;"><div id="SOHUCS" sid="392194646"></div></div>
+            <script language="javascript" src="http://news.sohu.com/upload/jieli/js/changyan_news.js"></script>
+        </div>
+			<!--sas:mt:xhtml:end-->
+
+
+	</div>
+	<div class="cc">
+			<!--sas:mt:xhtml:start-->
+			
+			<!--sas:mt:xhtml:end-->
+
+			<!--sas:mt:xhtml:start-->
+			
+			<!--sas:mt:xhtml:end-->
+
+
+<div class="text"></div>
+
+<div class="text"></div>
+
+<div class="text"></div>
+
+<div class="text"></div>
+
+<div class="text"></div>
+
+
+			
+	</div>
+	<div class="rc">
+		<!--sas:mt:xhtml:start-->
+		
+
+		<!--sas:mt:xhtml:end-->
+<sohuadcode></sohuadcode>
+<sohuadcode></sohuadcode>
+		<!--sas:mt:xhtml:start-->
+		<div id="followScroll_w">
+    <div class="followScroll fixedtop"><a href="#"></a></div>
+</div>
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+
+		<!--sas:mt:xhtml:end-->
+
+                  <!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+                 <!--sas:mt:xhtml:start-->
+		<div class="t"><span>往期回顾</span><em><a href="http://news.sohu.com/newsmaker_list/index.shtml" target="_blank">更多&gt;&gt;</a></em></div>
+        <div class="box3">
+            <a href="http://news.sohu.com/s2013/newsmaker245/index.shtml" target="_blank">
+                <img src="http://i2.itc.cn/20131222/3318_a0c8c10b_dcad_8bc8_16ad_8942a33cfd15_1.jpg" alt=""/>
+                <p>叶局长丢车记：黑色幽默背后的车改怪圈</p>
+                <i></i>
+            </a>
+        </div>
+		<div class="t"><span>经典报道</span></div>
+        <div class="box4">
+            <div id="expo_number"><a href="javascript:void(0)" class="btn btn-up">▲</a>
+                <div class="con">
+                    <dl class="con-w" style="TOP: 0px">
+                        <dt><b>2013.11</b><a href="http://news.sohu.com/s2013/newsmaker237-1/index.shtml" target="_blank">三中全会亲历者揭秘</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">随着“改革决定”的最终出炉，这些亲历代表们也成为历史的见证人。 <a target="_blank" href="http://news.sohu.com/s2013/newsmaker237-1/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+                        <dt><b>2013.10</b><a href="http://news.sohu.com/s2013/newsmaker-227/index.shtml" target="_blank">深圳“厂妹”再调查：走失的荷尔蒙</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">在一个汇聚了几十万年轻人的大工厂，性成为一个敏感又禁忌的话题。<a target="_blank" href="http://news.sohu.com/s2013/newsmaker-227/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+
+<dt><b>2013.9</b><a href="http://news.sohu.com/s2013/newsmaker221/index.shtml/" target="_blank">起底秦火火：谣王是怎样炼成的</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">他们在虚拟江湖中嚣张行走，无人制约。关注度带来了财富，也将他们引入深渊。<a target="_blank"href="http://news.sohu.com/s2013/newsmaker221/index.shtml/">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+
+
+
+                        <dt><b>2013.8</b><a href="http://news.sohu.com/s2013/newsmaker214-4/index.shtml" target="_blank">上海买春案爆料人：法官的地下世界</a>
+</dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">一位因觉官司蒙冤，反复申诉无果的上海人，完成了一场“非典型式复仇”。<a target="_blank" href="http://news.sohu.com/s2013/newsmaker214-4/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+<dt><b>2013.7</b><a href="http://news.sohu.com/s2013/newsmaker205/index.shtml" target="_blank">对话纪英男:高官包养是一种病毒</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">她描述了一个隐秘的世界。那里穷尽豪奢、纸醉金迷，高官用巨款给爱情镀上闪耀的金光。 <a target="_blank"href="http://news.sohu.com/s2013/newsmaker205/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+<dt><b>2013.6</b><a href="http://news.sohu.com/s2013/newsmaker198/" target="_blank">中国性玩具大亨：你所不知的催情内幕</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">那层神秘面纱背后：催情药都是假货，避孕套有几十倍利润，全球性玩具70%产自中国。 <a target="_blank"href="http://news.sohu.com/s2013/newsmaker198/">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+                        <dt><b>2013.5</b><a href="http://news.sohu.com/s2013/4775/s376888979/index.shtml" target="_blank">长沙坠井女孩：60天生死旅途</a>
+</dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">暴雨从苍穹倾泻而下，冷雨夜中，一次意外的失足，女孩跌入了无边无际的黑暗。<a target="_blank" href="http://news.sohu.com/s2013/4775/s376888979/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+<dt><b>2013.4</b><a href="http://news.sohu.com/s2013/newsmaker176/" target="_blank">独家调查：H7N9感染者的最后12天</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">他在痛苦中飞速冲向死亡，最终加入到冰冷的数据统计之中。<a target="_blank"href="http://news.sohu.com/s2013/newsmaker176/">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+<dt><b>2013.2</b><a href="http://news.sohu.com/s2013/newsmaker158/index.shtml" target="_blank">生死金岭镇：污染阴影下的死亡村落</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">小镇井眼封闭，蚊虫绝迹，部分人相继患上胃癌、肺癌、食道癌，死亡的阴影笼罩着村落。<a target="_blank"href="http://news.sohu.com/s2013/newsmaker158/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+
+<dt><b>2013.1</b><a href="http://news.sohu.com/s2013/newsmaker143/index.shtml" target="_blank">孤儿葬身火海背后：兰考妈妈的是与非</a></dt>
+                        <dd>
+                            <div class="dd-i">
+                                <p class="clearfix">袁厉害躺在病床之上，心力交瘁，她试图向来访的记者辩解，但又很快陷入昏迷。<a target="_blank"href="http://news.sohu.com/s2013/newsmaker143/index.shtml">详细&gt;&gt;</a></p>
+                            </div>
+                        </dd>
+
+                    </dl>
+                </div>
+                <a href="javascript:void(0)" class="btn btn-down">▼</a> </div>
+
+
+        </div>
+		<div class="t"><span>精品栏目推荐</span><em><a href="#" target="_blank">更多&gt;&gt;</a></em></div>
+        <div class="box5">
+            <iframe src="http://news.sohu.com/s2012/3785/s357505873/index.shtml" frameborder="0" scrolling="no" width="270" height="420"></iframe>
+        </div>
+		
+
+		<div class="box7">
+            <img src="http://i3.itc.cn/20131129/2d71_54b670bc_de27_dc97_3b4d_36c5ee15f97d_1.png" alt=""/>
+            <ul>
+                <li>出　品：  搜狐新闻中心</li>
+                <li>策　划：  刘洋硕</li>
+                <li>时　间：  2013.12.23</li>
+            </ul>
+        </div>
+		<!--sas:mt:xhtml:end-->
+
+	</div>
+	<div class="clear"></div>
+      
+</div>
+     
+
+<sohuadcode></sohuadcode>
+
+
+
+
+<sohuadcode></sohuadcode>
+
+
+
+<sohuadcode></sohuadcode>
+
+
+
+<div class="cut1 Area">
+
+	<div class="lc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<sohuadcode></sohuadcode>
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+	</div>
+	<div class="cc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<sohuadcode></sohuadcode>
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+
+	</div>
+	<div class="rc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+	</div>
+	<div class="clear"></div>
+         
+</div>
+
+
+
+
+<sohuadcode></sohuadcode>
+
+
+
+
+
+
+
+<div class="piccut Area">
+
+<div class="piclist"></div>
+</div>
+<div class="videocut Area">
+
+<div class="videolist"></div>
+</div>
+
+
+<div class="cut2 Area">
+
+	<div class="lc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+
+
+
+
+		<!--sas:mt:xhtml:end-->
+
+	</div>
+	<div class="cc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+
+		<!--sas:at:xhtml:start 中间列表-->
+	    
+  <div class="text">
+		</div>
+		
+
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+
+		<div class="text"></div>
+		<!--sas:at:xhtml:end-->
+
+	</div>
+	<div class="rc">
+		<!--sas:mt:xhtml:start-->
+		
+		<!--sas:mt:xhtml:end-->
+
+		<!--广告 st-->
+		<div class="ad"><sohuadcode></sohuadcode></div>
+		<div class="ad"><sohuadcode></sohuadcode></div>
+		<!--广告 end-->
+
+		<!--sas:mt:xhtml:start-->
+		
+
+
+
+
+
+
+		<!--sas:mt:xhtml:end-->
+	</div>
+         <div class="wc">
+		
+
+		
+		
+	</div>
+	<div class="clear"></div>
+         
+</div>
+
+
+
+
+
+<div class="cut3 Area">
+
+	<div class="lc">
+		<!--sas:mt:xhtml:start-->
+		
+                   
+		<!--sas:mt:xhtml:end-->
+	</div>
+	<div class="cc">
+		<!--sas:at:xhtml:start 两列列表左-->
+		
+
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+
+	</div>
+	<div class="rc">
+		<!--sas:at:xhtml:start 两列列表右-->
+		
+
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+		
+		<div class="text"></div>
+
+	</div>
+	<div class="wc">
+		
+
+		
+		
+	</div>
+	<div class="clear"></div>
+         
+</div>
+
+
+<div class="piccut Area">
+
+<div class="piclist"></div>
+</div>
+<div class="videocut Area">
+
+<div class="videolist"></div>
+</div>
+
+<!--sas:mt:xhtml:start 大通栏循环-->
+
+<!--sas:mt:xhtml:end-->
+<script type="text/javascript" src="http://news.sohu.com/upload/lj/jquery.jmp3-min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#external").jmp3({
+            filepath: "http://zhangmenshiting.baidu.com/data2/music/92443935/835909311385604061320.mp3",
+            backcolor: "ffd700",
+            forecolor: "8B4513",
+            width: 100,
+            autoplay:"false",	//自动播放
+            showdownload: "false"	//显示下载按钮
+        });
+    });
+
+
+    $(function(){
+
+      
+
+        $(".box dt").hover(function(){
+            $(".box dt").removeClass("cur");
+            $(".box dd").hide();
+            $(this).addClass("cur").next().show();
+        });
+
+        $(".video span").click(function(){
+            var id = $(this).index();
+           // alert (id);
+            $(".videofrag").css("opacity",0);
+            if (id==1){
+                $(".videofrag").animate({"top":0,"opacity":1});
+                $(this).addClass("cur").siblings().removeClass("cur")
+            }else {
+                $(".videofrag").animate({"top":"-330px","opacity":0});
+                $(this).addClass("cur").siblings().removeClass("cur")
+            }
+        })
+    })
+
+    jQuery(function ($) {
+        var r = $('#expo_number'),
+                h = 350,
+                t = 0,
+                btn = r.find('> a.btn'),
+                btnUp = btn.eq(0),
+                btnDown = btn.eq(1),
+                sc = r.find('dl:first'),
+                conH = sc[0].offsetHeight;
+        if (conH <= h)
+            return;
+        var minT = h - conH;
+        btnUp.click(function () {
+            try {this.blur();} catch (ex) {}
+            if (t >= 0)
+                return false;
+            t = Math.min(0, t + h);
+            sc.stop(true).animate({
+                top : t
+            });
+            return false;
+        });
+        btnDown.click(function () {
+            try {this.blur();} catch (ex) {}
+            if (t <= minT)
+                return false;
+            t = Math.max(minT, t - h);
+            sc.stop(true).animate({
+                top : t
+            });
+            return false;
+        });
+    })
+
+
+    $(function(){
+    $(window).bind("scroll", function(){
+        var scrollTopNum = $(document).scrollTop(),
+            winHeight = $(window).height(),
+            returnTop = $(".fixedtop");
+        if (!-[1,]&&!window.XMLHttpRequest) {
+            returnTop.css("top", scrollTopNum + winHeight - 180);
+        }
+    });
+    $(".fixedtop a").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 1000);
+    });
+      
+});
+</script>
+
+<div id="foot" class="Area"> 
+Copyright &copy; 2015 Sohu.com Inc. All Rights Reserved. 搜狐公司 <span class="unline"><a href="http://corp.sohu.com/s2007/copyright/" target="_blank" rel="nofollow">版权所有</a> <a href="http://roll.sohu.com" target="_blank">全部新闻</a> <a href="http://blog.sohu.com/roll" target="_blank">全部博文</a></span><br />
+</div>
+<SCRIPT language=JavaScript src="http://a1.itc.cn/pv/js/spv.1309051632.js"></SCRIPT>
+<script language="javascript" src="http://js.sohu.com/wrating20120726.js"></script>
+<script language="javascript">
+var  _wratingId = null;
+try{
+_wratingId = _getAcc();
+}catch(e){}
+if(_wratingId !=null){
+document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');
+}
+</script>
+<script language="javascript">
+if(_wratingId !=null){
+document.write('<scr'+'ipt type="text/javascript">');
+document.write('var vjAcc="'+_wratingId+'";');
+document.write('var wrUrl="http://sohu.wrating.com/";');
+document.write('try{vjTrack();}catch(e){}');
+document.write('</scr'+'ipt>');
+}
+</script>
+<script> require(["sjs/matrix/ad/passion"]);</script>
+<!--SOHU:SUB_FOOT_DIV-->
+
+<sohuadcode></sohuadcode>
+
+</body>
+</html>

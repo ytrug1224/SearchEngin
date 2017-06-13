@@ -1,0 +1,1530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">
+  var pvinsight_page_ancestors = '143746642;143746653;212846158;223864775;427626025';
+</script>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<title>习近平帮助福建少数民族群众脱贫致富纪事-搜狐新闻</title>
+<meta name="keywords" content="习近平 少数民族">
+<meta name="description" content="全面实现小康，少数民族一个都不能少——习近平同志帮助福建少数民族群众脱贫致富纪事从闽东福鼎市的磻溪镇出发，沿山间公路盘旋23公里，有一个青山环抱的畲族村——赤溪">
+<link rel="canonical" href="http://news.sohu.com/20151123/n427626025.shtml"/>
+<meta name="robots" content="all">
+<!-- 购买url变量获取 -->
+<script type="text/javascript">
+ var shoppingCnf = {url:''};
+</script>
+<!-- 购买url变量获取end -->
+<script type="text/javascript">
+  var category =  '143746642;143746653;212846158;223864775;427626025';  var videoNum = 0;  var relate_from_sohu = true;
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script src="http://www.sohu.com/sohuflash_1.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://js.sohu.com/library/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/tongji_v2013110101.js"></script>
+
+<script type="text/javascript">
+jQuery(function(jq){
+	//标签
+	function changeTab(lis, divs, nums, nowCls){
+		lis.each(function(i){
+			var els = jq(this);
+			els.mouseenter(function(){
+				lis.removeClass(nowCls);
+				divs.stop().hide();
+				jq(this).addClass(nowCls);
+				divs.eq(i).show();
+			});
+		}).eq(nums).mouseenter();
+	}
+	
+	
+	jq(".fontsize").hover(function(){
+		jq(".fontsize-layer").show();
+		},function(){
+		jq(".fontsize-layer").hide();
+	});
+	
+        jq(".print").hover(function(){
+                   jq(".print-layer").show();
+                   },function(){
+                   jq(".print-layer").hide();
+         });
+
+	var phoneNumInput = jq(".rightbar-wrapper .phoneNews .rssArea .Ftxt"),
+		phoneNumBtn = jq(".rightbar-wrapper .phoneNews .rssArea .Fbtn");
+	phoneNumInput.hover(function(){  // xlx
+		jq(this).parent().addClass("current");
+	},function(){
+		jq(this).parent().removeClass("current");
+	});
+	phoneNumInput.focus(function(){
+		var _this = $(this);
+		var val = _this.val();
+		if(val == '输入手机号码'||val == '手机号码输入错误！'||val == '此号码发送次数过多！'||val == '失败！'){
+			_this.val("");
+			_this.parent().removeClass("error");
+		}
+	}).blur(function(){
+		var _this = $(this);
+		if(_this.val() == ''){
+			_this.val('输入手机号码');
+			_this.parent().removeClass("error");
+		}
+	});
+	
+	jq(".rightbar-wrapper .phoneNews .Fbtn").click(function(){// 订阅按钮点击
+		var _mobile = phoneNumInput.val();	
+		if(!(/^1[3458]\d{9}$/.test(_mobile))){
+			phoneNumInput.val("手机号码输入错误！");
+			phoneNumInput.parent().addClass("current error");
+		}else{
+			var formData = {
+					"number" : _mobile
+					};
+			var submitUrl = "http://api.k.sohu.com/api/client/sendmsg.go?callback=?";
+			$.ajax({
+				url: submitUrl,
+				data: formData,
+				dataType:"jsonp",
+				success: function(data){
+					var _code = data.data;				
+					var _msg = "";
+					switch(_code){
+						case "1":
+							phoneNumInput.parent().addClass("current error succeed");
+							phoneNumInput.add(phoneNumBtn).hide();
+							break;
+						case "0":
+							_msg = "失败！";
+							break;
+						case "12001":
+							_msg = "手机号码输入错误！";	
+							break;
+						case "12003":
+							_msg = "此号码发送次数过多！";
+							break;			
+					};
+					phoneNumInput.val(_msg);
+					phoneNumInput.parent().addClass("current error");
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown){
+					alert("error");
+				}
+			});			
+		}
+	});
+});
+//去搜狐首页的检测
+function toHomePage(){
+                   var serverUrl = "http://www.n-s.cn/news.png";
+                   $.ajax({
+                type: "GET",
+                url: serverUrl,
+                dataType: "jsonp",
+                success:function(){}
+            });             
+}
+//转换字号
+function doZoom(size){	
+	jQuery("#contentText").css("fontSize",size);
+}
+var printArticle = function(){
+	jQuery.getScript("http://news.sohu.com/upload/article/2012/js/print_roll.js",function(){printer.print()},true)
+}
+var topicId = 334087882;
+var grobal_arg={};
+grobal_arg['topicId']=topicId;
+var jumpUrl=function(x){
+	var url = '', e = encodeURIComponent, s = screen, d = document, wd = 0, hg = 0, u = d.location , y = x,topicId =grobal_arg.topicId;
+	//缺个我的搜狐的分享的跳转URL
+	//topicId的确认方式
+	switch (y)
+	{
+	case 't':	url ="http://t.sohu.com/third/post.jsp?link="+e(u.href)+"&title="+e(d.title);wd = 660;hg = 470;break;
+	case 'bai':	url ="http://bai.sohu.com/share/blank/addbutton.do?link="+e(u.href)+"&title="+e(d.title);wd = 480;hg = 340;break;
+	case 'douban':	url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(d.title);wd = 460;hg = 340;break;
+	case 'renren':	url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(d.title);wd = 590;hg = 430;break;
+	case 'kaixin':	url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(d.title);wd = 540;hg = 360;break;
+	case 'itb':     var ctxt = $('#contentText').length>0?$('#contentText').text().replace(/<[^>].*?>/g,'').substr(0,120):'';
+			url ="http://tieba.baidu.com/i/sys/share?link="+e(u.href)+"&type=text&title="+e(d.title)+"&content="+e(ctxt);wd = 626;hg = 436;
+			break;
+	case 'go139':	url ="http://go.139.com/ishare.do?shareUrl="+e(u.href)+"&title="+e(d.title)+"&sid=20dd04a99380c2e8d56cf187f6658169";wd = 630;hg = 500;break;
+	case 'qq':	url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+e(u.href);wd = 900;hg = 500;break;
+           case 'sohukan': url ="http://kan.sohu.com/share/?href="+e(u.href)+"&title="+e(d.title)+"&appkey=1550c1b2513a1461a4ea4914af8aa8fe";wd = 760;hg = 477;break;
+	default :	return false;
+	}
+	var a=function(){
+		if (!window.open(url, 'sohushare', ['toolbar=0,status=0,resizable=1,width='+ wd +',height='+ hg +',left='+ (s.width - wd) / 2+ ',top='+ (s.height - hg) / 2]))
+			u.href = [url].join('');
+	}
+	if (/Firefox/.test(navigator.userAgent)){
+		setTimeout(a, 0);
+	}else{
+		a();
+	}
+
+	var stat = (new Image);
+	try{stat.src = "http://219.234.82.222/zhuanfa/index.php?newsId=" + /http:\/\/(.*)(\.sohu.com\/.*\/n)(.{9})/g.exec(document.location)[3] + "&newsName=" + e(d.title) + "&newsUrl=" + d.location.href + "&postId=" + x;
+	}catch(e){}
+}
+//媒体来源
+function media_span_url(id_media_span_url) {
+    if(id_media_span_url) {
+        id_media_span = jQuery('#media_span');
+        if(!id_media_span.find('a').length) {
+            id_media_span.html('<a href=\'' + id_media_span_url + '\' target=\'_blank\'>' + id_media_span.html() + '</a>');			
+        }
+    }
+}
+ 
+</script>
+<script src="http://img.wan.sogou.com/cdn/ufo/fid/fid.js"></script>
+<script>
+    var fid;
+    Sogou_FID.get(function(sid){
+        fid = sid;       
+    });
+</script>
+<link type="text/css" rel="stylesheet" href="http://css.sohu.com/upload/global1.4.1.css" />
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/article/2012/style.v20150623.css" />
+
+<script  type='text/javascript'>
+var sogou_is_brand = new Object();
+sogou_is_brand["pid"]  = 'sohu__brand';
+sogou_is_brand["charset"]   = 'gb2312';
+sogou_is_brand["sohuurl"] = document.location.href;
+</script>
+
+</head>
+
+<body>
+<div data-type="roll" data-appid="1079" id="isohu-topbar"></div>
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/itoolbar/cms/itoolbar.201410281438.css" charset="UTF-8" />
+<style type="text/css"> 
+#innerToolBar{width:980px;}
+</style>
+<script src="http://news.sohu.com/upload/itoolbar/itoolbar.cms.loader.201410281438.js" charset="UTF-8"></script>
+
+<!-- 导航 st -->
+<div id="nav" class="area"><a class="first" href="http://www.sohu.com/">首页</a>-<a href="http://news.sohu.com/">新闻</a>-<a class="n3" href="http://mil.sohu.com/">军事</a>-<a href="http://cul.sohu.com/">文化</a>-<a href="http://history.sohu.com/">历史</a>-<a class="n3" href="http://sports.sohu.com/">体育</a>-<a href="http://sports.sohu.com/nba.shtml">NBA</a>-<a href="http://tv.sohu.com/">视频</a>-<a class="n3" href="http://yule.sohu.com/">娱乐</a>-<a href="http://business.sohu.com/">财经</a>-<a href="http://stock.sohu.com/">股票</a>-<a class="n3" href="http://it.sohu.com/">科技</a>-<a href="http://auto.sohu.com/">汽车</a>-<a href="http://www.focus.cn">房产</a>-<a class="n3" href="http://fashion.sohu.com/">时尚</a>-<a href="http://health.sohu.com/">健康</a>-<a href="http://learning.sohu.com/">教育</a>-<a class="n3" href="http://baobao.sohu.com/">母婴</a>-<a href="http://travel.sohu.com/">旅游</a>-<a href="http://chihe.sohu.com/">美食</a>-<a class="last" href="http://astro.women.sohu.com/">星座</a></div>
+<!-- 导航 end -->
+
+
+<!-- 翻牌广告 st -->
+<div id="turn-ad" class="area">
+	<div class="left">
+		<SOHUADCODE><script type="text/javascript" src="http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"></script>
+<script type="text/javascript" src="http://txt.go.sohu.com/ip/soip"></script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird950100V20140925.js" ></script><div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="center">
+		<SOHUADCODE><script> var config = { passion:{ PAGEID : "news-article" , CHANNELID : "2"} }; </script>
+<script src="http://images.sohu.com/saf/static/0/1000060.shtml"></script>
+<script src="http://txt.go.sohu.com/ip/soip"></script>
+<script src="http://images.sohu.com/bill/s2013/gates/js/Sohu-0.3.8.min.js"></script>
+<script src="http://images.sohu.com/bill/default/sohu-require.js"></script><div class=TurnAD20> 
+<div id=TurnAD20 width=970 height=90>
+ <script language=javascript>
+try{
+var TurnAD20=new Cookie(document,"TurnAD20",24);
+TurnAD20.load();
+TurnAD20.visit=(TurnAD20.visit==null)?parseInt(Math.random()*2+1):TurnAD20.visit;
+if(TurnAD20.visit!=0)var intTurnAD20=TurnAD20.visit;
+TurnAD20.visit++;
+TurnAD20.visit=(TurnAD20.visit>2)?1:TurnAD20.visit;
+TurnAD20.store();
+function showTurnAD20(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+
+document.getElementById('TurnAD20').innerHTML ='<iframe width=970 height=90 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=932:5&location_info=0&callback=getjjsku_callback></iframe>';
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9613d5ba8f97474f83901795d19d2686.php?a=0");}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD20",_ID = "10013",_W = 970,_H = 90,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD20(intTurnAD20);
+}catch(e){}
+</script>
+</div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="right">
+		<SOHUADCODE><div>
+</div>
+</SOHUADCODE>
+	</div>
+</div>
+<!-- 翻牌广告 end -->
+
+
+<!-- 频道导航 st -->
+<div id="channel-nav" class="area">
+	<div id="mypos" class="left" itemprop="mypos"><a href="http://news.sohu.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/news_logo3.gif" width="110" height="24" alt="" /></a><span>&gt; <a href=http://news.sohu.com/1/0903/61/subject212846158.shtml>国内要闻</a> &gt; <a href=http://news.sohu.com/s2005/shishi.shtml>时事</a></span></div>
+	<div class="navigation" style="display:none" ><a href=http://news.sohu.com/>新闻中心</a> &gt; <a href=http://news.sohu.com/guoneixinwen.shtml>国内新闻</a> &gt; <a href=http://news.sohu.com/1/0903/61/subject212846158.shtml>国内要闻</a> &gt; <a href=http://news.sohu.com/s2005/shishi.shtml>时事</a></div>
+	<div class="right"><a href="http://news.sohu.com/guoneixinwen.shtml" target="_blank">国内</a> | <a href="http://news.sohu.com/guojixinwen.shtml" target="_blank">国际</a> | <a href="http://news.sohu.com/shehuixinwen.shtml" target="_blank">社会</a> | <a href="http://mil.news.sohu.com/" target="_blank">军事</a> | <a href="http://star.sohu.com/" target="_blank">评论</a>
+
+
+<style>
+
+                   #channel-nav{position:relative;}
+
+                   #channel-nav .logo-ad{position:absolute; left:490px; top:5px;}
+
+         </style>
+
+         <div class="logo-ad">
+
+                   
+         </div></div>
+</div>
+<!-- 频道导航 end -->
+<div id="container" class="area" itemscope itemtype="http://schema.org/NewsArticle" itemref="mypos">
+	<div class="content-wrapper grid-675">
+		<!-- 广告 -->
+		<div class="ad675">
+			<SOHUADCODE>
+</SOHUADCODE>
+		</div>		
+		<div class="content-box clear">
+			<!-- 文章标题 -->
+			<h1 itemprop="headline">习近平帮助福建少数民族群众脱贫致富纪事</h1>
+			<!-- 正文标签 -->
+			<div class="label-ad clear" id="commentTab">
+				<div class="label">
+					<ul>
+						<li class="text-label" itemprop="isHot" content="true"><em>正文</em></li>
+						<li class="com-label"><em><a href="http://pinglun.sohu.com/s427626025.html" itemprop="discussionUrl">我来说两句<span class="f12">(<span class="red" id="changyan_parti_unit"><img src="http://comment.news.sohu.com/upload/comment4/images/loading_blue.gif" width="16px" height="16px" /></span>人参与)</span></a></em></li>
+					</ul>
+				</div>
+				<div class="ad">
+					<div class="adFrag"><SOHUADCODE>
+</SOHUADCODE></div>
+					<div class="scan-handset" id="scan-handset"><a class="scan-icon" href="javascript:void(0)">扫描到手机</a></div>
+				</div>
+				<div class="scan-layer" id="scan-layer-id">
+					<div class="scan-pic"><img width="99" height="99" alt="" src="http://news.sohu.com/upload/article/2012/images/pic/scan_pic_98x98.gif"></div>
+					<div class="scan-layer-close"><a href="javascript:void(0)">关闭</a></div>
+				</div>
+				<script type="text/javascript">
+					jQuery(function(jq){
+					    if(jq("#scan-layer-id .scan-pic img").length > 0){
+	                           var theU = "http://s1.rr.itc.cn/qrcode/m/n/"+427626025+".png";
+	                           jq("#scan-layer-id .scan-pic img").attr("src",theU);
+	                    }
+						jq("#scan-handset").click(function(){
+							jq("#scan-layer-id").show();
+						});
+						jq("#scan-layer-id .scan-layer-close a").click(function(){
+							jq("#scan-layer-id").hide();
+						});
+					});
+				</script>
+			</div>				
+			<!-- 时间 来源 -->
+		    <div class="time-fun clear">
+				<div class="time-source">
+					<div class="time" id="pubtime_baidu" itemprop="datePublished" content="2015-11-23T09:33:41+08:00">2015-11-23 09:33:41</div>						
+					<div class="source">
+						
+						<span class="sc" id="source_baidu" >来源：<span id="media_span" itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">新华网</span></span></span>
+						
+						
+					</div>				
+				</div>
+				<style>
+				#container .time-fun .time-source{width:420px}
+				#container .time-fun .time-source .source{width:293px}
+				#container .time-fun .function .phone-ctcp a{padding-left:16px;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 1px}
+				</style>
+                <div class="function">
+					<ul>
+						<li class="phone-ctcp"><a href="http://k.sohu.com/" target="_blank">手机看新闻</a></li>
+						<li class="transmit_txt"><a href="javascript:void(0)">保存到博客</a></li>
+						<li class="fontsize"><a href="javascript:void(0)"></a>
+							<div class="fontsize-layer"><a href="javascript:doZoom(16)">大</a>|<a href="javascript:doZoom(14)">中</a>|<a href="javascript:doZoom(12)">小</a></div>
+						</li>
+						<li class="print"><a href="javascript:printArticle()"></a>
+							<div class="print-layer"><a href="javascript:printArticle()">打印</a></div>
+						</li>                                      
+					</ul>
+				</div>
+			</div>
+			<SOHUADCODE>
+</SOHUADCODE>
+			
+            
+            			
+			<!-- 正文 -->
+			<div class="text clear" id="contentText">
+				<div itemprop="articleBody"><p>　　全面实现小康，少数民族一个都不能少</p>
+<p>　　——习近平同志帮助福建少数民族群众脱贫致富纪事</p>
+<p>　　从闽东福鼎市的磻溪镇出发，沿山间公路盘旋23公里，有一个青山环抱的畲族村——赤溪。这里被称作“全国扶贫第一村”，穷村巨变的故事，远近闻名。</p>
+<p>　　羊年春节的畲村沉浸在幸福之中，一个振奋人心的消息让村民格外激动：“习总书记夸赞我们村啦！”</p>
+<p>　　1月29日，习近平总书记在国家民委一份简报上批示：“30年来，在党的扶贫政策支持下，宁德赤溪畲族村干部群众艰苦奋斗、顽强拼搏、滴水穿石、久久为功，把一个远近闻名的&lsquo;贫困村&rsquo;建成&lsquo;小康村&rsquo;。全面实现小康，少数民族一个都不能少，一个都不能掉队，要以时不我待的担当精神，创新工作思路，加大扶持力度，因地制宜，精准发力，确保如期啃下少数民族脱贫这块&lsquo;硬骨头&rsquo;，确保各族群众如期实现全面小康。”</p>
+<p>　　时光回溯到20多年前。从1988年6月调任宁德地委书记起，习近平就和闽东畲族群众结下了深深的情缘，倾力推动包括畲族群众在内的闽东人民脱贫致富。在《摆脱贫困》一书的《畲族经济要更开放些》、《巩固民族大团结的基础——关于促进少数民族共同繁荣富裕问题的思考》等专门篇章中，习近平对民族地区脱贫致富问题进行了深刻的分析和思考，提出了一系列政策举措。</p>
+<p>　　在调任福州市委书记、担任省委和省政府领导后，习近平依然深深牵挂着少数民族群众。为帮助他们和全省人民一道致富奔小康，习近平亲力亲为，制定帮扶政策，帮助少数民族发展经济，增强“造血”能力；走村入户，关心百姓疾苦，为他们摆脱贫困想方设法。</p>
+<p>　　踏着新春的节拍，本报采访组走进宁德、福州等地，与少数民族干部群众一起回忆习近平同志在闽工作期间情系少数民族群众，帮助少数民族群众脱贫致富的点点滴滴；也记录下他们牢记总书记嘱托，坚定信心、自力更生、艰苦奋斗，在全面建成小康社会的道路上阔步前行的生动实践。</p>
+<p>　　我们的事业方方面面，千万不能漠视少数民族事业这一重要方面。这是一个原则。我们有必要深刻思考关于促进少数民族共同繁荣、富裕的问题</p>
+<p>　　“我和畲族是有缘分的&hellip;&hellip;在闽东，我耳闻目睹了畲族人民的艰苦奋斗和畲族地区的繁荣进步&hellip;&hellip;今天，我虽然离开了闽东，但时常还会回忆起畲乡的山山水水，我的心系着畲族人民。”</p>
+<p>　　1999年，在《一切为了畲族的发展——〈畲族社区研究〉序言》中，时任省委副书记习近平这样写道。言之切切，情意深深。朴素的话语背后，是习近平对少数民族群众的深厚感情。</p>
+<p>　　福建是一个少数民族散杂居省份，少数民族人口近80万。其中，畲族人口全国最多，目前共有36.55万人，占全国畲族人口的一半以上。</p>
+<p>　　从1985年6月调任厦门，到2002年10月调任浙江，在福建工作的17年半里，习近平始终心系少数民族群众的冷暖，牵挂少数民族地区的发展。</p>
+<p>　　宁德是我省和我国畲族人口最集中的地区，全省三分之二的畲族人口聚居于此。畲族自称“山哈”，意思是“山里的客人”。1988年6月习近平担任宁德地委书记后，就特别关心这些山区居民。他既从一地群众的生产生活着眼，又从各民族共同发展的国家大局着眼，他当时说的话、做的事，今天重温起来仍觉得振聋发聩。</p>
+<p>　　“民族问题是一个带有根本性的问题，是社会发展总问题的一部分&hellip;&hellip;做好民族工作，有重要的现实意义和深远的历史意义。”1989年1月，在宁德地区民委第七次委员（扩大）会议上，习近平从战略高度阐述了做好民族工作的重要性。</p>
+<p>　　多次深入畲乡、走进畲族群众中，对民族问题，习近平有了更多更深刻的思考。1989年6月，他写下《巩固民族大团结的基础——关于促进少数民族共同繁荣富裕问题的思考》，系统阐述了做好民族工作的大略方针。</p>
+<p>　　“我们的事业方方面面，千万不能漠视少数民族事业这一重要方面。这是一个原则，基于这个原则，我们有必要深刻地思考关于促进少数民族共同繁荣、富裕的几个问题，我们的出发点和归宿是要巩固民族大团结的基础。”在这篇后来收入《摆脱贫困》一书的长文中，习近平写道。</p>
+<p>　　1990年4月，习近平开始主政省会福州。虽然福州的少数民族人口相对不多，有8万多人，约占全市总人口的1.3%，但习近平依然保持着对做好民族工作的思考，对少数民族群众依然牵挂在心。</p>
+<p>　　1993年6月14日，习近平顶着烈日，翻山越岭，驱车来到大山深处的罗源县霍口畲族乡福湖村，看望畲族群众。得知全村已通水、通电、通路，当年村民人均收入能达到1400元，习近平满意地笑了。</p>
+<p>　　他语重心长地说，民族工作是党和政府的一项重要工作，做好这项工作是全国各族人民的共同心愿，是中华民族大团结的保证，意义十分重要。</p>
+<p>　　习近平还嘱咐乡、村干部，要因地制宜搞好扶贫开发，着力发挥本乡优势，做好山的文章；要引进有经济效益的企业，在林竹深加工上下功夫，让群众有实实在在的收入；要发挥党团员的模范带头作用，带领群众脱贫致富。</p>
+<p>　　时任霍口乡乡长兰贵春回忆说：“那天，习书记始终带着笑容和大家交流，亲切温和，至今让我难以忘怀。”他至今还珍藏着当年的笔记本。</p>
+<p>　　贴心的话语，是温暖，更是激励。多年来，霍口畲乡群众大力发展食用菌、毛竹等特色农业产业和畲乡旅游，收入节节高。目前，仅种植食用菌，一年就可净赚3000多万元。</p>
+<p>　　担任省委和省政府领导后，习近平在繁忙的工作中，仍时时关注少数民族群众。每年，他都深入包括闽东在内的少数民族聚居乡村调研考察、看望慰问。</p>
+<p>　　做好民族工作，发展是第一要义，首先要抓住经济建设这个中心。</p>
+<p>　　在宁德工作时，习近平就认为，民族问题更集中地反映在少数民族和民族地区迫切要求加快经济文化建设的问题上。加速发展民族地区经济，是民族工作的主要内容。</p>
+<p>　　主政福州期间，他在刊于《福建民族》1994年第6期的署名文章《搞好民族地区经济工作，开创我市民族工作新局面》中，更提出了“民族地区的经济发展，直接关系到我们整个国家现代化建设宏伟目标的实现&hellip;&hellip;它不仅是一个经济问题，也是一个政治问题”的科学论断。</p>
+<p>　　1996年8月5日至10日，习近平专程到闽东调研指导奔小康工作。“全省能否实现小康，关键看闽东。”他指出，闽东地区民族工作要突出脱贫致富奔小康这个重点，促进民族地区经济发展，保证他们与全区、全省同步进入小康。</p>
+<p>　　在上世纪八九十年代，加快民族地区经济发展，最迫切的就是摆脱贫困。这是基于当时经济、社会发展状况作出的战略判断。</p>
+<p>　　上世纪80年代，由于历史、地理原因，宁德大多数畲乡商品经济不发达，有的还处于自然经济、半自然经济状态；畲族群众大都居住在偏远地区，交通不便，信息不灵，生活较为困顿。总体而言，“闽东畲族的贫困面还比较广”。</p>
+<p>　　1984年9月，中共中央、国务院下发《关于帮助贫困地区尽快改变面貌的通知》，拉开了全国性扶贫攻坚工作的序幕。</p>
+<p>　　到任宁德地委书记后，经过深入的调查研究，习近平敏锐地提出，当时闽东的老百姓连温饱都成问题，区情、区力根本不具备跨越式发展、大规模开发的条件，应当把以解决吃饭穿衣住房问题为内容的“摆脱贫困”作为工作主线，并特别强调：“考虑闽东的脱贫问题不能不考虑畲族问题。”</p>
+<p>　　摆脱贫困，千头万绪，当从何入手？</p>
+<p>　　“脱贫是一项长期艰巨的任务，要有打持久战的思想准备。扶贫先要扶志，要从思想上淡化&lsquo;贫困意识&rsquo;。不要言必称贫，处处说贫。”1988年9月，习近平在到任宁德3个月后写下的第一篇调查报告《弱鸟如何先飞——闽东九县调查随感》中，给出了有力回答。</p>
+<p>　　人穷不能志短，更要振奋精神往前奔，滴水穿石，久久为功。无论是在闽东，还是在福州，再到省委和省政府任职，习近平始终强调要以滴水穿石的韧劲，苦干实干求发展。</p>
+<p>　　精气神足了，摆脱贫困的步伐才能更坚定。在习近平的激励下福安市康厝畲族乡东山村的变化，就是生动一例。</p>
+<div align="center"><img src="http://photocdn.sohu.com/20151123/Img427626026.jpeg" alt="1999年6月，时任福建省委副书记习近平到福安市康厝乡东山畲村调研。（资料图片）" align="middle" border="1" /></div>
+<div align="center"><span style="font-size: 12px;">1999年6月，时任福建省委副书记习近平到福安市康厝乡东山畲村调研。（资料图片）</span></div>
+<p>　　1999年6月，时任省委副书记习近平来到这个因地质灾害频发而整村搬迁的畲村调研。因为村支书和村主任都不会说普通话，就由33岁的村会计钟晋金汇报情况。“习书记问了我村民和村集体收入情况，我告诉他，村集体收入主要靠一片村集体的茶山，一年能收承包金900元，村民人均年收入不到1000元。”钟晋金回忆说。</p>
+<p>　　习近平听得很专注，然后对大家说，虽然整村搬迁了，生活改善了，但这还达不到小康水平。他当场在一张白纸上写下十六个字：自力更生，发展经济，奋发有为，再创辉煌。</p>
+<p>　　临别时，习近平拍着钟晋金的肩膀说，小伙子，你很年轻，要好好干，先动起来，奔上小康路。</p>
+<p>　　这一番话，让钟晋金动起来了。不久，他东挪西凑借了8万元，买了部二手大货车拉杂货，起早摸黑苦干，短短两年，就还清了债。之后，他又和别人合伙买了三部大货车，专业做物流。“现在，一年收入超过15万元，日子过得很好。”钟晋金说。</p>
+<p>　　动起来的不仅仅是钟晋金，许多东山人走出大山，外出打拼。现任村支书缪石坤说，目前，全村988人中有近200人在外从事建筑行业，仅此每年就有上千万元的收入。2014年，村民人均收入12000元。</p>
+<p>　　<strong>要大力加强基础设施建设，为工农业发展、扩大对外开放创造必要条件</strong></p>
+<p>　　谋定后动，行且坚毅。</p>
+<p>　　谋民族地区脱贫致富之略，必须立足于实际。</p>
+<p>　　在深入的调研中，习近平看到的是这样的一种实际——闽东畲族绝大多数居住于边远山区，基础设施十分薄弱，路、水、电不通问题尤为突出，致使这些地方广阔的山场、肥沃的土地等得不到很好的开发利用。</p>
+<p>　　针对这个实际，习近平认为，要引导和帮助少数民族群众摆脱封闭、单一的自然经济状态，跨出自己的小天地，根据本地的特点，开发资源和开拓市场并举。</p>
+<p>　　不论是开发资源，还是开拓市场，前提是突破交通等瓶颈，改善生产生活条件，筑牢发展之基。习近平说，基础设施落后已成为闽东经济发展的“卡脖子”问题，我们要予以足够的重视，大力加强基础设施建设，为工农业发展、扩大对外开放创造必要条件。</p>
+<p>　　少数民族群众要脱贫致富，必须拔掉这个穷根！</p>
+<p>　　在闽工作期间，对民族地区基础设施建设、改善少数民族群众生产生活条件，习近平倾力推动。</p>
+<p>　　到任宁德不久，习近平就挂钩扶贫福安坂中畲族乡。</p>
+<p>　　坂中是闽东地区畲族聚居最集中、人口比例最高的乡镇。这里距福安城关很近，却穷得叮当响，最主要的原因就是交通瓶颈。1958年，途经坂中的福安—穆阳公路启动建设，后因故停建。到上世纪80年代，坂中通往外界靠的是小木船摆渡，从乡里到各村，只有鹅卵石铺的古官道，“交通基本靠走”。习近平挂钩坂中后，大力推动这条公路恢复建设。同期，该乡民族公路、老区公路也开工建设。坂中畲族群众走向外面的世界，终于有了比较方便的通道。</p>
+<p>　　能修路的地方就修路，条件恶劣、无法修路的地方就搬迁。1985年扶贫工作刚起步时，宁德就针对偏远地方的受灾户实施“救灾搬迁”工程，迁出的群众较快地脱了贫。从上世纪80年代末开始，又对一些发展基础和条件较差的贫困村、受灾村、草房村（户）实施搬迁。习近平在宁德工作期间，倾力推动这项工程。到1993年，全区已有76个村1289户6235人完成搬迁。</p>
+<div align="center"><img src="http://photocdn.sohu.com/20151123/Img427626033.jpeg" alt="1989年春节，时任宁德地委书记习近平看望慰问蕉城区九都镇九仙山畲村在强台风中受灾的群众。（资料照片）" align="middle" border="1" /></div>
+<span style="font-size: 12px;">　　1989年春节，时任宁德地委书记习近平看望慰问蕉城区九都镇九仙山畲村在强台风中受灾的群众。（资料照片）</span>
+<p>　　这一为民惠民之举，被老百姓亲切地称为“造福工程”。人们在新居贴上“造出一番新天地，福到农家感党恩”的大红对联，表达朴素而真挚的感恩之情。</p>
+<p>　　1994年，福建省将“造福工程”列入省委和省政府为民办实事项目。宁德的搬迁工程也受惠于此，然而，由于点多面广、资金有限，力度还有待加大。</p>
+<p>　　1997年5月，省政协的一份调研报告摆在分管全省农业、农村工作的时任省委副书记习近平的案头。报告反映，尽管近几年来全省脱贫致富奔小康工作取得了显著成绩，但在闽东仍有一些少数民族群众住在以茅草为顶、泥土为地的茅草房里。</p>
+<p>　　习近平高度重视，多次召集有关部门商讨解决办法，并深入闽东的福鼎、霞浦等地调研，形成专题调研报告，建议进一步把闽东民族居住区的脱贫致富奔小康工作作为重点，在政策、资金等方面给予扶持。</p>
+<p>　　根据习近平的调研报告，省委和省政府决定，从1998年开始，把茅草房改造和连家船民上岸定居，列为“造福工程”的重要组成部分开始实施。</p>
+<p>　　福建在全国率先实施的“造福工程”硕果累累，截至目前，全省有6000多个自然村、101万人整体搬迁。</p>
+<p>　　搬出大山的群众，生产生活如何？这是习近平心中的又一牵挂。</p>
+<p>　　宁德蕉城区霍童镇东岭村村民70%是畲族。他们原先居住在深山，生存环境恶劣。村主任钟庆双还记得，那时出门买点东西，来回需要两个多小时；有一次，半夜醒来，发现山洪都冲到床铺前了。1993年，得益于“造福工程”，他们搬出大山，不仅居住安全，交通也方便多了。</p>
+<p>　　1999年6月8日，时任省委副书记习近平来到村里调研，和村民座谈。</p>
+<p>　　“村民没见过这么大领导，都不敢说话。习书记就鼓励大家说，我们来调研就是要听大家讲真话、讲实话，有什么困难大胆讲。”时任村支书黄如椿回忆，一听这话，大家纷纷说出心里话：村路还是沙石路，靠肩挑人扛，一天只能把两根毛竹弄下山，如果路修好了用车运，一天几十根没问题；没钱架电缆，电压不稳，买了电视也看不上&hellip;&hellip;</p>
+<p>　　“没想到习书记当场协调有关部门给予东岭村12万元的资金支持，帮助解决问题。2000年，村里就架设了新电缆，村道也硬化成了水泥路。”黄如椿说，当时，习近平还嘱咐，少数民族地区要发展，上面的部门能支持的一定支持，同时畲汉两族群众也要自力更生，因地制宜发展农业。</p>
+<p>　　座谈会结束后，习近平还主动提议与畲村的干部群众一起拍照留念。后来，村民特意将照片放大洗印后挂在村部。</p>
+<p>　　15年过去了，墙上的照片渐渐泛黄，东岭村村民的日子却越过越红火，两三层的楼房随处可见。这些年，村里因地制宜，发展毛竹、茶叶、水果等种植业，去年全村农业总产值达390万元。</p>
+<p>　　那次调研，习近平还到了周宁、福安的一些老区基点村和少数民族村。他说，贫困地区基本都位于老区和民族聚居区，对民族聚居区要像对待老区基点村一样进行扶持，下基层要多跑困难的山区，多往那些交通不便甚至不通公路的山村走走。要带着感情去调研，从根本上去扶贫。</p>
+<p>　　1999年7月，省委和省政府急群众之所急，庄严承诺：在今明两年（指1999年—2000年）内基本解决老区和少数民族建制村的“五通”（通路、通饮用水、通电、通电话、通广播电视工程）建设问题！并且将其列为2000年省委和省政府15件为民办实事项目之一。</p>
+<p>　　这两年，全省投入“五通”建设的资金达4.6亿多元。其中，1999年投入3.48亿元，是有史以来“五通”建设资金投入最多、力度最强、规模最大的一年。</p>
+<p>　　到2000年底，全省近3000个老区和少数民族建制村“五通”建设任务基本完成，之后两年又进行了完善提高。省委和省政府的庄严承诺郑重兑现。</p>
+<p>　　<strong>畲族地区在外来“输血”的同时，一定要增强自身的“造血功能”</strong></p>
+<p>　　善弈者谋势。</p>
+<p>　　上世纪80年代末，当时主政宁德的习近平作出了一个具有战略意义的判断：“90年代，闽东畲族地区开始从解决温饱问题为重点的摆脱贫困时期，进入以经济开发和开放为重点的实现小康时期。”</p>
+<p>　　要让畲族群众过上好日子，发展是硬道理！但怎样才能有真正的发展？习近平当时就给出了明确回答——“畲族地区在外来&lsquo;输血&rsquo;的同时，一定要增强自身的&lsquo;造血功能&rsquo;。”</p>
+<p>　　为鼓励、帮助民族地区增强自我发展能力，习近平倾注了大量心力。</p>
+<p>　　1988年7月，习近平到任宁德后不到一个月，就来到畲族人口占60%的福安市甘棠镇过洋村调研。</p>
+<p>　　“那时，村里最多的是葡萄架和蘑菇房。”时任村支书钟祥应回忆说，“习近平就顶着烈日，沿着进村的机耕路，边走边察看地里的葡萄。”</p>
+<p>　　这里的巨峰葡萄，是1986年村民在当地民宗部门的帮助下种起来的。虽然还没到葡萄成熟的季节，但一串串诱人的果实已经挂满了葡萄架。</p>
+<p>　　“习书记很关心葡萄的销路。听到猪肉一斤两块六，葡萄一斤可以卖两块八到三块，加上蘑菇、林地等，平均下来村民一年收入能有七百元，他很高兴，连声称赞做得好。”钟祥应说，习近平鼓励大家，要发挥自己的优势，不断解放思想，开拓思路，走林业、种植业等多元发展的道路。</p>
+<p>　　过洋村人牢记习近平的教诲，勇敢闯市场，不断拓展新的致富门路。1990年，过洋村被国家民委授予“全国少数民族团结先进村”称号，村里的青年葡萄种植能手钟菊春被评为“全国科技星火带头人”。1992年，看到培育茶苗效益比葡萄还要高出几倍，过洋人立即跟进。如今，他们培育的茶苗远销广东、广西、云南等地，甘棠镇也成为全国有名的茶苗繁育基地。2014年，全村工农业总产值达860万元。</p>
+<p>　　习近平为闽东畲族地区的发展，规划了一个科学的路线图——树立“市场为主导”的战略思想，确立一条“市场—技术—资源”的发展战略，走“双向开放”和“双向开发”之路。“双向开放”即对内、对外同步开放，“双向开发”即资源、市场同时开发。</p>
+<p>　　福安畲族经济开发区就是在习近平的关心、指导下，走上这条良性发展之路的。</p>
+<p>　　穆阳一带是福安市畲族人口聚居地。为加快穆阳发展，经宁德地委、行署批准，福安市穆阳民族经济开发区于1993年3月成立，属乡镇级机构。</p>
+<p>　　1998年9月，在时任省委副书记习近平的亲自关心下，省政府批文确认原穆阳民族经济开发区为省级开发区，并更名为福安畲族经济开发区，成为我国唯一以民族名称命名的开发区。</p>
+<p>　　然而，开发区发展的步子还迈得不够大。“除了一块牌子、一枚公章、抽调了几名工作人员，没有一块自己的地，连办公场所都是借的，将来如何发展心里没底。”原开发区党工委副书记雷瑞华回忆说。</p>
+<p>　　1999年6月，习近平带领有关部门的同志专程到开发区调研。听完汇报，习近平说，畲族开发区与其他地方的开发区不同，不在大城市近郊，不是交通枢纽，也没有港口；在这种条件下，开发区要根据民族地区的实际，立足地方资源优势，发展高优农业和农产品加工业，等条件成熟了再发展工贸旅游业。正是循着这一思路，开发区成了“双向开放”和“双向开发”示范平台。</p>
+<p>　　习近平当年为福建民族地区发展规划的美好蓝图，正逐渐成为现实。</p>
+<p>　　<strong>大力培养少数民族干部，使少数民族干部能够尽快成长起来，成熟起来</strong></p>
+<p>　　民族地区缺技术、缺人才，要脱贫致富，人才是关键。而干部的培养又是关键中的关键，因为干部犹如火车头，能发挥引领、带动作用。</p>
+<p>　　1989年1月，在宁德地区民委第七次委员（扩大）会议上，他就提出要“注意培养民族干部”；同年12月，在原宁德市（现蕉城区）首届民族团结进步表彰大会上，他指出：“怎样培养人才的问题，主要是干部问题&hellip;&hellip;要有意识地采取一些特殊的办法来培养少数民族干部，使少数民族干部能够尽快地成长起来，成熟起来。”</p>
+<p>　　在《巩固民族大团结的基础》中，习近平进一步提出，要“从战略的高度，大力培养少数民族干部”。他阐释说：“少数民族干部与本民族有着天然的联系，善于反映少数民族的意愿和要求，是我们在民族地区贯彻执行民族政策的纽带和桥梁。在民族地区的具体工作中，少数民族干部有着特殊的不可替代的重要作用。所以，大力培养少数民族干部，是党的一项重要政策，是解决民族问题的关键。”</p>
+<p>　　曾与习近平共事的原宁德地委副书记钟雷兴，是一步步成长起来的畲族干部。“习近平同志职务比我高，但对我非常尊重。当时，他特别强调，要注意发现和培养少数民族干部的后备力量，少数民族领导干部在地、县两级中要有一定的比例。对少数民族聚居在千人以上的乡、镇，至少要配备一个少数民族副职领导。”钟雷兴说。</p>
+<p>　　正是在习近平的倡导和推动下，宁德把培养、使用少数民族干部工作摆上重要的位置。宁德地委专门下发文件，要求少数民族人口万人以上的5个县（市），都要配备1名少数民族的副县（市）长或常委，在少数民族人口千人以上的乡镇，至少配备1名少数民族的党政领导。组织部门和福安、霞浦等地还有计划地选送少数民族干部到省委党校、中央民族大学、福建师大等院校学习培训。</p>
+<p>　　车头真正带动了火车。一大批少数民族干部在闽东摆脱贫困、加快经济社会发展的进程中，发挥了重要作用。</p>
+<p>　　福鼎市政协原主席李宗廉是畲族人，1978年从中央民族大学毕业后，先后在原福鼎县工业局、县委组织部工作，1983年调任柘荣县委常委、组织部长。1988年10月，他被调回福鼎任县委常委、县委办主任。“组织谈话时，我很意外。柘荣是山区县，人口才几万，按常规流程要调整到沿海的大县福鼎比较难。这体现了党委政府对少数民族干部的培养和信任。”李宗廉说。</p>
+<p>　　李宗廉调任福鼎后，协调改善福鼎民族中学办学条件、筹资修建龙头湾村通村公路&hellip;&hellip;为畲族同胞办了许多实事。现任宁德市人大常委会副主任雷维善，也是在党和政府的培养下成长起来的畲族干部。</p>
+<p>　　少数民族聚居的县市需要少数民族干部，少数民族聚居的乡村更需要脱贫致富的领头雁。他们善于反映少数民族的意愿和要求，为少数民族群众谋福利。</p>
+<p>　　调任福州市及担任省委和省政府领导后，习近平一如既往重视少数民族干部的培养。在制定国民经济和社会发展五年规划时，福建省同步制定了培养选拔少数民族干部五年规划。省委、省政府1998年10月下发《关于加快我省少数民族和民族地区经济、社会发展的若干政策措施》，专列一节提出“大力培养选拔少数民族干部，造就一大批跨世纪的少数民族各类人才”。</p>
+<p>　　<strong>教育问题是绝对不允许“等一等”的，必须真正把教育摆在先行官的位置</strong></p>
+<p>　　十年树木，百年树人。</p>
+<p>　　经济、文化基础薄弱的民族地区，要摆脱“穷”与“愚”互为因果的恶性循环，提升教育水平，既是当务之急，也是长远之计。</p>
+<p>　　由于历史、自然条件等原因，长期以来，畲族群众的受教育水平普遍偏低。</p>
+<p>　　据《福州市畲族志》记载，新中国成立时，福州畲族乡村绝大多数没有小学，更没有幼儿园和中学。罗源全县畲族人口中，累计读小学者不过70人，只有1名初中毕业生，2名初中肄业生。</p>
+<p>　　宁德的情况，与此类似。</p>
+<p>　　主政宁德时，习近平就认为，在闽东老少边岛贫的现实态势下，建设为开放所亟需的、为经济发展所亟需的软环境，“必定要把人才作为软环境中最为重要的一环”，“从中小学开始培养各方面的人才”。因此，“教育问题是绝对不允许&lsquo;等一等&rsquo;的”，必须“真正把教育摆在先行官的位置，努力实现教育、科技、经济相互支持、相互促进的良性循环”。</p>
+<div align="center"><img src="http://photocdn.sohu.com/20151123/Img427626037.jpeg" alt="时任宁德地委书记习近平到福安坂中乡仙岩村考察福安民族实验小学。（资料照片）" align="middle" border="1" /></div>
+<div align="center"><span style="font-size: 12px;">时任宁德地委书记习近平到福安坂中乡仙岩村考察福安民族实验小学。（资料照片）</span></div>
+<p>　　1988年11月，时任福安民族实验小学校长陈春强接待了一位特别的访客，他就是习近平。“地委书记来学校，本以为会有许多领导陪同，哪知他只带了一个工作人员。当时不通公路，到村里得走一个小时山路。”陈春强说。</p>
+<p>　　位于坂中乡仙岩村的这所学校，教学质量不错，校园不到2亩，却挤了500多名学生，上课、吃饭甚至睡觉都只能在教室。习近平走进班级，详细询问孩子们生活、学习等情况，没有说太多的话。</p>
+<p>　　在不久后的一篇文章中，习近平写道：“我走了不少乡村，看到不少简陋的校舍，心里沉甸甸的。在同农村干部、农民专业户的交谈中我更加感到科技兴农、人才兴业的重要和紧迫。”</p>
+<p>　　越穷的地方越难办教育，但越穷的地方越需要办教育。办好少数民族教育，是习近平最关心的问题之一。</p>
+<p>　　1989年初夏的一天，太阳刚爬出山坳，福安坂中畲族乡大林村党支部书记钟通弟正在秧田里劳动，远远看见三个陌生人向村里走来。</p>
+<p>　　那时，大林没有通路，一尺宽的山间小路崎岖陡峭，从乡里来，脚力好的也要走一个多小时。</p>
+<p>　　三人走近后，一人指着中间一位满头大汗的年轻人说：“这是地委习书记，来村里了解情况。”</p>
+<p>　　“我满身泥、满手汗，可习书记一点不嫌弃，主动伸出手和我握手。”钟通弟回忆说。放下秧苗，他就带三人往村里走，边走边介绍村里情况。</p>
+<p>　　村口，有间只有两个小窗洞的老土坯房。那就是大林小学。钟通弟说，全校4个年级47个学生，都挤在这唯一的教室里，就一个老师，每节课一个年级只能分到10分钟。学生要读五年级，就得去隔壁仙岩村。</p>
+<p>　　听着钟通弟的介绍，看着孩子们破旧的衣衫，习近平神情凝重。大林小学和这里的孩子，成了他的牵挂。</p>
+<p>　　不久之后，习近平专门委托挂钩帮扶大林村的宁德军分区政委赵法文去看看孩子们。赵法文一行肩挑手扛，大包小包，送去各种学习用品。每个孩子领到一个书包、一个铅笔盒、十支铅笔，他们还收到了从未见过的漂亮衣服，女生是连衣裙，男生是短衫短裤套装。</p>
+<p>　　在习近平的关心帮助下，大林村后来筹措到专项资金，建起了两层楼、四间房的新校舍。</p>
+<p>　　1991年6月，在福州市委和市政府罗源现场办公会上，时任福州市委书记习近平说，由于欠债太多，畲族地区的教育还很落后，应当依靠各方面的力量，一起下决心，花大力，尽快全面提高山区农民的文化素质。</p>
+<p>　　1993年6月14日，习近平到罗源霍口畲族乡调研时，特地去了福湖小学。看到还不富裕的福湖村花了20多万元建起两层教学楼，得知学校正在申报县民族中心小学，他大为肯定。</p>
+<p>　　办好教育，硬件建设很重要，软件也得同步跟上。习近平说，要创造条件，吸引优秀教师到民族地区任教。他还特别叮嘱老师，要让孩子们学会说畲语。</p>
+<p>　　就在到福湖小学的同一天，习近平还沿着田间小路，察看了位于罗源城关、正在建设中的福州民族中学新校园。</p>
+<p>　　首任校长游文良回忆说，由于当时县政府财力有限，这所1992年创办的学校起步艰难，校舍是借的，连课桌椅都是当时已年过五旬的他带着老师，借板车拉回来的。</p>
+<p>　　在省市县各方的支持下，习近平1993年来到学校时，一栋投资252万元、具有民族风格的四层教学楼已经落成。习近平就完善学校生活配套和课外活动措施、合理确定少数民族师生所占比例、科学设置课程等提出具体要求。他特别强调，要注重在年轻人中传承畲语、畲歌等优秀文化。早在宁德工作时，他就赞畲族文化为“闽东之光”，提出要弘扬民族文化传统，增强民族自信心。</p>
+<p>　　宁德市民族中学是全省成立最早的民族中学，也是我国畲族学生人数最多的民族中学。1998年，学校四十周年校庆之际，时任福建省委副书记习近平欣然题词：“发展民族教育，培育民族人才。”</p>
+<p>　　在习近平担任省长期间，福建对少数民族教育的扶持已形成制度。2002年起，省级财政每年安排400万元民族教育专项资金，重点支持民族学校设施设备配备，改善办学条件。2012年起，该专项资金增加到每年600万元。省直单位和经济发达县（市、区）挂钩帮扶民族乡中，教育一直是挂钩帮扶的重点，十几年来帮扶资金投入达4000多万元。</p>
+<p>　　2002年，省政府专门出台《关于深化改革加快发展民族教育的实施意见》，通过加强统筹、重点扶持、加大投入等一系列政策措施，推动民族教育优先发展。</p>
+<p>　　滴水穿石，星火燎原。</p>
+<p>　　在习近平同志的亲自推动和倾力帮助下，少数民族脱贫事业在我省扎实推进，包括闽东在内的少数民族地区发展成果丰硕，一个又一个像赤溪这样的“穷村巨变”故事，在八闽大地上演，千千万万少数民族群众，脱贫致富奔向小康。2014年，全省民族乡农民人均纯收入和少数民族人均纯收入双双突破万元大关。</p>
+<p>　　“全面实现小康，少数民族一个都不能少，一个都不能掉队。”在扶贫开发已进入新的攻坚期的今天，总书记的殷殷期待，更让八闽干部群众不敢懈怠，更要顽强拼搏，久久为功。</p>
+<p>　　牢记总书记的嘱托，全省上下正携手向贫困宣战，向全面建成小康、实现共同富裕的目标，昂首进发。（本报采访组）</p><script type="text/javascript">// <![CDATA[
+media_span_url('http://news.xinhuanet.com/politics/2015-11/23/c_1117222089.htm')
+//]]></script></div>
+                                
+				<!-- seo标签描述 -->
+				<div style="display:none;">
+					<span id="url" itemprop="url">http://news.sohu.com/20151123/n427626025.shtml</span>
+					<span id="indexUrl" itemprop="indexUrl">news.sohu.com</span>
+					<span id="isOriginal" itemprop="isOriginal">false</span>
+					<span id="sourceOrganization" itemprop="sourceOrganization" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">新华网</span></span>
+					<span id="author" itemprop="author" itemscope itemtype="http://schema.org/Organization"><span itemprop="name"></span></span>
+					<span id="isBasedOnUrl" itemprop="isBasedOnUrl">http://news.xinhuanet.com/politics/2015-11/23/c_1117222089.htm</span>
+					<span id="genre" itemprop="genre">report</span>
+					<span id="wordCount" itemprop="wordCount">13277</span>
+					<span id="description" itemprop="description">全面实现小康，少数民族一个都不能少——习近平同志帮助福建少数民族群众脱贫致富纪事从闽东福鼎市的磻溪镇出发，沿山间公路盘旋23公里，有一个青山环抱的畲族村——赤溪</span>
+				</div>
+			</div>	
+           <div class="original-title"><span class="editer" id="editor_baidu">(责任编辑：un658)</span>
+					
+				    原标题：习近平同志帮助福建少数民族群众脱贫致富纪事
+			         
+			</div>					
+			<!-- 分享 -->
+			<div class="share clear" id="share">
+				
+				
+				
+              <ul>
+                                               <li class="share-tt">分享：</li>
+                                               <li class="blg"><a href="javascript:void(0)" onclick="jumpUrl('t')" title="分享到搜狐微博"></a><em></em></li>
+                                               <li class="qq"><a href="javascript:void(0)" onclick="jumpUrl('qq')" title="分享给QQ好友"></a><em></em></li>
+                                               <li class="rrw"><a href="javascript:void(0)" onclick="jumpUrl('renren')" title="分享到人人网"></a></li>
+                                               <li class="sohukan"><a href="javascript:void(0)" onclick="jumpUrl('sohukan')" title="收藏到搜狐随身看"></a><em></em></li>
+                                               <li class="pr-code" id="uc_reader"><a href="javascript:void(0)"></a>
+						<div class="pr-code-con">
+							<div id="ucshare_config"  appid="142"  width="116" server="http://plus.uc.cn" appCenter="http://app.uc.cn"></div>
+							<div id="ucshare_picture" ></div>
+							<script  type="text/javascript" src="http://ccs.ucweb.com/ccs/13?_e=1h&_t=http%3A%2F%2Fplus.uc.cn%2Fpublic%2Fjs-min%2Fucshare_qrcode_normal.js"></script>
+						</div>
+					</li>
+
+                                               <li class="transmit_txt"><a href="javascript:void(0)">[保存到博客]</a></li>
+                                     </ul>
+				<div class="go_sohu_home"><a href="http://www.sohu.com" target="_blank" onclick="toHomePage();"></a></div>
+				<script type="text/javascript">
+				(function(){
+					var $uvReader = $('#uc_reader');
+					$uvReader.hover(function(){
+						$uvReader.find('.pr-code-con').show();
+					},function(){
+						$uvReader.find('.pr-code-con').hide();
+					});
+				})();
+				</script>
+				<style>
+				#container .share .world-link{float:left;display:inline;margin:5px 0 0 160px;line-height:20px}
+				#container .share .world-link a{padding-left:16px;display:inline-block;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 2px}
+				</style>
+				<div class="world-link"><a href="http://k.sohu.com" target="_blank">手机看新闻</a></div>
+				     				
+                
+				
+            </div>			
+			<!-- 相关 -->
+			
+			
+			
+			<!-- 本文相关推荐-->
+            <!-- 其它频道 -->
+<style>
+#container .tagHotg .tagIntg li a{color:#000}
+#container .tagHotg .tagIntg li a:hover{color:#c00}
+</style>
+			<style>
+/* 相关热点 2010-09-09 */
+#contentA .tagHotg{clear:both;margin:10px auto 0;text-align:left}
+#contentA .tagHotg h3{height:24px;font:600 14px/24px "宋体";color:#333}
+#contentA .tagHotg .tagIntg{display: block;overflow:hidden;zoom:1;clear:both;width:100%;margin:3px auto 0}
+#contentA .tagHotg .tagIntg li{float:left;width:205px;font:14px/24px "宋体"}
+#contentA .tagHotg .tagIntg li a{ text-decoration:none !important;}
+#contentA .tagHotg .tagIntg li a:hover{text-decoration:underline !important;}
+#contentA .text .line{width:100%}
+</style>
+<div class="tagHotg">
+  <h3><a href="http://www.sogou.com/" target="_blank">本文相关推荐</a></h3>
+  <div class="tagIntg">
+    <ul>
+                        <li><a class="hot-icon" href="http://www.sogou.com/web?query=习近平&p=02210102&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len
+="12" ind="1">习近平</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平重要讲话&p=02210102&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="2">
+习近平重要讲话</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平讲话精神&p=02210102&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="3">
+习近平讲话精神</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平中国梦&p=02210102&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="4">
+习近平中国梦</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平强军目标&p=02210102&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="5">
+习近平强军目标</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平钓鱼岛表态&p=02210102&fhintidx=5" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="6">
+习近平钓鱼岛表态</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平出访&p=02210102&fhintidx=6" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="7">
+习近平出访</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平访问俄罗斯&p=02210102&fhintidx=7" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="8">
+习近平访问俄罗斯</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平谈梁静茹&p=02210102&fhintidx=8" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="9">
+习近平谈梁静茹</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平访美&p=02210102&fhintidx=9" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="10">
+习近平访美</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平专机&p=02210102&fhintidx=10" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="11">
+习近平专机</a></li>
+                                <li><a href="http://www.sogou.com/web?query=习近平视察武汉&p=02210102&fhintidx=11" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="12">
+习近平视察武汉</a></li>
+                                </ul>
+  </div>
+</div>
+			<script type="text/javascript">var entityId = 427626025;</script>	
+			
+				<div id="SOHUCS" sid=""></div>
+<script>
+document.domain = "sohu.com";
+if(typeof entityId != 'undefined'){
+    document.getElementById('SOHUCS').setAttribute('sid',entityId); 
+    var category = typeof category != 'undefined' ? category :'';                 
+    var _config = {
+                   hideList: true,               
+                   hideSubList: true,            
+                    jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
+                    varName: entityId, 
+                    customSohu: true,
+                    cyanTitle : '我来说两句',
+                    commentHide : true ,
+                    pageSize: 10,
+                    categoryId: category
+                }
+    }
+    window.SCS_NO_IFRAME = true;
+</script>
+
+<script src="http://assets.changyan.sohu.com/upload/changyan.js?appid=cyqemw6s1&conf=prod_0266e33d3f546cb5436a10798e657d97" charset="utf-8"></script>
+<script type="text/javascript" src="http://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+				
+			<!--图文转载-->
+			<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/pubPicTextV6_20130926.js"></script>
+			<script type="text/javascript">
+				var newsId = 427626025;
+				jQuery.picText.init();
+			</script>
+			<!--图文转载 end-->
+			<!-- 广告 -->
+			<div class="ad590">
+				<div><SOHUADCODE><div>
+<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13022651"></script>
+    <script language=javascript>
+        require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_12022'}); 
+});
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9c21da63769d55542c77e7d98c9c4531.php?a=0");
+</script></div>
+</SOHUADCODE></div>
+			</div>
+			<!-- 20130121 st -->
+			<div class="lottery-box clear" id="sougocaipiao1"><a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">杭州彩民独享2040万大奖</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">双色球头奖8注1118万</a>&nbsp;&nbsp;<a  href="http://caipiao.sohu.com" target="_blank" rel="nofollow">河南彩民随意刮中"富贵8"100万</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com/video/tycpkj/index.shtml" target="_blank" rel="nofollow">体彩开奖</a></div	
+			<!-- 20130121 end -->
+			<div class="mutu clear">
+				<div class="mutu-title">
+					<div class="mutu-news-tt">
+                   <h2><span>相关新闻</span></h2>
+                    </div>
+					<div class="mutu-keyWord-tt">
+                   <h2><span>相关推荐</span></h2>
+                    </div>
+				</div>
+				<div class="mutu-news">
+						<div class="list14">
+							
+
+			 <ul> 		<li><span>15-11-23</span><a href="http://news.sohu.com/20151123/n427587732.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="1" target="_blank">盘点:十八大以来习近平李克强已到访14个邻国(图)</a></li>
+								<li><span>15-11-22</span><a href="http://news.sohu.com/20151122/n427572015.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="2" target="_blank">创新驱动发展战略:习近平与“十三五”十四大战略(</a></li>
+								<li><span>15-11-22</span><a href="http://news.sohu.com/20151122/n427510200.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="3" target="_blank">习近平就3名中国公民马里遇害作批示</a></li>
+								<li><span>15-11-21</span><a href="http://news.sohu.com/20151121/n427500837.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="4" target="_blank">外媒赞习近平“双峰会”之行</a></li>
+								<li><span>15-11-21</span><a href="http://news.sohu.com/20151121/n427477726.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="5" target="_blank">习近平解读绿色发展:中国助力世界可持续发展(图)</a></li>
+								<li><span>15-11-21</span><a href="http://news.sohu.com/20151121/n427464716.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="6" target="_blank">图解:习近平G20和APEC之行彰显中国担当</a></li>
+		 </ul> 	
+
+							
+								<div class="more"><a href="http://news.sogou.com/news?query=习近平 少数民族&pid=31023101&md=listTopics&name=&mode=0&sort=0" rel="nofollow" target="_blank" >更多关于 <strong>习近平 少数民族</strong> 的新闻&gt;&gt;</a> </div>
+							
+						</div>
+				</div>
+				<div class="mutu-keyWord">
+						<div class="list14">
+							<ul>
+	<li><a href="http://pic.sogou.com/pics?query=少数民族&p=31210500&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="1">少数民族的最新图片</a></li>
+	<li><a href="http://www.sogou.com/web?query=脱贫致富奔小康&p=02210100&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="2">脱贫致富奔小康</a></li>
+	<li><a href="http://www.sogou.com/web?query=少数民族歌曲&p=02210100&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="3">少数民族歌曲</a></li>
+	<li><a href="http://www.sogou.com/web?query=云南少数民族&p=02210100&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="4">云南少数民族</a></li>
+	<li><a href="http://www.sogou.com/web?query=中国少数民族&p=02210100&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="5">中国少数民族</a></li>
+	<li><a href="http://www.sogou.com/web?query=少数民族的习俗&p=02210100&fhintidx=5" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="6">少数民族的习俗</a></li>
+<script >
+try{    
+        var i=new Image();
+        i.src='http://pingback.sogou.com/rltpv.png?surl='+escape(window.location)+'&'+Math.random();
+}catch(err){
+}       
+</script></ul>
+						</div>
+				</div>
+			</div>
+	
+			<!-- 搜狗服务 -->
+			<div class="sogouService clear">
+            	<h2><span><a href="http://www.sogou.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/sogou.png" width="74" height="22" alt="" /></a></span><a href="http://www.sogou.com/fuwu/" rel="nofollow" target="_blank"><strong>我要发布</strong></a></h2>
+                <script type="text/javascript">
+	                var sogou_ad_id=13273;
+	                var sogou_ad_height=90;
+	                var sogou_ad_width=580;
+                </script>
+                <script language='JavaScript' type='text/javascript' src='http://images.sohu.com/cs/jsfile/js/c.js'></script>
+            </div>
+		</div>
+	</div>	
+	<div class="rightbar-wrapper grid-300">
+		<!-- 搜索 热词 -->
+		<div class="search-hotword clear">
+			<div class="search">
+				<form action="http://news.sogou.com/news" method="get" target="_blank" id="searchform" name="searchform" onsubmit="return CheckKeyWord();" autocomplete="off"> 
+					<input type="text" name="query" id="query" class="search-in" value="习近平 少数民族" />
+					<input type="hidden" name="t" id="t" value="news" />
+					<input type="submit" class="search-btn" value="搜狗搜索" onmouseover="this.className='search-btn search-btn-over'" onmouseout="this.className='search-btn'" />
+				</form>
+			</div>
+			<div class="hotword">
+				<p>热词：
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E5%B0%8F%E6%89%8E%E5%BD%93%E7%88%B9" target="_blank" rel="nofollow">小扎当爹</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=+%E8%8B%8F%E6%A0%BC%E5%85%B0%E7%8E%B0%E6%80%AA%E9%B2%A8" target="_blank" rel="nofollow">苏格兰怪鲨</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E8%AE%A8%E8%B4%BC%E6%AA%84%E6%96%87" target="_blank" rel="nofollow">讨贼檄文</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E7%B9%81%E4%BD%93%E5%AD%97%E7%94%B3%E9%81%97" target="_blank" rel="nofollow">繁体字申遗</a></p>
+				<p>热剧：<a href="http://tv.sohu.com/s2014/qsmy/" target="_blank">秦时明月</a> <a href="http://tv.sohu.com/s2015/wonderlady4/" target="_blank">极品女士4</a> <a href="http://tv.sohu.com/s2015/yxss/" target="_blank">夜行书生</a> <a href="http://tv.sohu.com/s2015/thenightshift2/" target="_blank">夜班医生2</a> <a href="http://tv.sohu.com/s2015/dyg/" target="_blank">大秧歌</a></p>
+			</div>
+		</div>
+        <script type="text/javascript">
+        function CheckKeyWord(){
+                 var sf = document.searchform;
+                 with(sf){
+          //if (query.value == "习近平 少数民族") {
+          //                query.value = "";
+          //                setTimeout("query.value='习近平 少数民族'", 1000);
+          //       }
+        }
+                 return true;
+        }
+        
+        // 改变提交的查询动作
+        function CheckFormAction(v){
+                 var sf = document.searchform;
+                 with(sf){
+          if (v=='web') {
+                          action = "http://www.sogou.com/web";
+            p.value = "02240100";                                 
+                 } else {
+                          p.value = "02240101";
+                          action = "http://news.sogou.com/news";
+                 }
+        }
+                 return true;
+        }
+
+        jQuery(function(jq){
+                 var searchValue = jq(".search-in").val();
+                 jq(".search-in").focus(function(){
+                          jq(this).val("").css("color","#333");
+                          jq(".search").addClass("search-act");
+                 }).blur(function(){
+                          if(jq(this).val() == ""){
+                                    jq(this).val(searchValue).css("color","#666");
+                                    jq(".search").removeClass("search-act");
+                          } 
+                 })
+        });
+        </script>
+		
+		<!-- 广告 -->
+		<SOHUADCODE><script type="text/javascript" src="http://txt.go.sohu.com/ip/soip"></script>
+<script type="text/javascript">
+if(typeof(document.pv)=="undefined") document.pv = new Array();var _a=new Image();
+_a.src="http://imp.optaim.com/201408/227508674023a85b81418b2fd35d3b5a.php?a=1";
+document.pv.push(_a);
+</script><script type="text/javascript">
+Passion.tclick=function(ctid){
+    Passion.pv.imp("http://xls.go.sohu.com/201301/dec6fec990dffa2804915cbc46fbefee.php?a="+ctid);
+}
+</script><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD472 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD472=new Cookie(document,"TurnAD472",24);
+TurnAD472.load();
+TurnAD472.visit=(TurnAD472.visit==null)?parseInt(Math.random()*3+1):TurnAD472.visit;
+if(TurnAD472.visit!=0)var intTurnAD472=TurnAD472.visit;
+TurnAD472.visit++;
+TurnAD472.visit=(TurnAD472.visit>3)?1:TurnAD472.visit;
+TurnAD472.store();
+function showTurnAD472(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+jQuery("#TurnAD472").attr('id','tanx-a-mm_17187609_2273741_13026471');
+document.write('<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13026471"></sc'+'ript>');
+require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_11953'}); 
+});
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/19b28503a51ae5fecca69243df588209.php?a=0");}
+else if(basenum==2){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD472",_ID = "10108",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD472",_ID = "10108",_W = 300,_H = 250,_T = 3,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD472(intTurnAD472);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<script>var divid300500 = 'TurnAD472';</script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird300500V20140925.js" ></script></SOHUADCODE>		
+		<!-- 手机看新闻 -->
+		<script src="http://a1.itc.cn/pv/js/pvcode.1312101227.js"></script>
+<div class="phone_rss">
+   <a href="http://k.sohu.com" onclick="_pv.send('5af69b5503b22dd5')" target="_blank"><img src="http://i1.itc.cn/20151202/a75_ca5db141_b629_d6b5_049a_e7699eee5e37_1.jpg" width="300" height="92"></a></div>
+<div class="blank5B"></div>		
+		<!-- 相关微博 -->
+		
+		<div class="news-frag clear">
+		 <h2><span>点击今日</span><a href="http://news.sohu.com/dianjijinri/" target="_blank">更多&gt;&gt;</a></h2>
+
+		 <div class="clk-today clear">
+
+  <div class="pic-text">
+    <div><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml"><img src="http://i0.itc.cn/20151202/360f_d2d9c787_24c1_a2d3_80ff_af60630c9f23_1.jpg" alt="" width="115" height="75" border="0"></a></div>
+    <h4><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml">
+“仁波切”们的敛财秘术
+</a></h4>
+<p>[<a target="_blank" href=http://news.sohu.com/s2015/dianji-1759/index.shtml>详细</a>]</p>
+  </div>
+  <div class="list12">
+    <ul>
+      <li><span>数字之道：</span><a href="http://news.sohu.com/s2015/xlygxw/index.shtml" target="_blank">俄土敌盟关系网：冲突一触即发</a></li>
+      <li><span>独家策划：</span><a href="http://news.sohu.com/s2015/2016huochepiao/index.shtml" target="_blank">2016春运购票日历!回家必备快收藏!</a></li>
+    </ul>
+  </div>
+</div>
+<div class="rightbar-foot" style="margin-top:10px;"></div>
+		</div>
+		
+		
+		
+
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD473 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD473=new Cookie(document,"TurnAD473",24);
+TurnAD473.load();
+TurnAD473.visit=(TurnAD473.visit==null)?parseInt(Math.random()*2+1):TurnAD473.visit;
+if(TurnAD473.visit!=0)var intTurnAD473=TurnAD473.visit;
+TurnAD473.visit++;
+TurnAD473.visit=(TurnAD473.visit>2)?1:TurnAD473.visit;
+TurnAD473.store();
+function showTurnAD473(basenum){
+if (basenum==1){
+document.getElementById('TurnAD473').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/ebec5d3797ed1fd700981efee250e193.php?a=0");}
+else{
+document.getElementById('TurnAD473').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/34267707dd3559f0d0de354375cc3c04.php?a=0");}
+}
+showTurnAD473(intTurnAD473);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>		
+		<!-- 广告列表 a -->
+		<SOHUADCODE>
+</SOHUADCODE>		
+		<!-- 相关图片 -->
+		<style>
+.news-frag { border-bottom:5px solid #fff;padding-bottom:0;}
+</style>
+<div class="mutu-pic kind-video clear"  id="hotpicnew" style="height:auto">
+			<h2><span>热门图片</span></h2>
+			<style>
+			#container .mutu-pic .list12 ul{margin:0 auto 12px;width:272px}
+			</style>
+			<div class="pic-group">
+				<ul>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201510/6241.html" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_301bc9e4_d62a_8c9e_c4b2_440948d6b56c_1.jpg
+" width="125" height="85" alt="" /><span>中国四千年第一美女</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6493.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151130/3436_aab09cad_2738_7c7c_1f8b_38b8ee208f0b_1.jpg
+" width="125" height="85" alt="" /><span>红孩儿成最高学历童星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/qwys/ywbd/201511/6420.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151120/332d_954a81f7_1794_612c_2137_018fc7aa3040_1.jpg
+" width="125" height="85" alt="" /><span>演14亿票房电影却不红
+</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6510.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151202/3436_a956c964_453b_87b7_9da9_22438d58cc97_1.jpg
+" width="125" height="85" alt="" /><span>好莱坞最穷最孤独巨星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6362.html
+" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_86ac5a2d_3189_0dff_42c6_c648eba0aeae_1.jpg
+" width="125" height="85" alt="" /><span>苏有朋林心如好事将近</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6359.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151110/3436_68a20f34_35da_1e42_a7a7_ca77c78f3111_1.jpg
+" width="125" height="85" alt="" /><span>他们不再是“中国人”</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6462.html 
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151125/3436_27d1f69a_2226_6539_9169_e49c486e346f_1.jpg
+" width="125" height="85" alt="" /><span>锤哥拍片太拼突然暴瘦</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/hqsy/yxgw/201511/6406.html?1447659664
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151117/332d_83725e76_e951_f92b_c484_5d5fb91ef569_1.jpg
+" width="125" height="85" alt="" /><span>男子钓出食人怪惊骇人</span></a></li>
+
+					
+			</ul>
+			</div>
+		</div>
+                <!-- 淘宝客广告 -->
+                <SOHUADCODE><div class="ad300">
+<div>
+<script type="text/javascript">
+        document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_32412711"></a>');
+        tanx_s = document.createElement("script");
+        tanx_s.type = "text/javascript";
+        tanx_s.charset = "gbk";
+        tanx_s.id = "tanx-s-mm_17187609_2273741_32412711";
+        tanx_s.async = true;
+        tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_32412711";
+        tanx_h = document.getElementsByTagName("head")[0];
+        if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/32f6f843b7342a720cb81048acd8fc90.php?a=0");
+</script></div>
+</div>
+</SOHUADCODE>			
+		<!-- 广告列表 b -->
+		<SOHUADCODE><div>
+<div>
+<iframe width=300 height=200 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/jctj/bj/index.html></iframe>
+</div></div>
+</SOHUADCODE>		
+		<div class="rightbar-foot"></div>		
+		<SOHUADCODE></SOHUADCODE>
+		<!-- 影视视频 -->
+		<div class="kind-video video-kink clear pvblock1" id="kind-video">
+			<div class="video-menu">
+				<ul>
+					
+					<li class="video-menu-now">热点视频</li>
+					<li><a href="http://tv.sohu.com/drama/" target="_blank">影视剧</a></li>
+					<li><a href="http://tv.sohu.com/show/" target="_blank">综艺</a></li>
+					<li class="video-menu-end"><a href="http://tv.sohu.com/ugc/" target="_blank">自媒体</a></li>
+				</ul>
+			</div>
+			<div class="scroll-box">
+				<div class="scroll-con">
+
+                        	
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429174623.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151201/70b_29e67fbe_1273_f059_c13f_05e285b9f706_1.jpg" width="278" height="144" alt="极品女士" /><em class="layer-txt"><i></i><b>极品女士 | 文章变疯狂粉丝追星停不下来</b></em><em ></em></a></div>
+                                
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429164659.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3498_d866e1b0_274c_9068_1cb9_2df98f6cb38b_1.jpg" width="278" height="144" alt="夜行书生" /><em class="layer-txt"><i></i><b>夜行书生 | 美男李准基上演凄美人鬼恋</b></em><em></em></a></div>
+		
+                        <div class="picA"><a href="http://tv.sohu.com/20151202/n429175566.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151201/70b_b5a0a3e8_35ee_57e6_65f2_bc3374e9c8c4_1.jpg" width="278" height="144" alt="秦时明月" /><em class="layer-txt"><i></i><b>秦时明月|天明大败秦兵后险对月儿下毒手</b></em><em></em></a></div>
+
+				</div>
+			</div>
+			<div class="scroll-btns"><a href="javascript:void(0)" class="up uN"></a><a href="javascript:void(0)" class="down"></a></div>
+			<script type="text/javascript" src="http://news.sohu.com/upload/dynamic/dynamic.js"></script>
+			<script type="text/javascript">
+			SOHU_MDC_PU.autoScroll({
+				slideOuter : jQuery('#kind-video'),
+				picList : jQuery('#kind-video .scroll-con .picA'),
+				showCount : 1,
+				auto : true,
+	            stayTime : 5000
+			});
+			</script>
+			<div class="pic-group">
+				<ul>
+
+
+<li><a href="http://tv.sohu.com/20151201/n429042891.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_9534c7f8_0640_9a3a_213b_12751fd920be_1.jpg" width="134" height="86" alt="6名壮汉酒后围殴服务员" /><span>6名壮汉酒后围殴服务员</span><em ></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429110627.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_163db251_fbdb_486f_0b6e_a1874c3d9bf8_1.jpg" width="134" height="86" alt="网曝高中女生暴打女同学" /><span>网曝高中女生暴打女同学</span><em ></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151201/n429171084.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_dee2528f_f324_0898_517d_3215c0080de1_1.jpg" width="134" height="86" alt="小伙被同性强暴染艾滋" /><span>小伙被同性强暴染艾滋</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429094186.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_da04741a_faa2_14b2_dd8a_45f03fa7495b_1.jpg" width="134" height="86" alt="实拍冰球选手遭冰刀割喉 " /><span>实拍冰球选手遭冰刀割喉 </span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151202/n429207005.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/3411_48527663_5761_8529_c33e_c519fb8b2733_1.jpg" width="134" height="86" alt="女子扯毛衣油枪瞬间起火" /><span>女子扯毛衣油枪瞬间起火</span><em></em></a></li>                                                                                
+
+<li class="end"><a href="http://tv.sohu.com/20151202/n429217904.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151202/3411_2243e5a3_708e_2a67_334c_58de2b5fab1e_1.jpg" width="134" height="86" alt="兰博基尼街头飙车撞树" /><span>兰博基尼街头飙车撞树</span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20140418/n398425147.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/330c_bf85a25d_76e9_ba97_9980_4c931d445358_1.jpg" width="134" height="86" alt="郭天王为“帅”吃尽苦头" /><span>郭天王为“帅”吃尽苦头</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151113/n426396064.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/330c_ccaaa692_8911_da63_8565_5f7078fd52c0_1.jpg" width="134" height="86" alt="揭秘图坦卡蒙死亡之谜" /><span>揭秘图坦卡蒙死亡之谜</span><em ></em></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="rightbar-foot"></div>
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD474 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD474=new Cookie(document,"TurnAD474",24);
+TurnAD474.load();
+TurnAD474.visit=(TurnAD474.visit==null)?parseInt(Math.random()*2+1):TurnAD474.visit;
+if(TurnAD474.visit!=0)var intTurnAD474=TurnAD474.visit;
+TurnAD474.visit++;
+TurnAD474.visit=(TurnAD474.visit>2)?1:TurnAD474.visit;
+TurnAD474.store();
+function showTurnAD474(basenum){
+if (basenum==1){
+document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_14706573"></a>');
+     tanx_s = document.createElement("script");
+     tanx_s.type = "text/javascript";
+     tanx_s.charset = "gbk";
+     tanx_s.id = "tanx-s-mm_17187609_2273741_14706573";
+     tanx_s.async = true;
+     tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_14706573";
+     tanx_h = document.getElementsByTagName("head")[0];
+     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/2335dd35a7246956fea8dfb9055eeed8.php?a=0");}
+else{
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD474",_ID = "10111",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });}
+}
+showTurnAD474(intTurnAD474);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>
+		<!-- 中视网盟 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<div>
+<iframe width=300 height=238 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/alw/bj/index.html></iframe>
+</div></div>
+</div>
+</SOHUADCODE>
+		<!-- 彩票 st -->
+		
+		<!-- 彩票 end -->		
+		<!-- 我来说两句排行榜 -->
+		
+
+<div class="comment-rank clear">
+    <h2>
+        <span>我来说两句排行榜</span>
+    </h2>
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429199542.html" target="_blank">3145</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429199542" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429199542.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429215319.html" target="_blank">1813</a>
+        </dt>
+        <dd>
+            <a href="http://mt.sohu.com/20151202/n429215319.shtml" target="_blank">重不重？大学生掏鸟16只被判10年半-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429215319.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429084947.html" target="_blank">1800</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429084947" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429084947.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429242989.html" target="_blank">1210</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429242989" target="_blank">圈子 - 报告建议2018年开始延退 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429242989.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">1037</a>
+        </dt>
+        <dd>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">村官黑老大的“家伙事儿”-新闻图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429239636.html" target="_blank">934</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429239636" target="_blank">圈子 - 报告建议2018年延迟退休 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429239636.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188284.html" target="_blank">911</a>
+        </dt>
+        <dd>
+            <a href="http://news.sohu.com/20151202/n429188284.shtml" target="_blank">女子闹分手 男友：你的内衣我买的当街脱了让你走-搜狐新闻</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188284.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">801</a>
+        </dt>
+        <dd>
+            <a href="http://pic.yule.sohu.com/group-699931.shtml" target="_blank">李小璐出席活动表情僵硬 网友：满脸硅胶！-娱乐频道图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429193521.html" target="_blank">764</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429193521" target="_blank">圈子 - 统计局官员:中国人口结构扭曲 人口危机现端倪</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429193521.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188042.html" target="_blank">726</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429188042" target="_blank">圈子 - 女公务员贪污出逃6年后身亡 怀孩子嫁泰国残疾人</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188042.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    
+</div>
+		<div class="rightbar-foot"></div>		
+		<div class="leisure clear">
+<h2><span>社区热帖推荐</span></h2>
+<div class="pic-text">
+<div><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank"><img 
+src="http://i2.itc.cn/20151202/2db9_28c70263_05f7_ca7c_14e4_40e79cce5ff5_1.jpg" width="125" height="85" alt="" /></a></div>
+<h4><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">多名女子在KTV打架！高跟鞋狂踹</a></h4>
+<p>短裙女当众被往死打……[<a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">详细</a>]</p>
+</div>
+<div class="broken-line"></div><div class="list12">
+<ul>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxxfamubru" target="_blank">残忍 深圳货车司机把小狗绑在车尾拖死</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxv54td53z" target="_blank">实拍“最牛”违停司机： 贴条死爹</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnjvnollz" target="_blank">小情侣座椅上揉胸玩亲热 不顾及旁人</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxyq8qicol" target="_blank">怀疑人偷东西 就可以把她绑在树上挂牌示众？</a></a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnazy0umf" target="_blank">19岁美女原来是名高材生 却为这种理由休学</a></li>
+</ul></div></div>
+
+<div class="rightbar-foot"></div>		
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<script src="http://images.sohu.com/saf/static/8/13568.shtml"></script>
+
+
+<div id=beans_13568 width=300 height=90 align="center"></div>
+<script type="text/javascript">
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _ID = "13568",_W = 300,_H = 90,_T =1,_F=201;
+    if(_ID){jQuery('#beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+</script></div>
+</div>
+</SOHUADCODE>		
+		<div class="rightbar-head"></div>				
+		<!-- 信息 -->
+		<div class="sohu-info clear" >
+			<div class="contact-icon"></div>
+			<div class="contact-txt">
+				<p>客服热线：86-10-58511234</p>
+				<p>客服邮箱：<a href="mailto:kf@vip.sohu.com" target="_blank">kf@vip.sohu.com</a></p>
+			</div>
+		</div>		
+	</div>
+	<div class="content-footer"></div>
+</div>
+
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/business_news_1.1.3.js"></script>
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/related_stock_1.0.1.js"></script>
+<script type="text/javascript" src="http://getip.js.sohu.com/ip/"></script>
+<script type="text/javascript"> 
+if (new_ip == null) var new_ip=2130706433;
+var dns_requrl="\<script type=\"text/javascript\" src=\"http://" + new_ip +".sohuns.com/ip/\"\>\</script\>";
+document.write(dns_requrl);
+</script>
+
+<!-- 标准尾 start -->
+<div collection="Y">
+<div class="clear"></div>
+	<div id="foot" class="Area area">
+		<a href="javascript:void(0)" onClick=this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sohu.com');return false;>设置首页</a>
+		- <a href=http://pinyin.sogou.com/ target=_blank rel="nofollow">搜狗输入法</a>
+		- <a href=http://pay.sohu.com/ target=_blank rel="nofollow">支付中心</a>
+		- <a href=http://hr.sohu.com target=_blank rel="nofollow">搜狐招聘</a>
+		- <a href=http://ad.sohu.com/ target=_blank rel="nofollow">广告服务</a>
+		- <a href=http://sohucallcenter.blog.sohu.com/ target=_blan rel="nofollow"k>客服中心</a>
+		- <a href=http://corp.sohu.com/s2006/contactus/ target=_blank rel="nofollow">联系方式</a>
+		- <a href=http://www.sohu.com/about/privacy.html target=_blank rel="nofollow">保护隐私权</a>
+		- <a href=http://investors.sohu.com/ target=_blank rel="nofollow">About SOHU</a>
+		- <a href=http://corp.sohu.com/indexcn.shtml target=_blank rel="nofollow">公司介绍</a>
+		- <a href=http://sitemap.sohu.com/ target=_blank>网站地图</a>
+		- <a href=http://roll.sohu.com/ target=_blank>全部新闻</a>
+		- <a href=http://blog.sohu.com/roll target=_blank>全部博文</a>
+		<br />Copyright <span class="fontArial">&copy;</span> 2015 Sohu.com Inc. All Rights Reserved. 搜狐公司 <span class="unline"><a href="http://corp.sohu.com/s2007/copyright/" target="_blank" rel="nofollow">版权所有</a></span>
+		<br />搜狐不良信息举报邮箱：<a href="mailto:jubao@contact.sohu.com">jubao@contact.sohu.com</a>
+	</div>
+	<SCRIPT language=JavaScript src="http://a1.itc.cn/pv/js/spv.1309051632.js"></SCRIPT>
+	<script language="javascript" src="http://js.sohu.com/wrating20120726.js"></script>
+	<script language="javascript"> 
+		var  _wratingId = null;
+		try{
+		_wratingId = _getAcc();
+		}catch(e){}
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');
+		}
+		</script>
+		<script language="javascript"> 
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript">');
+		document.write('var vjAcc="'+_wratingId+'";');
+		document.write('var wrUrl="http://sohu.wrating.com/";');
+		document.write('try{vjTrack();}catch(e){}');
+		document.write('</scr'+'ipt>');
+		}
+	</script>
+	<!--SOHU:DIV_FOOT-->
+</div>
+<!-- 标准尾 end -->
+
+<script type="text/javascript">
+<!--
+	function sogouRelateNews(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");   var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len;   ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+	    return true;
+	}
+
+	function sogouRelateWeb(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len; ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+	 	     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+		     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+		return true;
+	}
+
+	function sogouRelateSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+	function sogouRelateBlog(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltblog.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+	
+	function sogouHotSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rlthotsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+    function sogouRelateVideoNews(itm){
+      var i=new Image();
+      var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+      len=(len==null)?"":len;    ind=(ind==null)?"":ind;
+      if(len == "" || ind == "" ) {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+      } else {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+      }
+	  return true;
+    }
+
+
+//-->
+</script>
+<SOHUADCODE>																																																																																																																																																																								<Script language="Javascript">var cWidth=980;</script>
+
+<script type="text/javascript">
+	require(["sjs/matrix/ad/special"], function(special) {
+	special.ones({
+		itemspaceid : 10632,
+		adsrc : 201,
+		max_turn : 1,
+		order : 3,
+		options:{
+			pos : "left"
+		}
+	});
+
+	special.start();
+	});
+</script>
+
+
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/PVJS/adm2012-20130926min.js"></Script>
+<script src='http://images.sohu.com/bill/s2010/gates/sohucstech/javascript/954092d923b0e377f0a9d4d41a0937c4.js' type='text/javascript'></script>
+<!—不能删除 投飞行广告时也必须带上—>
+<script type="text/javascript">
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();
+_a.src='http://xls.go.sohu.com/201012/ee970cf0f5c53c86014a16fd32d9629a.php?a=0';
+document.pv.push(_a);
+imp(urlpath,133);
+if(PVUV_CheckArticle("gn11",24,1)){imp(urlpath,134);}
+if(PVUV_CheckArticle("gn12",24*365,1)){imp(urlpath,135);}
+
+</script>
+
+<script type="text/javascript">
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();
+_a.src='http://xls.go.sohu.com/201204/ba6906fb71bb9c0a5d72babe338483b9.php?a=9';
+document.pv.push(_a);
+</script>
+<!—不能删除—>
+<!--<Script language="Javascript">
+AD = new ADM("FLOAT", 2);
+    AD.src = "http://images.sohu.com/bill/s2009/shanbai/baojie/6yue/1001000602.swf";
+    AD.href="http://goto.sogou.com/200905/256711c20f526ea88028870e1a36e2cc.php";
+    AD.tag="";
+    AD.imp="";
+    AddSchedule(AD);
+</script>-->
+<script type="text/javascript">SohuAd.createScript("sohucsjs","http://imp.go.sohu.com/201111/ee4f7cebb2ef825bf6b3c8730c929929_31.js");</script>
+
+<script type="text/javascript">
+SohuAdPv_CPD   = {"#TurnAD472":"10108","#TurnAD20":"10013","#TurnAD473":"10110","#TurnAD474":"10111"};
+SohuAdFly_nCPD = {"float_r":"10632"};
+setpopslotid = '12409';
+</script><Script language="Javascript">if(jQuery){jQuery.getScript("http://images.sohu.com/bill/s2012/gates/all/map.2013040302.js");}</script>
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/gates/js/fad_v9.js"></Script>
+<Script language="Javascript" src="http://images.sohu.com/bill/default/auto/pop.1.4.js?t=168"></Script></SOHUADCODE>
+<SOHUADCODE></SOHUADCODE>
+<script type='text/javascript'>	
+	function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}	
+	var sogou_is_brand_url = "http://cpc.brand.sogou.com/brand_ad_new";	
+	var brand_cnt = 0;	
+	for(var p in sogou_is_brand)	
+	{	           if(typeof(sogou_is_brand[p]) == "string")
+	               sogou_is_brand_url += (brand_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_brand[p]);	
+	}	
+	if (brand_cnt>3)	
+	{	
+	         var test= document.createElement('SCRIPT');	
+	         test.src=sogou_is_brand_url;	
+	         document.getElementsByTagName('head')[0].appendChild(test);	
+	}	
+</script>
+<div style="display:none" id="sohu-dt0220mine-tag">news</div><script src='http://news.sohu.com/upload/pop/mytag.min.js' type='text/javascript'></script>
+
+
+
+<script>
+pv_area_register("401832","pvblock1");
+</script>
+</body>
+</html>

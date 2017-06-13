@@ -1,0 +1,10 @@
+2015-12-02T10:55:31.150Z   200      70483 http://news.sohu.com/20151201/n429049946.shtml L http://news.sohu.com/ text/html #032 20151202105530919+198 sha1:47YIVQC2YY7QZLMCDBOIIPGZGNQ2TJGC - le:IOException@MirrorWriter
+ java.io.IOException: Can not mkdir D:\ËÑË÷ÒýÇæ\myheritrix\jobs\output\mirror\news.sohu.com\20151201
+	at org.archive.crawler.writer.MirrorWriterProcessor$DirSegment.addToPath(MirrorWriterProcessor.java:956)
+	at org.archive.crawler.writer.MirrorWriterProcessor.dirPath(MirrorWriterProcessor.java:412)
+	at org.archive.crawler.writer.MirrorWriterProcessor.uriToFile(MirrorWriterProcessor.java:662)
+	at org.archive.crawler.writer.MirrorWriterProcessor.uriToFile(MirrorWriterProcessor.java:547)
+	at org.archive.crawler.writer.MirrorWriterProcessor.innerProcess(MirrorWriterProcessor.java:367)
+	at org.archive.crawler.framework.Processor.process(Processor.java:109)
+	at org.archive.crawler.framework.ToeThread.processCrawlUri(ToeThread.java:306)
+	at org.archive.crawler.framework.ToeThread.run(ToeThread.java:154)

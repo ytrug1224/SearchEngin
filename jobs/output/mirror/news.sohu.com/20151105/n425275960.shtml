@@ -1,0 +1,1517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">
+  var pvinsight_page_ancestors = '143746642;143746652;212846206;425275960';
+</script>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<title>审判唐人街：华人银行“诈骗”的故事-搜狐新闻</title>
+<meta name="keywords" content="唐人街 华人">
+<meta name="description" content="纽约唐人街，位于曼哈顿南端。在这片面积超过4平方公里，居住着80多万华人的社区，有一家名叫"国宝"的银行，它是来自四川的华商孙启诚在1984年创办的。30年来，">
+<link rel="canonical" href="http://news.sohu.com/20151105/n425275960.shtml"/>
+<meta name="robots" content="all">
+<!-- 购买url变量获取 -->
+<script type="text/javascript">
+ var shoppingCnf = {url:''};
+</script>
+<!-- 购买url变量获取end -->
+<script type="text/javascript">
+  var category =  '143746642;143746652;212846206;425275960';  var videoNum = 0;  var relate_from_sohu = true;
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script src="http://www.sohu.com/sohuflash_1.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://js.sohu.com/library/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/tongji_v2013110101.js"></script>
+
+<script type="text/javascript">
+jQuery(function(jq){
+	//标签
+	function changeTab(lis, divs, nums, nowCls){
+		lis.each(function(i){
+			var els = jq(this);
+			els.mouseenter(function(){
+				lis.removeClass(nowCls);
+				divs.stop().hide();
+				jq(this).addClass(nowCls);
+				divs.eq(i).show();
+			});
+		}).eq(nums).mouseenter();
+	}
+	
+	
+	jq(".fontsize").hover(function(){
+		jq(".fontsize-layer").show();
+		},function(){
+		jq(".fontsize-layer").hide();
+	});
+	
+        jq(".print").hover(function(){
+                   jq(".print-layer").show();
+                   },function(){
+                   jq(".print-layer").hide();
+         });
+
+	var phoneNumInput = jq(".rightbar-wrapper .phoneNews .rssArea .Ftxt"),
+		phoneNumBtn = jq(".rightbar-wrapper .phoneNews .rssArea .Fbtn");
+	phoneNumInput.hover(function(){  // xlx
+		jq(this).parent().addClass("current");
+	},function(){
+		jq(this).parent().removeClass("current");
+	});
+	phoneNumInput.focus(function(){
+		var _this = $(this);
+		var val = _this.val();
+		if(val == '输入手机号码'||val == '手机号码输入错误！'||val == '此号码发送次数过多！'||val == '失败！'){
+			_this.val("");
+			_this.parent().removeClass("error");
+		}
+	}).blur(function(){
+		var _this = $(this);
+		if(_this.val() == ''){
+			_this.val('输入手机号码');
+			_this.parent().removeClass("error");
+		}
+	});
+	
+	jq(".rightbar-wrapper .phoneNews .Fbtn").click(function(){// 订阅按钮点击
+		var _mobile = phoneNumInput.val();	
+		if(!(/^1[3458]\d{9}$/.test(_mobile))){
+			phoneNumInput.val("手机号码输入错误！");
+			phoneNumInput.parent().addClass("current error");
+		}else{
+			var formData = {
+					"number" : _mobile
+					};
+			var submitUrl = "http://api.k.sohu.com/api/client/sendmsg.go?callback=?";
+			$.ajax({
+				url: submitUrl,
+				data: formData,
+				dataType:"jsonp",
+				success: function(data){
+					var _code = data.data;				
+					var _msg = "";
+					switch(_code){
+						case "1":
+							phoneNumInput.parent().addClass("current error succeed");
+							phoneNumInput.add(phoneNumBtn).hide();
+							break;
+						case "0":
+							_msg = "失败！";
+							break;
+						case "12001":
+							_msg = "手机号码输入错误！";	
+							break;
+						case "12003":
+							_msg = "此号码发送次数过多！";
+							break;			
+					};
+					phoneNumInput.val(_msg);
+					phoneNumInput.parent().addClass("current error");
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown){
+					alert("error");
+				}
+			});			
+		}
+	});
+});
+//去搜狐首页的检测
+function toHomePage(){
+                   var serverUrl = "http://www.n-s.cn/news.png";
+                   $.ajax({
+                type: "GET",
+                url: serverUrl,
+                dataType: "jsonp",
+                success:function(){}
+            });             
+}
+//转换字号
+function doZoom(size){	
+	jQuery("#contentText").css("fontSize",size);
+}
+var printArticle = function(){
+	jQuery.getScript("http://news.sohu.com/upload/article/2012/js/print_roll.js",function(){printer.print()},true)
+}
+var topicId = 334087882;
+var grobal_arg={};
+grobal_arg['topicId']=topicId;
+var jumpUrl=function(x){
+	var url = '', e = encodeURIComponent, s = screen, d = document, wd = 0, hg = 0, u = d.location , y = x,topicId =grobal_arg.topicId;
+	//缺个我的搜狐的分享的跳转URL
+	//topicId的确认方式
+	switch (y)
+	{
+	case 't':	url ="http://t.sohu.com/third/post.jsp?link="+e(u.href)+"&title="+e(d.title);wd = 660;hg = 470;break;
+	case 'bai':	url ="http://bai.sohu.com/share/blank/addbutton.do?link="+e(u.href)+"&title="+e(d.title);wd = 480;hg = 340;break;
+	case 'douban':	url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(d.title);wd = 460;hg = 340;break;
+	case 'renren':	url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(d.title);wd = 590;hg = 430;break;
+	case 'kaixin':	url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(d.title);wd = 540;hg = 360;break;
+	case 'itb':     var ctxt = $('#contentText').length>0?$('#contentText').text().replace(/<[^>].*?>/g,'').substr(0,120):'';
+			url ="http://tieba.baidu.com/i/sys/share?link="+e(u.href)+"&type=text&title="+e(d.title)+"&content="+e(ctxt);wd = 626;hg = 436;
+			break;
+	case 'go139':	url ="http://go.139.com/ishare.do?shareUrl="+e(u.href)+"&title="+e(d.title)+"&sid=20dd04a99380c2e8d56cf187f6658169";wd = 630;hg = 500;break;
+	case 'qq':	url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url="+e(u.href);wd = 900;hg = 500;break;
+           case 'sohukan': url ="http://kan.sohu.com/share/?href="+e(u.href)+"&title="+e(d.title)+"&appkey=1550c1b2513a1461a4ea4914af8aa8fe";wd = 760;hg = 477;break;
+	default :	return false;
+	}
+	var a=function(){
+		if (!window.open(url, 'sohushare', ['toolbar=0,status=0,resizable=1,width='+ wd +',height='+ hg +',left='+ (s.width - wd) / 2+ ',top='+ (s.height - hg) / 2]))
+			u.href = [url].join('');
+	}
+	if (/Firefox/.test(navigator.userAgent)){
+		setTimeout(a, 0);
+	}else{
+		a();
+	}
+
+	var stat = (new Image);
+	try{stat.src = "http://219.234.82.222/zhuanfa/index.php?newsId=" + /http:\/\/(.*)(\.sohu.com\/.*\/n)(.{9})/g.exec(document.location)[3] + "&newsName=" + e(d.title) + "&newsUrl=" + d.location.href + "&postId=" + x;
+	}catch(e){}
+}
+//媒体来源
+function media_span_url(id_media_span_url) {
+    if(id_media_span_url) {
+        id_media_span = jQuery('#media_span');
+        if(!id_media_span.find('a').length) {
+            id_media_span.html('<a href=\'' + id_media_span_url + '\' target=\'_blank\'>' + id_media_span.html() + '</a>');			
+        }
+    }
+}
+ 
+</script>
+<script src="http://img.wan.sogou.com/cdn/ufo/fid/fid.js"></script>
+<script>
+    var fid;
+    Sogou_FID.get(function(sid){
+        fid = sid;       
+    });
+</script>
+<link type="text/css" rel="stylesheet" href="http://css.sohu.com/upload/global1.4.1.css" />
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/article/2012/style.v20150623.css" />
+
+<script  type='text/javascript'>
+var sogou_is_brand = new Object();
+sogou_is_brand["pid"]  = 'sohu__brand';
+sogou_is_brand["charset"]   = 'gb2312';
+sogou_is_brand["sohuurl"] = document.location.href;
+</script>
+
+</head>
+
+<body>
+<div data-type="roll" data-appid="1079" id="isohu-topbar"></div>
+<link type="text/css" rel="stylesheet" href="http://news.sohu.com/upload/itoolbar/cms/itoolbar.201410281438.css" charset="UTF-8" />
+<style type="text/css"> 
+#innerToolBar{width:980px;}
+</style>
+<script src="http://news.sohu.com/upload/itoolbar/itoolbar.cms.loader.201410281438.js" charset="UTF-8"></script>
+
+<!-- 导航 st -->
+<div id="nav" class="area"><a class="first" href="http://www.sohu.com/">首页</a>-<a href="http://news.sohu.com/">新闻</a>-<a class="n3" href="http://mil.sohu.com/">军事</a>-<a href="http://cul.sohu.com/">文化</a>-<a href="http://history.sohu.com/">历史</a>-<a class="n3" href="http://sports.sohu.com/">体育</a>-<a href="http://sports.sohu.com/nba.shtml">NBA</a>-<a href="http://tv.sohu.com/">视频</a>-<a class="n3" href="http://yule.sohu.com/">娱乐</a>-<a href="http://business.sohu.com/">财经</a>-<a href="http://stock.sohu.com/">股票</a>-<a class="n3" href="http://it.sohu.com/">科技</a>-<a href="http://auto.sohu.com/">汽车</a>-<a href="http://www.focus.cn">房产</a>-<a class="n3" href="http://fashion.sohu.com/">时尚</a>-<a href="http://health.sohu.com/">健康</a>-<a href="http://learning.sohu.com/">教育</a>-<a class="n3" href="http://baobao.sohu.com/">母婴</a>-<a href="http://travel.sohu.com/">旅游</a>-<a href="http://chihe.sohu.com/">美食</a>-<a class="last" href="http://astro.women.sohu.com/">星座</a></div>
+<!-- 导航 end -->
+
+
+<!-- 翻牌广告 st -->
+<div id="turn-ad" class="area">
+	<div class="left">
+		<SOHUADCODE><script type="text/javascript" src="http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"></script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird950100V20140925.js" ></script><div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="center">
+		<SOHUADCODE><script> var config = { passion:{ PAGEID : "news-article" , CHANNELID : "2"} }; </script>
+<script src="http://txt.go.sohu.com/ip/soip"></script>
+<script src="http://images.sohu.com/saf/static/0/1000060.shtml"></script>
+<script src="http://images.sohu.com/bill/s2013/gates/js/Sohu-0.3.8.min.js?_r=0.3.0"></script>
+<script src="http://images.sohu.com/bill/default/sohu-require.js"></script><div class=TurnAD23> 
+<div id=TurnAD23 width=300 height=250>
+ <script language=javascript>
+try{
+var TurnAD23=new Cookie(document,"TurnAD23",24);
+TurnAD23.load();
+TurnAD23.visit=(TurnAD23.visit==null)?parseInt(Math.random()*2+1):TurnAD23.visit;
+if(TurnAD23.visit!=0)var intTurnAD23=TurnAD23.visit;
+TurnAD23.visit++;
+TurnAD23.visit=(TurnAD23.visit>2)?1:TurnAD23.visit;
+TurnAD23.store();
+function showTurnAD23(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//以上为topnews代码，投放时请带上，轮换代码从下面开始替换
+document.getElementById('TurnAD23').innerHTML ='<iframe width=970 height=90 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=932:5&location_info=0&callback=getjjsku_callback></iframe>';
+
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9613d5ba8f97474f83901795d19d2686.php?a=0");}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//以上为topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD23",_ID = "10014",_W = 970,_H = 90,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD23(intTurnAD23);
+}catch(e){}
+</script>
+</div>
+</div>
+</SOHUADCODE>
+	</div>
+	<div class="right">
+		<SOHUADCODE><div>
+</div>
+</SOHUADCODE>
+	</div>
+</div>
+<!-- 翻牌广告 end -->
+
+
+<!-- 频道导航 st -->
+<div id="channel-nav" class="area">
+	<div id="mypos" class="left" itemprop="mypos"><a href="http://news.sohu.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/news_logo3.gif" width="110" height="24" alt="" /></a><span>&gt; <a href=http://news.sohu.com/guojixinwen.shtml>国际新闻</a> &gt; <a href=http://news.sohu.com/1/0903/62/subject212846206.shtml>国际要闻</a></span></div>
+	<div class="navigation" style="display:none" ><a href=http://news.sohu.com/>新闻中心</a> &gt; <a href=http://news.sohu.com/guojixinwen.shtml>国际新闻</a> &gt; <a href=http://news.sohu.com/1/0903/62/subject212846206.shtml>国际要闻</a></div>
+	<div class="right"><a href="http://news.sohu.com/guoneixinwen.shtml" target="_blank">国内</a> | <a href="http://news.sohu.com/guojixinwen.shtml" target="_blank">国际</a> | <a href="http://news.sohu.com/shehuixinwen.shtml" target="_blank">社会</a> | <a href="http://mil.news.sohu.com/" target="_blank">军事</a> | <a href="http://star.sohu.com/" target="_blank">评论</a>
+
+
+<style>
+
+                   #channel-nav{position:relative;}
+
+                   #channel-nav .logo-ad{position:absolute; left:490px; top:5px;}
+
+         </style>
+
+         <div class="logo-ad">
+
+                   
+         </div></div>
+</div>
+<!-- 频道导航 end -->
+<div id="container" class="area" itemscope itemtype="http://schema.org/NewsArticle" itemref="mypos">
+	<div class="content-wrapper grid-675">
+		<!-- 广告 -->
+		<div class="ad675">
+			<SOHUADCODE>
+</SOHUADCODE>
+		</div>		
+		<div class="content-box clear">
+			<!-- 文章标题 -->
+			<h1 itemprop="headline">审判唐人街：华人银行“诈骗”的故事</h1>
+			<!-- 正文标签 -->
+			<div class="label-ad clear" id="commentTab">
+				<div class="label">
+					<ul>
+						<li class="text-label" itemprop="isHot" content="true"><em>正文</em></li>
+						<li class="com-label"><em><a href="http://pinglun.sohu.com/s425275960.html" itemprop="discussionUrl">我来说两句<span class="f12">(<span class="red" id="changyan_parti_unit"><img src="http://comment.news.sohu.com/upload/comment4/images/loading_blue.gif" width="16px" height="16px" /></span>人参与)</span></a></em></li>
+					</ul>
+				</div>
+				<div class="ad">
+					<div class="adFrag"><SOHUADCODE>
+</SOHUADCODE></div>
+					<div class="scan-handset" id="scan-handset"><a class="scan-icon" href="javascript:void(0)">扫描到手机</a></div>
+				</div>
+				<div class="scan-layer" id="scan-layer-id">
+					<div class="scan-pic"><img width="99" height="99" alt="" src="http://news.sohu.com/upload/article/2012/images/pic/scan_pic_98x98.gif"></div>
+					<div class="scan-layer-close"><a href="javascript:void(0)">关闭</a></div>
+				</div>
+				<script type="text/javascript">
+					jQuery(function(jq){
+					    if(jq("#scan-layer-id .scan-pic img").length > 0){
+	                           var theU = "http://s1.rr.itc.cn/qrcode/m/n/"+425275960+".png";
+	                           jq("#scan-layer-id .scan-pic img").attr("src",theU);
+	                    }
+						jq("#scan-handset").click(function(){
+							jq("#scan-layer-id").show();
+						});
+						jq("#scan-layer-id .scan-layer-close a").click(function(){
+							jq("#scan-layer-id").hide();
+						});
+					});
+				</script>
+			</div>				
+			<!-- 时间 来源 -->
+		    <div class="time-fun clear">
+				<div class="time-source">
+					<div class="time" id="pubtime_baidu" itemprop="datePublished" content="2015-11-05T16:27:00+08:00">2015-11-05 16:27:00</div>						
+					<div class="source">
+						
+						<span class="sc" id="source_baidu" >来源：<span id="media_span" itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">搜狐国际</span></span></span>
+						 <span id="author_baidu">作者：尤乙同 祖晓雯</span> 
+						
+					</div>				
+				</div>
+				<style>
+				#container .time-fun .time-source{width:420px}
+				#container .time-fun .time-source .source{width:293px}
+				#container .time-fun .function .phone-ctcp a{padding-left:16px;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 1px}
+				</style>
+                <div class="function">
+					<ul>
+						<li class="phone-ctcp"><a href="http://k.sohu.com/" target="_blank">手机看新闻</a></li>
+						<li class="transmit_txt"><a href="javascript:void(0)">保存到博客</a></li>
+						<li class="fontsize"><a href="javascript:void(0)"></a>
+							<div class="fontsize-layer"><a href="javascript:doZoom(16)">大</a>|<a href="javascript:doZoom(14)">中</a>|<a href="javascript:doZoom(12)">小</a></div>
+						</li>
+						<li class="print"><a href="javascript:printArticle()"></a>
+							<div class="print-layer"><a href="javascript:printArticle()">打印</a></div>
+						</li>                                      
+					</ul>
+				</div>
+			</div>
+			<SOHUADCODE>
+</SOHUADCODE>
+			
+            
+            			
+			<!-- 正文 -->
+			<div class="text clear" id="contentText">
+				<div itemprop="articleBody"><div class="text-pic" style="text-align: left;"></div>
+<p>　　纽约唐人街，位于曼哈顿南端。在这片面积超过4平方公里，居住着80多万华人的社区，有一家名叫"国宝"的银行，它是来自四川的华商孙启诚在1984年创办的。</p>
+<p>　　30年来，国宝银行从一家T-mobile商店发展成为拥有6家分行，上百名员工，批准过总值约十亿美元的贷款的金融巨鳄。然而，就在一个清晨，银行突然涉嫌一桩房屋贷款欺诈案，警察进入了这栋红色的银行大楼，对其进行长期而严密的调查。</p>
+<p>　　案件震惊了纽约华埠，成为街头巷议的话题。但人们对它的关心不止于笑谈，因为这案件与每个美国华人都有着直接或间接的联系。</p>
+<p>　　接受审判的不只是一家银行，而是整座唐人街&hellip;&hellip;</p>
+<p>　　本文原文刊载于<span style="font-family: '';">2015年10月12日《纽约客》杂志，标题为《The Accused》。</span><span style="font-family: '';">　　</span><span style="font-family: '';">　　　</span></p>
+<div class="text-pic">
+<table class="tableImg" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="text-align: center;"><img src="http://photocdn.sohu.com/20151104/Img425275963.jpg" alt="" align="middle" /></td>
+</tr>
+<tr>
+<td class="text-pic-tt" style="text-align: center;">左起 孙仪珍，孙仪林，孙仪芬，曾慧琳，孙启诚，孙仪文</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="text-align: center;"><strong>　　文/ &#160;JIAYANG FAN&#160;</strong><strong style="font-family: '';">译/ 尤乙同 祖晓雯</strong></p>
+<p>　　　<strong>　一位银行职员引爆了房屋贷款欺诈案</strong></p>
+<p>　　2009年，一个秋日的午后，陈其真和纪渊宇走进了坚尼路附近的纽约国宝银行总部，询问如何抵押贷款。</p>
+<p>　　24岁的纪渊宇是一家制药公司的客服，早年随家人从台湾来到美国，在纽约度过了大半生。她的丈夫陈其真，小她一岁，十八九岁才到纽约，英文说得不太好。</p>
+<p>　　他们结婚一年有余，大部分时间都在华人区度过，主要是在布鲁克林的班森赫斯特一带，这是陈其真打工的发廊所在地。他们住的小公寓楼离发廊并不远，但纪渊宇不久前怀了第一个孩子，也应该换间大房子了。</p>
+<p>　　陈其真夫妇准备买一栋两户别墅，其中一户出租。在众多房子中，他们看上了一座有房前花园的独门独户，要价78万美金。于是，为了支付首付，夫妻俩向亲朋好友借钱，四处筹集资金，但申请贷款仍然是个大难题。</p>
+<p>　　2008年的次贷危机暴露了整个银行业宽松的借贷标准，信用审核如今异常严格。陈其真没有任何信用记录，工资一直都是现金支付。上次去他打工的理发店时，他就和我诉苦，说自己几乎问遍了纽约所有的银行，没有一家愿意给他贷款。他的很多华人朋友都面临着相似的窘境。发廊同事建议陈其真去国宝银行试试。“那里并不需要繁琐的手续。”一个洗发工告诉他。</p>
+<p>　　国宝银行成立于30年前，创始人是实业投资家孙启诚，他曾经还是位律师，17岁时离开中国，移民纽约。</p>
+<p>　　国宝银行是唐人街十几家银行之一，旨在服务华人新移民，包括那些经常需要进行现金交易，却对主流银行不信任的非法移民们。二十多年来，该银行发展迅猛。在陈其真夫妇申请贷款的这一年，它已经发展了6家分行，拥有上百名员工，批准过总值约十亿美元的贷款。</p>
+<p>　　陈其真夫妇来到国宝银行总部，走进位于三楼的贷款办公室，一个矮壮而健谈的男人接待了他们。这个人叫余启斌。余只比他们大几岁的样子，并且是陈的同乡,他们都来自温州。余启斌说拿到贷款很简单，只要把所有相关手续都给他就行了，双方一拍即合。</p>
+<p>　　几周后，银行就拿到了陈其真夫妇的工作信息文件。他们写了支票，提交了财产证明，财产证明的钱是陈的父母用房子做抵押借来的。如今，陈其真已经开始构思他和家人将住在房子的哪一间，哪一间房租出去，哪里做婴儿房了。</p>
+<p>　　别墅的交割会议定在12月11日的早晨，陈其真夫妇把刚出生的儿子放在父母那里照顾，就直奔国宝银行。在那他们见到了自己的律师、房主和房主的律师，国宝银行创始人的大女儿孙仪芬以及银行方面的法律顾问。</p>
+<p>　　这是个全英文会议，陈发现自己很难跟上节奏。 “其它事都无所谓，只要能得到房子就行。”陈其真说。他记得在自己签署的最后几页文件里似乎有这样一句话：他的妻子给余启斌写了2张支票，共是2.5万美元。陈其真想确认这笔钱是否和其它支付款项一并存入了银行账户。然而，当陈其真夫妇的律师问起这张支票的时候，每个人却都很疑惑，孙仪芬表示会去问问余启斌。 “根本没人能解释清楚究竟发生了什么。”陈其真很困惑。</p>
+<p>　　后来，孙仪芬和银行现任总裁，也就是她的妹妹孙仪文，问余启斌究竟是怎么回事，余的回答十分可疑。于是，交割会被迫取消。后来经证实，余启斌不仅卷走了这对夫妇的钱，在之前还虚报过贷款申请人的收入。</p>
+<p>　　“感觉真是天都塌了，我整个人都要崩溃了！” 陈知道，房主可以扣下已付的10%押金，而剩下的钱，7.2万美元，是他家两年多的工资。“这都是我们的血汗钱啊！”他激动地说。交割会后一个月，陈其真夫妇去了离银行仅五分钟远的纽约市警察局第五分局。他们告诉警察，国宝银行的雇员偷了他们的钱。</p>
+<p>　　当时，孙氏姐妹已经开除了余启斌和其它两名银行职员，启动内部调查，并向监管机构和执法部门公布了调查结果, 同时还雇佣了外部调查员检查贷款以外的业务。然而，陈其真夫妇报案使这次内部调查演变成了一桩刑事调查。</p>
+<p>　　2012年5月31日，曼哈顿地区检察官赛勒斯·R·万斯，宣读了一份对国宝银行两名主管及九名前雇员的起诉书，起诉书共一百八十四页。指控包括抵押贷款欺诈、伪造商业记录等等。国宝银行的员工们被铐在一起，拖到曼哈顿刑事法庭，一些人甚至可能被判处25年监禁。</p>
+<p>　　国宝银行十名雇员接受了认罪协议, 为原告方作证。余启斌成了重要证人。起诉书称, 为了给“不合格”的申请人贷款, 银行系统性地伪造贷款申请文件, 夸大贷款申请人的资产、收入和职位。</p>
+<p>　　“虚假抵押贷款”的债券被出售给了联邦政府支持的“美国国民抵押贷款协会房利美(Fannie Mae)”。在次贷危机期间，房利美购买住房抵押债券在市场上出售是一个普遍现象, 这也是导致次贷危机的原因。在新闻发布会上，万斯宣读了起诉书，他强调：“如果我们能从最近的次贷危机中学到什么的话,那就是，当这些贷款计划不奏效，纳税人就要开始收拾烂摊子了。”</p>
+<p>　　然而，对于包庇了如此大量虚假贷款的机构来说，国宝银行真是个令人惊讶的存在。2009年内，它办理了4290笔抵押贷款,只有16起遇到了麻烦,拖欠率低于0.05的全国平均水平。</p>
+<p>　　<strong>孙启诚与不会说华语的女儿们</strong></p>
+<div class="text-pic">
+<table class="tableImg" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="text-align: center;"><img src="http://photocdn.sohu.com/20151104/Img425275975.jpg" alt="" align="middle" /></td>
+</tr>
+<tr>
+<td class="text-pic-tt" style="text-align: center;">&#160;图：国宝银行</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>　　这是一群可怜的中国移民，他们中有不少贷款人比美国人更可靠。然而，金融危机之后，几乎所有的机构都接受了虚假抵押贷款的相关调查，而唯一被推上审判席的商业银行居然是一个小型的社区银行，资产从未超过二亿八千二百万美元，还不足美国第一大商业银行，即美国银行资产的万分之一。</p>
+<p>　　国宝银行创始人孙启诚的办公室在总部三楼，二楼就是柜员们工作的楼层。我第一次去的时候是二月份。他的房间简约朴素，利用率很高。成盒的文件在地板上堆成了一座山，简易的书架上铺满了法律期刊，角落里有一盆奄奄一息的盆栽棕榈。房间里唯一鲜明的颜色是一套中式传统茶具。这座办公室传递了一个信号：这间房的主人是个认为钱特别重要，绝不能随便花的人。</p>
+<p>　　孙启诚八十多岁，大部分时间都在佛罗里达和康涅狄格度过。但只要在康涅狄格，他每天一定会来办公室。他是一位慈祥的伯伯，做事坚定，严于律己。家人在聊天时，他常常一言不发。但每当他发言时，所有人都会安静倾听。</p>
+<p>　　孙启诚把一堆财务报表堆到一旁，开始复印一份他父亲来美时的条约商人签证申请件。<span style="font-family: '';">1951年，孙家背井离乡，远渡重洋，从中国的西南重镇重庆来到了美国的商业之都纽</span><span style="font-family: '';">约。这份申请长达百页，记录着其父开过两家猪鬃厂的故事。文件里还夹着孙启诚工</span><span style="font-family: '';">人时期的黑白照片，照片上的经理和学徒都穿着暗色长袍。孙启诚告诉我，他的父亲</span><span style="font-family: '';">曾在重庆南山创办过大型孤儿院，那些孤儿长大后就成为了孙家工厂里的工人。</span></p>
+<p>　　孙启诚拿出一张照片指给我看，照片上是一位忧郁的16岁男孩，戴着领带。他说：“你看，照片上的我看起来像正在进入埃利斯岛。”这是纽约市曼哈顿区西南上纽约弯中的一个岛。在1892至1943年间，它是美国的主要移民检查站，于1954年关闭，现为博物馆，如今已成为现代美国人寻根处。</p>
+<p>　　孙家比大部分的美国移民要富有一些。不幸的是，孙的妈妈在来美不久便去世了，他不得不承担起照顾家庭的重任。由于孙父拒绝支付学费，孙启诚在布鲁克林法学院度过了如苦行僧般的生活，养成了简朴的习惯。在20世纪60年代早期，他认识了如今的妻子曾慧琳，一家人在唐人街定居。1966年，他们的第一个女儿孙仪芬出生了。</p>
+<p>　　那时，孙启诚正处在事业的上升期，就职于一家大型的犹太律师行，并亲自处理了全家的移民申请。不久之后，他便独立门户，开了自己的公司。 “他们喜欢叫我夏皮诺（Shapiro）。”孙启诚说。</p>
+<p>　　60年代的纽约还没有几位华人律师，更没人能够理解唐人街复杂又不正规的运作方式。孙启诚说着一口流利的英语、普通话、粤语和四川话。这一优势令他如鱼得水，自如游走在不同的圈子之间。</p>
+<p>　　在贝尔街工作时，孙很快就发现了一个未开发的市场。 “那时候我是纽约最有名的移民律师之一。”他自豪地回忆道，随着法律业务的提升，孙启诚开始购买房地产。有一次，我跟他沿着市场街走下来， “这整条街区以前都是我的。”孙启诚笑着说。 唐人街的一位资深出版商陈凯尼告诉我，孙是华人社区的明星，没有人不知道他的大名。</p>
+<p>　　孙氏夫妇有4个女儿。1972年孙启诚全家搬到康涅狄格州的格林威治。孙怡芬是格勒威利小学的首个亚洲学生。孙氏姐妹在基督教青年会上游泳课，在当地的体育俱乐部里打网球，小女儿孙仪琳戏称这些都是“有钱白人”的运动。</p>
+<p>　　如今，孙氏姐妹们没人会写自己的中文名字。在我们见过好几次之后，她们才能说出我中文名的正确发音。孙仪芬和我说：“我觉得我永远无法融入唐人街，因为我的父母只让我们学英语。” 二女儿孙仪文说：”我们是迷惘的一代，因为身为移民的父母，如此迫切地想让我们融入主流社会。”</p>
+<p>　　1984年，孙启诚创建了国宝银行。他的房地产业务需要大量资金，而获得款项真是比登天还难。这让有商业头脑的孙启诚意识到，华埠需要能够服务于华人移民的银行。最初，“国宝”很低调的，它的原型只是一家T-mobile商店（世界上最大的移动电话公司之一），在成立的第一年银行就遭到了2次抢劫。然而，对创办这样一家银行来说，当时还是个很不错的时机。那一年，还很少有银行会雇佣讲普通话的雇员，更少人愿意去理解移民的金融世界。那些移民们用现金付款；把大部分收入汇回家；相较于把钱存入银行，他们好像更愿意把贵重物品放进家里的保险箱。</p>
+<p>　　而国宝银行的雇员大部分是唐人街居民，他们阅读中文报纸，在报纸的招聘栏里寻觅适合的工作。这些雇员与他们的顾客一样，都是移民或者移民二代。银行业务规模增长迅猛，尤其是在中美贸易上升的九十年代。</p>
+<p>　　它后来开始提供电汇业务。在春节前的几周，国宝银行一天内就能完成几百次汇款交易。孙启诚开创了一种非传统的借款人档案，即通过检验日常开销来评估那些没有典型信用历史的贷款人的信用。国宝银行在全纽约、新泽西和宾夕法尼亚的华埠社区广开分行，后来它们的业务还拓展到保险和证券业。</p>
+<p>　　从一开始，孙启诚就在培养女儿方面花了大力气，希望她们未来掌管家族企业。孙仪芬仍记得年少时被带到房产交割会的情景。三个女儿都入读了法学院（小女儿读了医学院)。仪芬和仪琳曾分别在布鲁克林和曼哈顿地方检察官办公室工作。孙怡芬回忆道：“爸爸说我们应该成为检察官，因为这是获得经验和事业上升的最好路径。”</p>
+<p>　　2005年，37岁的二女儿孙仪文拿到了沃顿商学院MBA（工商管理硕士），接任了父亲的总裁和首席执行官一职。大女儿孙仪芬虽然不是银行的直接雇员，但是也是董事会的成员之一，经营着家族律师行孙氏律师事务所（Sung&amp;Co.）。</p>
+<p>　　孙仪文对我说，她很久以前就知道自己有一天会来银行工作。我问她所受的教育是否让她感觉到来自主流社会前景的诱惑，她却强调了回馈华埠社区的重要性，这为她家族的成功奠定了基础。“不用贷款就能去读大学是一种奢侈，因为这说明你的父母很有钱。” 孙仪文说道。但她坦言，对于一个成长在唐人街之外的人来说，经营一家华人银行是很大的挑战。</p>
+<p>　　一天下午, 我们坐在她办公室，她的屋子和父亲一样凌乱，但完全没有中国元素的装饰品。她对我说：“我知道自己的不足之处。爸爸之所以能创办一家社区银行，因为他精通多种方言和文化，可作为社区银行的总裁，我几乎每次拜访客户都需要翻译。”</p>
+<p>　　尽管孙启诚精通多种文化，还是会有一些问题出现。2003年，一家中文报纸报道称国宝银行纽约坚尼路分行经理林小琪非法挪用了千万美金的款项。上千名华人在华埠多家国宝银行排队希望立刻提款。在局面将失去控制之前，纽约市警72和66分局约20名警察赶到现场，及时疏散人群，避免了一场可能爆发的混战。</p>
+<p>　　“我当时就站在银行外，拿着警察的扩音喇叭试图安抚人们。甚至有谣言说我跟林小琪一起逃回了中国！” 孙启诚告诉我。从此之后，在银行工作了15年林小琪再杳无音信。 “她会说好几多种方言，英语也很流利。我也需要有人帮我管理分行。”我问他从这一事件中学到了什么，他眨了眨眼睛，有点无奈地说：“你真想信任别人，但有时候挺难的，也许只有家人靠得住吧。”</p>
+<p>　　孙家从林小琪和余启斌的事情上看到了共同点。孙仪芬说：“每一代都有林小琪这样的人。” 与林小琪一样，余启斌也是极有能力的。他16岁来到美国，在皇后区一家血汗工厂打工，偿还蛇头帮他父母偷渡入境的债务。在这种情况下，他的学业依旧优异，考进了佩斯大学，主修商科。2005年，余启斌开始在国宝银行工作，晋升飞速。到2009年时，他的工资已经涨了八倍，年收入高达22.3万美元。他能说流利的英语，普通话和粤语，以及温州方言。他是雇员中少有的几个的能够与全体职员和任何客户沟通都没有障碍的人之一。“他好学又勤奋，”仪芬说。孙启诚点了点头表示认同，“我本来认为他是个大有可为的青年，有很强的管理能力和光明的未来。”</p>
+<p>　　<strong>“离开唐人街就像出国重新开始一样难。”</strong></p>
+<div class="text-pic">
+<table class="tableImg" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="text-align: center;"><img src="http://photocdn.sohu.com/20151104/Img425275977.jpg" alt="" align="middle" /></td>
+</tr>
+<tr>
+<td class="text-pic-tt" style="text-align: center;">图： 纽约唐人街</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>　　新移民通常会在这个国家形成小圈子，美国的唐人街规模很大，而且抱团，对唐人街以外的事漠不关心。在十九世纪，美国淘金热盛行，中国正在经历鸦片战争，大批华人移民来到美国。1822年，美国通过了《排华法案》，虽然该法案在1943年被废除，但它仍是联邦法律里存在过的唯一一部排挤外国人的法律。它制定了各种各样的措施，以阻止中国工人进入美国主流劳动力市场。华人移民被赶出矿山、制造厂和工厂，他们居住在城市的贫民窟，一代又一代的中国移民无法融入美国社会，每天都盼着存够钱就重回故里。</p>
+<p>　　1965年,《移民和国籍法》通过，华人移民的寄居心态逐渐转变，他们开始把美国当做自己的家。重要的美国亚裔权益团体开始出现。该法案向所有国籍和族裔的人民打开了平等移民美国的大门。“它鼓励了移民建立家庭。”纽约市立大学亨特学院美国亚洲研究学教授邝彼得告诉我说。</p>
+<p>　　从1960到1985年，美国的中国移民人口翻了2番还多，移民也开始在美国购买房产。中国人在世界上的房屋所有权最高：在中国80%的家庭有他们自己的房子；而在美国，这个比例只有65%。从文化角度看，中国人不只是单纯的投资房产，他们还怀着对成功和稳定的渴望。加州大学洛杉矶分校的社会学、美国亚洲研究学教授周民告诉我：”很多中国人认为房产是成家的前提条件，也是对未来的投资。”</p>
+<p>　　但对于很多华裔新移民来说，购买房产还面临很多挑战。“大部分居民不愿离开唐人街，也不想说英语，这使他们不愿去美国的主流大银行, ” 周民还说：“离开唐人街就像出国重新开始一样难。”事实是，由于这些人的收入往往以大笔现金结算，很难证明收入来源。“他们有司机、女裁缝、美甲店的员工，工资很多是日结或周结，平时也没觉得这有什么问题，只有在申请抵押贷款时，他们才意识到这一问题的严重性。”周教授说。</p>
+<p>　　由于没有信用记录，中国传统的借款方式在移民中很流行。最简单的就是向亲人借钱。“钱是一种关系保险，它使家人之间的关系更紧密了。”周解释说。相较于家人之间的关系，还不还钱并不那么重要。“你需要钱的时候我帮了你一把，在我有困难的时候，你就会帮助我。现在，我为孩子攒了十万美金付首付。如果他哪天能还，这很好。如果不能，我也不指望他还。我们是一家人，我的孙子还会在那个房子长大呢。”</p>
+<p>　　还有一种方式就是通过“标会”筹钱。标会是熟人们一起筹集的资金，具体形式各异。但经常是付款最高的人作为会首，首期筹款归会首所有。许多筹款是家族氏的，会员们一般都是同乡。“如果你不想还钱，你和老家的家人们都会有危险。”周教授说。“你也许听说过，有标会在唐人街雇佣年轻人组成团体，用暴力强迫人还债。”</p>
+<p>　　在2012年，一位36岁的女人在亨利街的一家公寓中被谋杀，起因就是她想逃掉从标会借来的20万美元。最终，公寓被烧以销毁罪证。由于借钱不还很可能面临被殴打，被孤立，乃至被杀害的危险，一般人承担不起这样的代价，都会按时还款。这使得人们也能比较放心地把钱借出去，不担心有去无回。</p>
+<p>　　　<strong>　唐人街的“潜规则”：避税</strong></p>
+<p>　　康纳尔大学法律教授罗伯特·霍克特是银行监管以及房地产金融方面的专家。在他看来，国宝银行的案例正是贷款业务“进化”的结果。在传统社会，人们通常“以诚立身”，几乎没人会冒险违约，那时候，合同还没有诞生。随着社会的发展，正式合同开始出现，出借方会评估贷款人的信用记录。如果出借方与借款人相熟，他可以根据借款人的平日表现判断是否应该贷款给他，而这正是国宝银行的行事风格。并且，这一规范一直延续至今。 “按揭贷款一般由当地银行或者地方的储蓄机构提供，”霍克特教授说，“因此只要出借人知道借款人的身份，就很容易对他进行信用核查。”</p>
+<p>　　“第三个阶段始于90年代，这时候爆发了金融危机。我们把它叫做&lsquo;贷款并证券化&rsquo;模式。在这一模式下，一批对你并不熟悉的人向你借贷，他们再将贷款卖给那些对你更是一无所知的人，这就是证券化的过程。最终，剩下的只有一纸合同，而这不过是一份空头文件。”霍克特教授说。</p>
+<p>　　事实上，国宝银行的客户们为了还贷，生活向来勤俭节约，他们依靠少量的资金和亲人的帮助，过着旧时美国小镇的农民般拮据的生活。</p>
+<p>　　美国银行贷款给那些他们明知无法偿还债务的人，从而引发了金融危机；相较之下，国宝银行的低违约率表明该银行在评估借款人的金融能力时异常精准。正如唐人街的一份华文报纸上写到的，“如果每家银行都像国宝银行一样，金融危机就不会发生。”</p>
+<p>　　然而，唐人街存在严重的避税问题是不言而喻的。由于有大量收入不上报，准买家的法律收入与其实际收入存在巨大差异。国宝银行通常以贷款者的实际收入，而非他们上报给联邦税务局的数额，来计算借贷者是否符合贷款条件。因此，国宝银行事实上并未像地区检察官声称的那样高估借贷者的工资。恰恰相反，在更多的情况下，它通常更精确地评估了贷款申请人的实际收入。</p>
+<p>　　案子的起诉书说，在2009年，国宝银行试图通过游说，使即将被审议的“房利美规则”无法获得通过。该规则要求审查贷款申请人的报税申报表。起诉书声称国宝银行知道该规则对他们的生意有负面影响，并且指出如果借贷者的报税申报表需要先通过审查，他们将损失90%的贷款发放数额。</p>
+<p>　　1月份，审判在曼哈顿的纽约州高等法院举行。当时，检察院已经搜集了该银行大量信息。这些证据显示，几乎在银行贷款部门工作的所有雇员都存在各种程度的违法行为，包括伪造贷款申请人的职业信息，伪造礼单，以及夸大贷款者的收入等等。然而，在这些被要求上缴的90万份文件中，居然没有一份材料透露说这些违法行径是奉银行上层指示而为的，哪怕是管理集团纵容了这些行为的证据也未见丝毫。孙家人认为这足以证明自己与这件事没有瓜葛。然而，当地检查机关认为其中必有蹊跷。</p>
+<p>　　国宝银行批准了虚假贷款申请，他们认为所有责任都应该由违法的雇员承担，可检察官坚称雇员只是执行了银行高层制定的“潜规则”。为了证实这一点，检察机关制定了一份图表，图表展示了国宝银行贷款部门各员工都坐在办公室的什么位置，以及他们分别违反了哪些规范。</p>
+<p>　　图表显示，高级主管的办公桌恰巧被那些违规雇员的办公桌环绕着。主管怎么可能对周围发生的事情浑然不觉呢？检察官认为该事件很可疑。如果有证据证明主管知情，那银行就要曾担法律责任。“为什么银行贷款部门雇员在办这些违法业务时如此泰然自若？因为他们是按照银行上层的指示做的。”检察官在法庭上发言时说。</p>
+<p>　　　<strong>　最好的策略：让人们知道那些华人客户是多么不可信！</strong></p>
+<p>　　审讯已进行了三周。余启斌在等待传召时，心平气和地读着《财富》杂志。他30多岁，微胖。穿着一件黑色西装，扎着浅蓝色腰带，带着一枚戒指。哪怕与孙仪文同庭出席，他从未与孙家人有过一丝一毫的目光交流。</p>
+<p>　　余启斌是这些证人中唯一可以不配备翻译的，但他说话时常吞吞吐吐，含糊其辞。五天来，他在证人席上最常说的一句话就是“我记不得了”。当被问及在审批通过借贷者的假信息时，他是否有错，余启斌睁大了眼睛，回答道：“也许吧，但判断信息是否真实不是我的责任。”</p>
+<p>　　银行的法律团队认为，最好的策略就是削弱控诉方证人的可信度。“我们要做的不是证明这件事和银行无关，而是要让大家觉得控诉方的证人是不可信的。”孙仪文说。事实上，他们的这一策略实施得非常好。法院审查贷款人背景时发现，很多人都是餐馆服务生，纪念品商店小老板，以及裁缝师。他们没受过高等教育，游离在社会的边缘，难以融入美国人的生活。</p>
+<p>　　黎明时分，调查人员敲开了证人的房门。此时，调查员早已对他们的经历了如指掌。在法庭上，贷款申请人们局促不安，不知所措，战战兢兢，如履薄冰。强人与弱者的对峙使这次审判中被进一步放大。</p>
+<p>　　银行代理律师企图让外界关注这些贷款申请人的私生活。为了掩盖自己是非法移民，证人们的回答经常前言不搭后语。 当律师问一位厨师对他工作的餐厅合伙人是否了解时，厨师开始说他与合伙人只有几面之缘，可随后又补充说合伙人更像是他的姐妹。</p>
+<p>　　“她像你的姐姐还是说她就是你的姐姐？”律师问。</p>
+<p>　　“她是我的姐姐。”</p>
+<p>　　被告方律师充分还利用了这些贷款申请人常年避税这一事实。“你是不是几乎每年都逃税？”律师问一位贷款人。贷款人回答说：“我确实少交了一些。”这种对话令证人们的可信度进一步降低。并且，长期逃税表明贷款申请者能支付的抵押金额远远高于根据他们纳税额所计算出来的数字。</p>
+<p>　　在华人社会中，向“标会”或者亲人借款是稀松平常的事。但房利美规定，用借款来付头款是违规的。在这座以美国价值观和行为准则为衡量标准的法庭上，华人贷款申请人的借款行被认为严重违约。</p>
+<p>　　但更麻烦的是， “赠款”与“借款”之间的界限很模糊。律师问一位30多岁的餐馆服务生是否要还他兄弟借给他的钱时，他说：“这不是我需不需要还的问题，要看我什么时候有能力还。”辩护律师说希望他说得更清楚些。他回答：“因为我们是一家人，没必要打欠条。”</p>
+<p>　　案件审理需要翻译也使问题变得更复杂。由于法院预算受律师协会的监管，为了使开支在预算范围内，法院会尽可能不聘用翻译。并且，长期以来美国很多法律术语没有相对应的中文，错译和误读在这场官司中司空见惯，“理解偏差”与“答非所问”使证人们的处境更加不利。</p>
+<p>　　有一次，检察官试图弄清楚一处误译，他直接问证人：“翻译难道不明白&lsquo;everything&rsquo;什么意思吗？”翻译却将这个问题进一步错译成：“为什么翻译不翻译全部能容？”事实上，很少有人知道翻译会出错，但这确实是个严重的问题。三名报道该事件的华文报记者对此讳莫如深。“听这种案子真是痛苦啊。”有一次，《星岛日报》的一位记者无奈地自言自语说。律师问证人：“你会为了个人利益不惜说谎吗？”翻译却转述成“说谎是不是对你的利益没有太多损害？”银行代理律师不懂中文，无法辨知翻译是否转达正确，于是，错误的表述就如此理所当然地被法院录入在案。</p>
+<p>　　评审团评议在五月的举行，持续两周。双方对于结果都比较没有底。最终，法官要求陪审团做出裁决，在6月3日和4日，法院宣判国宝银行无罪。</p>
+<p>　　<strong>案件在审理方向上就错了！</strong></p>
+<p>　　唐人街的居民和商户纷纷向孙家道贺， “陪审团裁定国宝银行无罪”登上了华文报纸头版。班尼特·L·杰士曼是曼哈顿检察院的前检察官，目前在佩斯法学院担任教授，他认为该案件的公诉人判断失误。</p>
+<p>　　我又去拜访了曼哈顿地区检察官赛勒斯·Ｒ·万斯。他坚称调查这起案子是正确的。“一些投诉者希望检查机关审查银行的材料。我认为应该给他们一个答复。”他说。“如果这件事发生在花旗银行或者是南美移民的社区银行，我们同样会起诉。”</p>
+<p>　　虽然国宝银行的贷款拖欠率很低，但万斯然坚持当初的判断。“在2008年抵押借贷成风的时候，表面看起来每家银行都没有问题，但最后却出了大事。”他举例说，“如果我承诺卖给你的是辆新车，它看起来也确实光亮如新。然而，这车的发动机是重装的，在开出5万英里之后就会报废。你兴高采烈地买了车，可你买的东西是个废物。”</p>
+<p>　　不过，这两件事的确有本质上的不同。国宝银行主观评估贷款申请人的信用；而2008年的金融危机确是将贷款进行二次售卖而造成的。</p>
+<p>　　万斯认为国宝银行将那些贷款人置于危险的境地。“贷款申请人确实能够从中获利，但也面临巨大的风险，这对他们是不公的。”万斯说，“在这个案子中，银行严重失职，因为他们并没告诉客户提交虚假文件会带来怎样的影响。”</p>
+<p>　　我联系了曾经在国宝银行工作的人。在这位不愿透露姓名的人看来，案件在审理方向上就错了：“唐人街的逃税问题是更根本的问题，检察机关应该把焦点放在这上面，增强法律的威慑性。但他们却一直揪着国宝银行能否造成财政危机这点不放。”他摇了摇头，叹了口气，无奈地说。</p>
+<p>　　对于万斯所说的国宝银行将贷款人至于危险境地的观点，他表示不屑。“别和我说贷款人是无辜的，”他说，“他们不需要保护，因为他们是这事件最大的受益者，也是罪魁祸首。他们中有很多人身价都50多万刀还享受着低保和医疗补助。”</p>
+<p>　　对于没有任何证据证明是高层指示员工进行信息造假这件事他也并不吃惊。“没有人明确地告诉你究竟该怎么做，”他说。“你在银行工作时，会看到别人是怎么做的。我们的雇员可都是中国移民，学这点事儿对他们来说轻而易举。说实话，我们不觉得做点利己不损人的小事儿有什么大不了，中国人有自己的做事原则。”</p>
+<p>　　孙家人对员工的违规行为是否知情，他觉得很难讲。因为一方面，几乎唐人街的每个人都知道事情是怎么回事。但他认为孙氏姐妹并不是真正意义的华人。“如果那些贷款人不被追责的话，银行工作的职员也不应该受到任何惩罚。这个案件反映出了华人移民们的经济现况，但政府只追责一小撮人，不去解决根本问题。”</p>
+<p>　　<strong>唐人街：纽约的一座孤岛</strong></p>
+<p>　　审判结束不久后，我到唐人街的理发店告诉陈其真法院的裁决结果。他正在间休，抽着烟，盯着手机屏幕，屏幕上是谷歌地图，显示了一栋房子周围的街景。“帮我朋友看的，他可能想买房。”他和我说。陈其真并不知道审判结果，也不关心。“谁赢了都那么回事儿，又能怎么样呢？ 律师和银行家都是骗子。”陈认为国宝银行是美国的帮凶，专门诈骗中国移民，根本就不是服务华人的。如今，他唯一信任的人居然是余启斌。余承认他偷了陈启真夫妇的钱。陈摇了摇头，一脸茫然。“银行都是这样啊”。然后，他笑了起来：“要是我有几百万，就买他几套房子，专门卖给那些在贷款环节会出问题的人。然后扣他们的押金。”</p>
+<p>　　审判结束几天后，孙启诚和三个女儿去全家最喜欢的餐馆吃午饭，餐厅与银行仅一街之隔。在去的路上，经常有人认出他们并走上来道贺。“我听说这个事儿了，真是好消息啊！”一个双下巴的50多岁男人，握着孙启诚的手说。“我们一直想能从你那贷款呢。”他继续用粤语说道。然后，转过头看了看孙仪文，用英语重复了一遍。孙仪文告诉我，这个人是汽车服务公司的老板，在国宝银行工作过很长一段时间。</p>
+<p>　　走了几步，又有人上来用另一种方言搭腔。孙很不好意思地和我道歉，说一路上耽误了不少时间，我和他说他可真是名人了啊。“是啊，大家都认识我。因为我早年处理过不少复杂的移民案。”他说，“我经常说，我就是帮助非法移民变得合法，让他们家庭团聚，帮助他们买房子，做生意的人。等他们成功之后，就不需要我了，那时候他们可以去花旗银行了。”</p>
+<p>　　这家餐厅名叫“合利”，意为“大家一起赢利”。他们主营粤菜，在日本拉面店和干洗店之间。我们进去时，餐厅还没多少人。一张桌子上，一大家人围着个哭闹不停的孩子，想让它安静一会儿。在这张桌子旁边，两位老人慢悠悠地吃着碗面，喝着青岛啤酒，他们时而说普通话时而说粤语。</p>
+<p>　　孙启诚一进门就和服务员们打招呼，他对这家店已了如指掌，不用看菜单就帮我们都点好了菜。然而对于他点的菜，三姐妹好像并不领情。她们用钳子把一砂锅鸡爪子推到父亲那边。“我的孩子们吃鸡爪子，”孙仪文说，“他们有个中国奶奶。”</p>
+<p>　　我问他们经营银行面临的最大挑战是什么，两代人给出了不同的答案。孙启诚认为懂华埠文化是他们的优势。“唐人街需要一家支持华人的银行！”但是孙仪文认为国宝银行的经营模式存在风险。“我们想让华人移民过上好生活；但同时，我们需要合格的员工。”她又提到了余启斌被解雇的事。“我们正在招聘，准备再招个会中文的人来处理贷款业务”她说，“最近有个条件还不错的人递了简历，结果我一看，那人就是余启斌！”</p>
+<p>　　在纽约这座繁华的大都市中，华人社区终究是孤岛。他们以自己特有的模式经营着，日复一日，年复一年。孙仪芬告诉我，那些对银行做了不利证词的贷款者已经被取消贷款资质了。</p>
+<p>　　服务员过来帮忙清理桌子，他身上有股淡淡的烟味，弯腰时，孙慈爱地拍了拍他的头，服务生笑了。他们开始交谈，用粤语，这是服务员的母语。 “这就是你介绍去理发店打工的那个人吗？”孙仪芬问她的爸爸。孙没有回答，此时，他已经全情投入到一段我和他的女儿们都听不懂的对话中。</p></div>
+                                
+				<!-- seo标签描述 -->
+				<div style="display:none;">
+					<span id="url" itemprop="url">http://news.sohu.com/20151105/n425275960.shtml</span>
+					<span id="indexUrl" itemprop="indexUrl">news.sohu.com</span>
+					<span id="isOriginal" itemprop="isOriginal">true</span>
+					<span id="sourceOrganization" itemprop="sourceOrganization" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">搜狐国际</span></span>
+					<span id="author" itemprop="author" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">尤乙同 祖晓雯</span></span>
+					<span id="isBasedOnUrl" itemprop="isBasedOnUrl">http://news.sohu.com/20151105/n425275960.shtml</span>
+					<span id="genre" itemprop="genre">report</span>
+					<span id="wordCount" itemprop="wordCount">14460</span>
+					<span id="description" itemprop="description">纽约唐人街，位于曼哈顿南端。在这片面积超过4平方公里，居住着80多万华人的社区，有一家名叫"国宝"的银行，它是来自四川的华商孙启诚在1984年创办的。30年来，</span>
+				</div>
+			</div>	
+           <div class="original-title"><span class="editer" id="editor_baidu">(责任编辑：尤乙同)</span>
+					
+			</div>					
+			<!-- 分享 -->
+			<div class="share clear" id="share">
+				
+				
+				
+              <ul>
+                                               <li class="share-tt">分享：</li>
+                                               <li class="blg"><a href="javascript:void(0)" onclick="jumpUrl('t')" title="分享到搜狐微博"></a><em></em></li>
+                                               <li class="qq"><a href="javascript:void(0)" onclick="jumpUrl('qq')" title="分享给QQ好友"></a><em></em></li>
+                                               <li class="rrw"><a href="javascript:void(0)" onclick="jumpUrl('renren')" title="分享到人人网"></a></li>
+                                               <li class="sohukan"><a href="javascript:void(0)" onclick="jumpUrl('sohukan')" title="收藏到搜狐随身看"></a><em></em></li>
+                                               <li class="pr-code" id="uc_reader"><a href="javascript:void(0)"></a>
+						<div class="pr-code-con">
+							<div id="ucshare_config"  appid="142"  width="116" server="http://plus.uc.cn" appCenter="http://app.uc.cn"></div>
+							<div id="ucshare_picture" ></div>
+							<script  type="text/javascript" src="http://ccs.ucweb.com/ccs/13?_e=1h&_t=http%3A%2F%2Fplus.uc.cn%2Fpublic%2Fjs-min%2Fucshare_qrcode_normal.js"></script>
+						</div>
+					</li>
+
+                                               <li class="transmit_txt"><a href="javascript:void(0)">[保存到博客]</a></li>
+                                     </ul>
+				<div class="go_sohu_home"><a href="http://www.sohu.com" target="_blank" onclick="toHomePage();"></a></div>
+				<script type="text/javascript">
+				(function(){
+					var $uvReader = $('#uc_reader');
+					$uvReader.hover(function(){
+						$uvReader.find('.pr-code-con').show();
+					},function(){
+						$uvReader.find('.pr-code-con').hide();
+					});
+				})();
+				</script>
+				<style>
+				#container .share .world-link{float:left;display:inline;margin:5px 0 0 160px;line-height:20px}
+				#container .share .world-link a{padding-left:16px;display:inline-block;background:url(http://news.sohu.com/upload/article/2012/images20140613/down.gif) no-repeat 0 2px}
+				</style>
+				<div class="world-link"><a href="http://k.sohu.com" target="_blank">手机看新闻</a></div>
+				     				
+                
+				
+            </div>			
+			<!-- 相关 -->
+			
+			
+			
+			<!-- 本文相关推荐-->
+            <!-- 其它频道 -->
+<style>
+#container .tagHotg .tagIntg li a{color:#000}
+#container .tagHotg .tagIntg li a:hover{color:#c00}
+</style>
+			<style>
+/* 相关热点 2010-09-09 */
+#contentA .tagHotg{clear:both;margin:10px auto 0;text-align:left}
+#contentA .tagHotg h3{height:24px;font:600 14px/24px "宋体";color:#333}
+#contentA .tagHotg .tagIntg{display: block;overflow:hidden;zoom:1;clear:both;width:100%;margin:3px auto 0}
+#contentA .tagHotg .tagIntg li{float:left;width:205px;font:14px/24px "宋体"}
+#contentA .tagHotg .tagIntg li a{ text-decoration:none !important;}
+#contentA .tagHotg .tagIntg li a:hover{text-decoration:underline !important;}
+#contentA .text .line{width:100%}
+</style>
+<div class="tagHotg">
+  <h3><a href="http://www.sogou.com/" target="_blank">本文相关推荐</a></h3>
+  <div class="tagIntg">
+    <ul>
+                        <li><a class="hot-icon" href="http://www.sogou.com/web?query=唐人街探案完整版&p=02210102&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len
+="12" ind="1">唐人街探案完整版</a></li>
+                                <li><a href="http://www.sogou.com/web?query=世界各地的华人行走在唐人街&p=02210102&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="2">
+世界各地的华人行走在...</a></li>
+                                <li><a href="http://www.sogou.com/web?query=美国唐人街视频聊天室&p=02210102&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="3">
+美国唐人街视频聊天室</a></li>
+                                <li><a href="http://www.sogou.com/web?query=唐人街著名的华人&p=02210102&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="4">
+唐人街著名的华人</a></li>
+                                <li><a href="http://www.sogou.com/web?query=海外华人的故事&p=02210102&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="5">
+海外华人的故事</a></li>
+                                <li><a href="http://www.sogou.com/web?query=血战唐人街&p=02210102&fhintidx=5" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="6">
+血战唐人街</a></li>
+                                <li><a href="http://www.sogou.com/web?query=美国微信华人诈骗&p=02210102&fhintidx=6" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="7">
+美国微信华人诈骗</a></li>
+                                <li><a href="http://www.sogou.com/web?query=唐人街故事&p=02210102&fhintidx=7" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="8">
+唐人街故事</a></li>
+                                <li><a href="http://www.sogou.com/web?query=唐人街探案什么时候上映&p=02210102&fhintidx=8" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="9">
+唐人街探案什么时候上映</a></li>
+                                <li><a href="http://www.sogou.com/web?query=哪些国家有唐人街&p=02210102&fhintidx=9" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="10">
+哪些国家有唐人街</a></li>
+                                <li><a href="http://www.sogou.com/web?query=唐人街探案演员表&p=02210102&fhintidx=10" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="11">
+唐人街探案演员表</a></li>
+                                <li><a href="http://www.sogou.com/web?query=卡其诈骗犯审判现场&p=02210102&fhintidx=11" onclick="return sogouRelateWeb(this);" target="_blank" onclick="return sogouRelateWeb(this);" len="12" ind="12">
+卡其诈骗犯审判现场</a></li>
+                                </ul>
+  </div>
+</div>
+			<script type="text/javascript">var entityId = 425275960;</script>	
+			
+				<div id="SOHUCS" sid=""></div>
+<script>
+document.domain = "sohu.com";
+if(typeof entityId != 'undefined'){
+    document.getElementById('SOHUCS').setAttribute('sid',entityId); 
+    var category = typeof category != 'undefined' ? category :'';                 
+    var _config = {
+                   hideList: true,               
+                   hideSubList: true,            
+                    jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
+                    varName: entityId, 
+                    customSohu: true,
+                    cyanTitle : '我来说两句',
+                    commentHide : true ,
+                    pageSize: 10,
+                    categoryId: category
+                }
+    }
+    window.SCS_NO_IFRAME = true;
+</script>
+
+<script src="http://assets.changyan.sohu.com/upload/changyan.js?appid=cyqemw6s1&conf=prod_0266e33d3f546cb5436a10798e657d97" charset="utf-8"></script>
+<script type="text/javascript" src="http://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+				
+			<!--图文转载-->
+			<script type="text/javascript" src="http://news.sohu.com/upload/article/2012/js/pubPicTextV6_20130926.js"></script>
+			<script type="text/javascript">
+				var newsId = 425275960;
+				jQuery.picText.init();
+			</script>
+			<!--图文转载 end-->
+			<!-- 广告 -->
+			<div class="ad590">
+				<div><SOHUADCODE><div>
+<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13022651"></script>
+    <script language=javascript>
+        require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_12022'}); 
+});
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/9c21da63769d55542c77e7d98c9c4531.php?a=0");
+</script></div>
+</SOHUADCODE></div>
+			</div>
+			<!-- 20130121 st -->
+			<div class="lottery-box clear" id="sougocaipiao1"><a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">杭州彩民独享2040万大奖</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com" target="_blank" rel="nofollow">双色球头奖8注1118万</a>&nbsp;&nbsp;<a  href="http://caipiao.sohu.com" target="_blank" rel="nofollow">河南彩民随意刮中"富贵8"100万</a>&nbsp;&nbsp;<a href="http://caipiao.sohu.com/video/tycpkj/index.shtml" target="_blank" rel="nofollow">体彩开奖</a></div	
+			<!-- 20130121 end -->
+			<div class="mutu clear">
+				<div class="mutu-title">
+					<div class="mutu-news-tt">
+                   <h2><span>相关新闻</span></h2>
+                    </div>
+					<div class="mutu-keyWord-tt">
+                   <h2><span>相关推荐</span></h2>
+                    </div>
+				</div>
+				<div class="mutu-news">
+						<div class="list14">
+							
+
+			 <ul> 		<li><span>15-09-21</span><a href="http://news.sohu.com/20150921/n421648436.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="1" target="_blank">马华公会总会长狠批“瓜分唐人街摊位”言论</a></li>
+								<li><span>15-09-20</span><a href="http://news.sohu.com/20150920/n421630316.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="2" target="_blank">“唐人街杀人案”纯属谣言 系演艺人员自编自演</a></li>
+								<li><span>15-09-18</span><a href="http://news.sohu.com/20150918/n421427680.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="3" target="_blank">马来西亚数万人示威冲击唐人街 或掀反华浪潮(图)</a></li>
+								<li><span>15-07-31</span><a href="http://news.sohu.com/20150731/n417918627.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="4" target="_blank">纽约唐人街牌楼拟10月动工 筹划已近五年(图)</a></li>
+								<li><span>15-07-22</span><a href="http://news.sohu.com/20150722/n417263357.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="5" target="_blank">外媒:华盛顿唐人街繁华不再 华裔居民仅剩300人(图</a></li>
+								<li><span>15-03-20</span><a href="http://news.sohu.com/20150320/n410075126.shtml" onclick="return sogouRelateNews(this);" len="6"  ind="6" target="_blank">日媒:旧金山华人呼吁在唐人街广场设慰安妇像</a></li>
+		 </ul> 	
+
+							
+								<div class="more"><a href="http://news.sogou.com/news?query=唐人街 华人&pid=31023101&md=listTopics&name=&mode=0&sort=0" rel="nofollow" target="_blank" >更多关于 <strong>唐人街 华人</strong> 的新闻&gt;&gt;</a> </div>
+							
+						</div>
+				</div>
+				<div class="mutu-keyWord">
+						<div class="list14">
+							<ul>
+	<li><a href="http://www.sogou.com/web?query=gta血战唐人街&p=31210100&fhintidx=0" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="1">gta血战唐人街</a></li>
+	<li><a href="http://www.sogou.com/web?query=风雨唐人街全集优酷&p=31210100&fhintidx=1" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="2">风雨唐人街全集优酷</a></li>
+	<li><a href="http://www.sogou.com/web?query=波士顿唐人街&p=31210100&fhintidx=2" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="3">波士顿唐人街</a></li>
+	<li><a href="http://www.sogou.com/web?query=旧金山唐人街游记&p=31210100&fhintidx=3" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="4">旧金山唐人街游记</a></li>
+	<li><a href="http://www.sogou.com/web?query=侠盗飞车血战唐人街&p=31210100&fhintidx=4" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="5">侠盗飞车血战唐人街</a></li>
+	<li><a href="http://www.sogou.com/web?query=英国唐人街&p=31210100&fhintidx=5" onclick="return sogouRelateWeb(this);" target="_blank" len="6" ind="6">英国唐人街</a></li>
+<script >
+try{    
+        var i=new Image();
+        i.src='http://pingback.sogou.com/rltpv.png?surl='+escape(window.location)+'&'+Math.random();
+}catch(err){
+}       
+</script></ul>
+						</div>
+				</div>
+			</div>
+	
+			<!-- 搜狗服务 -->
+			<div class="sogouService clear">
+            	<h2><span><a href="http://www.sogou.com/" target="_blank"><img src="http://news.sohu.com/upload/pagerevision20090916/sogou.png" width="74" height="22" alt="" /></a></span><a href="http://www.sogou.com/fuwu/" rel="nofollow" target="_blank"><strong>我要发布</strong></a></h2>
+                <script type="text/javascript">
+	                var sogou_ad_id=13273;
+	                var sogou_ad_height=90;
+	                var sogou_ad_width=580;
+                </script>
+                <script language='JavaScript' type='text/javascript' src='http://images.sohu.com/cs/jsfile/js/c.js'></script>
+            </div>
+		</div>
+	</div>	
+	<div class="rightbar-wrapper grid-300">
+		<!-- 搜索 热词 -->
+		<div class="search-hotword clear">
+			<div class="search">
+				<form action="http://news.sogou.com/news" method="get" target="_blank" id="searchform" name="searchform" onsubmit="return CheckKeyWord();" autocomplete="off"> 
+					<input type="text" name="query" id="query" class="search-in" value="唐人街 华人" />
+					<input type="hidden" name="t" id="t" value="news" />
+					<input type="submit" class="search-btn" value="搜狗搜索" onmouseover="this.className='search-btn search-btn-over'" onmouseout="this.className='search-btn'" />
+				</form>
+			</div>
+			<div class="hotword">
+				<p>热词：
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E5%B0%8F%E6%89%8E%E5%BD%93%E7%88%B9" target="_blank" rel="nofollow">小扎当爹</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=+%E8%8B%8F%E6%A0%BC%E5%85%B0%E7%8E%B0%E6%80%AA%E9%B2%A8" target="_blank" rel="nofollow">苏格兰怪鲨</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E8%AE%A8%E8%B4%BC%E6%AA%84%E6%96%87" target="_blank" rel="nofollow">讨贼檄文</a>
+<a href="http://www.sogou.com/sogou?pid=sogou-inse-c5ab6cebaca97f71&query=%E7%B9%81%E4%BD%93%E5%AD%97%E7%94%B3%E9%81%97" target="_blank" rel="nofollow">繁体字申遗</a></p>
+				<p>热剧：<a href="http://tv.sohu.com/s2014/qsmy/" target="_blank">秦时明月</a> <a href="http://tv.sohu.com/s2015/wonderlady4/" target="_blank">极品女士4</a> <a href="http://tv.sohu.com/s2015/yxss/" target="_blank">夜行书生</a> <a href="http://tv.sohu.com/s2015/thenightshift2/" target="_blank">夜班医生2</a> <a href="http://tv.sohu.com/s2015/dyg/" target="_blank">大秧歌</a></p>
+			</div>
+		</div>
+        <script type="text/javascript">
+        function CheckKeyWord(){
+                 var sf = document.searchform;
+                 with(sf){
+          //if (query.value == "唐人街 华人") {
+          //                query.value = "";
+          //                setTimeout("query.value='唐人街 华人'", 1000);
+          //       }
+        }
+                 return true;
+        }
+        
+        // 改变提交的查询动作
+        function CheckFormAction(v){
+                 var sf = document.searchform;
+                 with(sf){
+          if (v=='web') {
+                          action = "http://www.sogou.com/web";
+            p.value = "02240100";                                 
+                 } else {
+                          p.value = "02240101";
+                          action = "http://news.sogou.com/news";
+                 }
+        }
+                 return true;
+        }
+
+        jQuery(function(jq){
+                 var searchValue = jq(".search-in").val();
+                 jq(".search-in").focus(function(){
+                          jq(this).val("").css("color","#333");
+                          jq(".search").addClass("search-act");
+                 }).blur(function(){
+                          if(jq(this).val() == ""){
+                                    jq(this).val(searchValue).css("color","#666");
+                                    jq(".search").removeClass("search-act");
+                          } 
+                 })
+        });
+        </script>
+		
+		<!-- 广告 -->
+		<SOHUADCODE><script type="text/javascript">
+if(typeof(document.pv)=="undefined") document.pv = new Array();var _a=new Image();
+_a.src="http://imp.optaim.com/201408/227508674023a85b81418b2fd35d3b5a.php?a=2";
+document.pv.push(_a);
+</script><script type="text/javascript">
+Passion.tclick=function(ctid){
+    Passion.pv.imp("http://xls.go.sohu.com/201301/dec6fec990dffa2804915cbc46fbefee.php?a="+ctid);
+}
+</script><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD475 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD475=new Cookie(document,"TurnAD475",24);
+TurnAD475.load();
+TurnAD475.visit=(TurnAD475.visit==null)?parseInt(Math.random()*3+1):TurnAD475.visit;
+if(TurnAD475.visit!=0)var intTurnAD475=TurnAD475.visit;
+TurnAD475.visit++;
+TurnAD475.visit=(TurnAD475.visit>3)?1:TurnAD475.visit;
+TurnAD475.store();
+function showTurnAD475(basenum){
+if (basenum==1){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+jQuery("#TurnAD475").attr('id','tanx-a-mm_17187609_2273741_13026471');
+document.write('<script charset="gbk" src="http://p.tanx.com/ex?i=mm_17187609_2273741_13026471"></sc'+'ript>');
+require(["sjs/matrix/ad/passion"], function(passion){
+         passion.report("pv", {adsrc:6,adid:'20q1E0q2h0000000q73000qyx',monitorkey:'20q1E0q2h0000000q73000qyx',cont_id :'beans_11953'}); 
+});
+//轮换代码结束
+}
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/19b28503a51ae5fecca69243df588209.php?a=0");}
+else if(basenum==2){
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD475",_ID = "10113",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+else{
+if (typeof has_topAd == "undefined" || has_topAd==0) {
+//topnews代码，投放时请带上，轮换代码从下面开始替换
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD475",_ID = "10113",_W = 300,_H = 250,_T = 3,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+//轮换代码结束
+}}
+}
+showTurnAD475(intTurnAD475);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<script>var divid300500 = 'TurnAD475';</script>
+<script type="text/javascript" src="http://images.sohu.com/bill/tongyong/js/top/Topnewsthird300500V20140925.js" ></script></SOHUADCODE>		
+		<!-- 手机看新闻 -->
+		<script src="http://a1.itc.cn/pv/js/pvcode.1312101227.js"></script>
+<div class="phone_rss">
+   <a href="http://k.sohu.com" onclick="_pv.send('5af69b5503b22dd5')" target="_blank"><img src="http://i1.itc.cn/20151202/a75_ca5db141_b629_d6b5_049a_e7699eee5e37_1.jpg" width="300" height="92"></a></div>
+<div class="blank5B"></div>		
+		<!-- 相关微博 -->
+		
+		<div class="news-frag clear">
+		 <h2><span>点击今日</span><a href="http://news.sohu.com/dianjijinri/" target="_blank">更多&gt;&gt;</a></h2>
+
+		 <div class="clk-today clear">
+
+  <div class="pic-text">
+    <div><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml"><img src="http://i0.itc.cn/20151202/360f_d2d9c787_24c1_a2d3_80ff_af60630c9f23_1.jpg" alt="" width="115" height="75" border="0"></a></div>
+    <h4><a target="_blank" href="http://news.sohu.com/s2015/dianji-1759/index.shtml">
+“仁波切”们的敛财秘术
+</a></h4>
+<p>[<a target="_blank" href=http://news.sohu.com/s2015/dianji-1759/index.shtml>详细</a>]</p>
+  </div>
+  <div class="list12">
+    <ul>
+      <li><span>数字之道：</span><a href="http://news.sohu.com/s2015/xlygxw/index.shtml" target="_blank">俄土敌盟关系网：冲突一触即发</a></li>
+      <li><span>独家策划：</span><a href="http://news.sohu.com/s2015/2016huochepiao/index.shtml" target="_blank">2016春运购票日历!回家必备快收藏!</a></li>
+    </ul>
+  </div>
+</div>
+<div class="rightbar-foot" style="margin-top:10px;"></div>
+		</div>
+		
+		
+		
+
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD476 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD476=new Cookie(document,"TurnAD476",24);
+TurnAD476.load();
+TurnAD476.visit=(TurnAD476.visit==null)?parseInt(Math.random()*2+1):TurnAD476.visit;
+if(TurnAD476.visit!=0)var intTurnAD476=TurnAD476.visit;
+TurnAD476.visit++;
+TurnAD476.visit=(TurnAD476.visit>2)?1:TurnAD476.visit;
+TurnAD476.store();
+function showTurnAD476(basenum){
+if (basenum==1){
+document.getElementById('TurnAD476').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/ebec5d3797ed1fd700981efee250e193.php?a=0");}
+else{
+document.getElementById('TurnAD476').innerHTML = "<iframe width=300 height=250 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://x.jd.com/exsites?spread_type=2&ad_ids=559:5&location_info=0&callback=getjjsku_callback></iframe>";
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/34267707dd3559f0d0de354375cc3c04.php?a=0");}
+}
+showTurnAD476(intTurnAD476);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>		
+		<!-- 广告列表 a -->
+		<SOHUADCODE>
+</SOHUADCODE>		
+		<!-- 相关图片 -->
+		<style>
+.news-frag { border-bottom:5px solid #fff;padding-bottom:0;}
+</style>
+<div class="mutu-pic kind-video clear"  id="hotpicnew" style="height:auto">
+			<h2><span>热门图片</span></h2>
+			<style>
+			#container .mutu-pic .list12 ul{margin:0 auto 12px;width:272px}
+			</style>
+			<div class="pic-group">
+				<ul>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201510/6241.html" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_301bc9e4_d62a_8c9e_c4b2_440948d6b56c_1.jpg
+" width="125" height="85" alt="" /><span>中国四千年第一美女</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6493.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151130/3436_aab09cad_2738_7c7c_1f8b_38b8ee208f0b_1.jpg
+" width="125" height="85" alt="" /><span>红孩儿成最高学历童星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/qwys/ywbd/201511/6420.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151120/332d_954a81f7_1794_612c_2137_018fc7aa3040_1.jpg
+" width="125" height="85" alt="" /><span>演14亿票房电影却不红
+</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6510.html
+" target="_blank" rel="nofollow"><img src="http://i3.itc.cn/20151202/3436_a956c964_453b_87b7_9da9_22438d58cc97_1.jpg
+" width="125" height="85" alt="" /><span>好莱坞最穷最孤独巨星</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6362.html
+" target="_blank" rel="nofollow"><img src="http://i1.itc.cn/20151109/3436_86ac5a2d_3189_0dff_42c6_c648eba0aeae_1.jpg
+" width="125" height="85" alt="" /><span>苏有朋林心如好事将近</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6359.html
+" target="_blank" rel="nofollow"><img src="http://i0.itc.cn/20151110/3436_68a20f34_35da_1e42_a7a7_ca77c78f3111_1.jpg
+" width="125" height="85" alt="" /><span>他们不再是“中国人”</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/shwx/ylbg/201511/6462.html 
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151125/3436_27d1f69a_2226_6539_9169_e49c486e346f_1.jpg
+" width="125" height="85" alt="" /><span>锤哥拍片太拼突然暴瘦</span></a></li>
+
+					<li><a href="http://www.qiqu888.com/hqsy/yxgw/201511/6406.html?1447659664
+" target="_blank" rel="nofollow"><img src="http://i2.itc.cn/20151117/332d_83725e76_e951_f92b_c484_5d5fb91ef569_1.jpg
+" width="125" height="85" alt="" /><span>男子钓出食人怪惊骇人</span></a></li>
+
+					
+			</ul>
+			</div>
+		</div>
+                <!-- 淘宝客广告 -->
+                <SOHUADCODE><div class="ad300">
+<div>
+<script type="text/javascript">
+        document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_32412711"></a>');
+        tanx_s = document.createElement("script");
+        tanx_s.type = "text/javascript";
+        tanx_s.charset = "gbk";
+        tanx_s.id = "tanx-s-mm_17187609_2273741_32412711";
+        tanx_s.async = true;
+        tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_32412711";
+        tanx_h = document.getElementsByTagName("head")[0];
+        if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+</script>
+<script type='text/javascript'>
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/32f6f843b7342a720cb81048acd8fc90.php?a=0");
+</script></div>
+</div>
+</SOHUADCODE>			
+		<!-- 广告列表 b -->
+		<SOHUADCODE><div>
+<div>
+<iframe width=300 height=200 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/jctj/bj/index.html></iframe>
+</div></div>
+</SOHUADCODE>		
+		<div class="rightbar-foot"></div>		
+		<SOHUADCODE></SOHUADCODE>
+		<!-- 影视视频 -->
+		<div class="kind-video video-kink clear pvblock1" id="kind-video">
+			<div class="video-menu">
+				<ul>
+					
+					<li class="video-menu-now">热点视频</li>
+					<li><a href="http://tv.sohu.com/drama/" target="_blank">影视剧</a></li>
+					<li><a href="http://tv.sohu.com/show/" target="_blank">综艺</a></li>
+					<li class="video-menu-end"><a href="http://tv.sohu.com/ugc/" target="_blank">自媒体</a></li>
+				</ul>
+			</div>
+			<div class="scroll-box">
+				<div class="scroll-con">
+
+                        	
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429174623.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151201/70b_29e67fbe_1273_f059_c13f_05e285b9f706_1.jpg" width="278" height="144" alt="极品女士" /><em class="layer-txt"><i></i><b>极品女士 | 文章变疯狂粉丝追星停不下来</b></em><em ></em></a></div>
+                                
+                        <div class="picA"><a href="http://tv.sohu.com/20151201/n429164659.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3498_d866e1b0_274c_9068_1cb9_2df98f6cb38b_1.jpg" width="278" height="144" alt="夜行书生" /><em class="layer-txt"><i></i><b>夜行书生 | 美男李准基上演凄美人鬼恋</b></em><em></em></a></div>
+		
+                        <div class="picA"><a href="http://tv.sohu.com/20151202/n429175566.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151201/70b_b5a0a3e8_35ee_57e6_65f2_bc3374e9c8c4_1.jpg" width="278" height="144" alt="秦时明月" /><em class="layer-txt"><i></i><b>秦时明月|天明大败秦兵后险对月儿下毒手</b></em><em></em></a></div>
+
+				</div>
+			</div>
+			<div class="scroll-btns"><a href="javascript:void(0)" class="up uN"></a><a href="javascript:void(0)" class="down"></a></div>
+			<script type="text/javascript" src="http://news.sohu.com/upload/dynamic/dynamic.js"></script>
+			<script type="text/javascript">
+			SOHU_MDC_PU.autoScroll({
+				slideOuter : jQuery('#kind-video'),
+				picList : jQuery('#kind-video .scroll-con .picA'),
+				showCount : 1,
+				auto : true,
+	            stayTime : 5000
+			});
+			</script>
+			<div class="pic-group">
+				<ul>
+
+
+<li><a href="http://tv.sohu.com/20151201/n429042891.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_9534c7f8_0640_9a3a_213b_12751fd920be_1.jpg" width="134" height="86" alt="6名壮汉酒后围殴服务员" /><span>6名壮汉酒后围殴服务员</span><em ></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429110627.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_163db251_fbdb_486f_0b6e_a1874c3d9bf8_1.jpg" width="134" height="86" alt="网曝高中女生暴打女同学" /><span>网曝高中女生暴打女同学</span><em ></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151201/n429171084.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/3411_dee2528f_f324_0898_517d_3215c0080de1_1.jpg" width="134" height="86" alt="小伙被同性强暴染艾滋" /><span>小伙被同性强暴染艾滋</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151201/n429094186.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i1.itc.cn/20151202/3411_da04741a_faa2_14b2_dd8a_45f03fa7495b_1.jpg" width="134" height="86" alt="实拍冰球选手遭冰刀割喉 " /><span>实拍冰球选手遭冰刀割喉 </span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20151202/n429207005.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/3411_48527663_5761_8529_c33e_c519fb8b2733_1.jpg" width="134" height="86" alt="女子扯毛衣油枪瞬间起火" /><span>女子扯毛衣油枪瞬间起火</span><em></em></a></li>                                                                                
+
+<li class="end"><a href="http://tv.sohu.com/20151202/n429217904.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i3.itc.cn/20151202/3411_2243e5a3_708e_2a67_334c_58de2b5fab1e_1.jpg" width="134" height="86" alt="兰博基尼街头飙车撞树" /><span>兰博基尼街头飙车撞树</span><em></em></a></li>
+
+<li><a href="http://tv.sohu.com/20140418/n398425147.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i0.itc.cn/20151202/330c_bf85a25d_76e9_ba97_9980_4c931d445358_1.jpg" width="134" height="86" alt="郭天王为“帅”吃尽苦头" /><span>郭天王为“帅”吃尽苦头</span><em></em></a></li>
+
+<li class="end"><a href="http://tv.sohu.com/20151113/n426396064.shtml?txid=f2ed2da12b7aaef378cc10866b4f4e79" target="_blank"><img src="http://i2.itc.cn/20151202/330c_ccaaa692_8911_da63_8565_5f7078fd52c0_1.jpg" width="134" height="86" alt="揭秘图坦卡蒙死亡之谜" /><span>揭秘图坦卡蒙死亡之谜</span><em ></em></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="rightbar-foot"></div>
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<table width=300 height=250 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=300 height=250 align=middle>
+<div id=TurnAD477 width=300 height=250>
+ <script type=text/javascript>
+var TurnAD477=new Cookie(document,"TurnAD477",24);
+TurnAD477.load();
+TurnAD477.visit=(TurnAD477.visit==null)?parseInt(Math.random()*2+1):TurnAD477.visit;
+if(TurnAD477.visit!=0)var intTurnAD477=TurnAD477.visit;
+TurnAD477.visit++;
+TurnAD477.visit=(TurnAD477.visit>2)?1:TurnAD477.visit;
+TurnAD477.store();
+function showTurnAD477(basenum){
+if (basenum==1){
+document.write('<a style="display:none!important" id="tanx-a-mm_17187609_2273741_14706573"></a>');
+     tanx_s = document.createElement("script");
+     tanx_s.type = "text/javascript";
+     tanx_s.charset = "gbk";
+     tanx_s.id = "tanx-s-mm_17187609_2273741_14706573";
+     tanx_s.async = true;
+     tanx_s.src = "http://p.tanx.com/ex?i=mm_17187609_2273741_14706573";
+     tanx_h = document.getElementsByTagName("head")[0];
+     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+function addImp(adobj){
+				var img = new Image();
+				img.onload = function(){
+					img = null;
+				};
+				img.src = adobj;
+			}
+addImp("http://imp.optaim.com/201507/2335dd35a7246956fea8dfb9055eeed8.php?a=0");}
+else{
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _C = "#TurnAD477",_ID = "10115",_W = 300,_H = 250,_T = 2,_F=201;
+    if(_C){jQuery(_C).attr('id','beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });}
+}
+showTurnAD477(intTurnAD477);
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</SOHUADCODE>
+		<!-- 中视网盟 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<div>
+<iframe width=300 height=238 marginwidth=0 marginheight=0 hspace=0 frameborder=0 scrolling=no bordercolor=#000000 src=http://images.sohu.com/bill/s2015/hailiu/zhongshi/alw/bj/index.html></iframe>
+</div></div>
+</div>
+</SOHUADCODE>
+		<!-- 彩票 st -->
+		
+		<!-- 彩票 end -->		
+		<!-- 我来说两句排行榜 -->
+		
+
+<div class="comment-rank clear">
+    <h2>
+        <span>我来说两句排行榜</span>
+    </h2>
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429199542.html" target="_blank">3144</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429199542" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429199542.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429215319.html" target="_blank">1813</a>
+        </dt>
+        <dd>
+            <a href="http://mt.sohu.com/20151202/n429215319.shtml" target="_blank">重不重？大学生掏鸟16只被判10年半-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429215319.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429084947.html" target="_blank">1799</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429084947" target="_blank">圈子 - 大学生在家闲着没事 掏鸟16只被判10年半</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429084947.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429242989.html" target="_blank">1199</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429242989" target="_blank">圈子 - 报告建议2018年开始延退 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429242989.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">1035</a>
+        </dt>
+        <dd>
+            <a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">村官黑老大的“家伙事儿”-新闻图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699988.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429239636.html" target="_blank">917</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429239636" target="_blank">圈子 - 报告建议2018年延迟退休 到2045年延迟至65岁</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429239636.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188284.html" target="_blank">910</a>
+        </dt>
+        <dd>
+            <a href="http://news.sohu.com/20151202/n429188284.shtml" target="_blank">女子闹分手 男友：你的内衣我买的当街脱了让你走-搜狐新闻</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188284.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">799</a>
+        </dt>
+        <dd>
+            <a href="http://pic.yule.sohu.com/group-699931.shtml" target="_blank">李小璐出席活动表情僵硬 网友：满脸硅胶！-娱乐频道图片库-大视野-搜狐</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s9000699931.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429193521.html" target="_blank">764</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429193521" target="_blank">圈子 - 统计局官员:中国人口结构扭曲 人口危机现端倪</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429193521.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    <div class="broken-line"></div>
+    
+    
+    <dl>
+        <dt>
+            <a href="http://pinglun.sohu.com/s429188042.html" target="_blank">724</a>
+        </dt>
+        <dd>
+            <a href="http://quan.sohu.com/pinglun/cyqemw6s1/429188042" target="_blank">圈子 - 女公务员贪污出逃6年后身亡 怀孩子嫁泰国残疾人</a>
+            [<em class="red"><a href="http://pinglun.sohu.com/s429188042.html" target="_blank">评</a></em>]
+        </dd>
+    </dl>
+    
+    
+</div>
+		<div class="rightbar-foot"></div>		
+		<div class="leisure clear">
+<h2><span>社区热帖推荐</span></h2>
+<div class="pic-text">
+<div><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank"><img 
+src="http://i2.itc.cn/20151202/2db9_28c70263_05f7_ca7c_14e4_40e79cce5ff5_1.jpg" width="125" height="85" alt="" /></a></div>
+<h4><a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">多名女子在KTV打架！高跟鞋狂踹</a></h4>
+<p>短裙女当众被往死打……[<a href="http://club.news.sohu.com/zz2284/thread/3o42vps53ce" target="_blank">详细</a>]</p>
+</div>
+<div class="broken-line"></div><div class="list12">
+<ul>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxxfamubru" target="_blank">残忍 深圳货车司机把小狗绑在车尾拖死</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxv54td53z" target="_blank">实拍“最牛”违停司机： 贴条死爹</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnjvnollz" target="_blank">小情侣座椅上揉胸玩亲热 不顾及旁人</a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxyq8qicol" target="_blank">怀疑人偷东西 就可以把她绑在树上挂牌示众？</a></a></li>
+<li><a href="http://club.news.sohu.com/zz2284/thread/3nxnazy0umf" target="_blank">19岁美女原来是名高材生 却为这种理由休学</a></li>
+</ul></div></div>
+
+<div class="rightbar-foot"></div>		
+		<!-- 广告 -->
+		<SOHUADCODE><div class="ad300">
+<div>
+<script src="http://images.sohu.com/saf/static/8/13568.shtml"></script>
+
+
+<div id=beans_13568 width=300 height=90 align="center"></div>
+<script type="text/javascript">
+require(["sjs/matrix/ad/passion"], function (passion) {
+    var _ID = "13568",_W = 300,_H = 90,_T =1,_F=201;
+    if(_ID){jQuery('#beans_'+_ID).css({'width' : _W + 'px', 'height' : _H + 'px','margin' : '0 auto'});}
+    passion.ones({itemspaceid : _ID,width:_W,height:_H,adsrc : _F,turn : _T,defbeans : !0});
+    });
+</script></div>
+</div>
+</SOHUADCODE>		
+		<div class="rightbar-head"></div>				
+		<!-- 信息 -->
+		<div class="sohu-info clear" >
+			<div class="contact-icon"></div>
+			<div class="contact-txt">
+				<p>客服热线：86-10-58511234</p>
+				<p>客服邮箱：<a href="mailto:kf@vip.sohu.com" target="_blank">kf@vip.sohu.com</a></p>
+			</div>
+		</div>		
+	</div>
+	<div class="content-footer"></div>
+</div>
+
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/business_news_1.1.3.js"></script>
+<script type="text/javascript" src="http://stock.sohu.com/upload/stock/related_stock_1.0.1.js"></script>
+<script type="text/javascript" src="http://getip.js.sohu.com/ip/"></script>
+<script type="text/javascript"> 
+if (new_ip == null) var new_ip=2130706433;
+var dns_requrl="\<script type=\"text/javascript\" src=\"http://" + new_ip +".sohuns.com/ip/\"\>\</script\>";
+document.write(dns_requrl);
+</script>
+
+<!-- 标准尾 start -->
+<div collection="Y">
+<div class="clear"></div>
+	<div id="foot" class="Area area">
+		<a href="javascript:void(0)" onClick=this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sohu.com');return false;>设置首页</a>
+		- <a href=http://pinyin.sogou.com/ target=_blank rel="nofollow">搜狗输入法</a>
+		- <a href=http://pay.sohu.com/ target=_blank rel="nofollow">支付中心</a>
+		- <a href=http://hr.sohu.com target=_blank rel="nofollow">搜狐招聘</a>
+		- <a href=http://ad.sohu.com/ target=_blank rel="nofollow">广告服务</a>
+		- <a href=http://sohucallcenter.blog.sohu.com/ target=_blan rel="nofollow"k>客服中心</a>
+		- <a href=http://corp.sohu.com/s2006/contactus/ target=_blank rel="nofollow">联系方式</a>
+		- <a href=http://www.sohu.com/about/privacy.html target=_blank rel="nofollow">保护隐私权</a>
+		- <a href=http://investors.sohu.com/ target=_blank rel="nofollow">About SOHU</a>
+		- <a href=http://corp.sohu.com/indexcn.shtml target=_blank rel="nofollow">公司介绍</a>
+		- <a href=http://sitemap.sohu.com/ target=_blank>网站地图</a>
+		- <a href=http://roll.sohu.com/ target=_blank>全部新闻</a>
+		- <a href=http://blog.sohu.com/roll target=_blank>全部博文</a>
+		<br />Copyright <span class="fontArial">&copy;</span> 2015 Sohu.com Inc. All Rights Reserved. 搜狐公司 <span class="unline"><a href="http://corp.sohu.com/s2007/copyright/" target="_blank" rel="nofollow">版权所有</a></span>
+		<br />搜狐不良信息举报邮箱：<a href="mailto:jubao@contact.sohu.com">jubao@contact.sohu.com</a>
+	</div>
+	<SCRIPT language=JavaScript src="http://a1.itc.cn/pv/js/spv.1309051632.js"></SCRIPT>
+	<script language="javascript" src="http://js.sohu.com/wrating20120726.js"></script>
+	<script language="javascript"> 
+		var  _wratingId = null;
+		try{
+		_wratingId = _getAcc();
+		}catch(e){}
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript" src="http://sohu.wrating.com/a1.js"></scr'+'ipt>');
+		}
+		</script>
+		<script language="javascript"> 
+		if(_wratingId !=null){
+		document.write('<scr'+'ipt type="text/javascript">');
+		document.write('var vjAcc="'+_wratingId+'";');
+		document.write('var wrUrl="http://sohu.wrating.com/";');
+		document.write('try{vjTrack();}catch(e){}');
+		document.write('</scr'+'ipt>');
+		}
+	</script>
+	<!--SOHU:DIV_FOOT-->
+</div>
+<!-- 标准尾 end -->
+
+<script type="text/javascript">
+<!--
+	function sogouRelateNews(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");   var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len;   ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+           i.src='http://pingback.sogou.com/rltnews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+	    return true;
+	}
+
+	function sogouRelateWeb(itm){
+		var i=new Image();
+        var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+        len=(len==null)?"":len; ind=(ind==null)?"":ind;
+        if(len == "" || ind == "" ) {
+	 	     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+        } else {
+		     i.src='http://pingback.sogou.com/rltweb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+        }
+		return true;
+	}
+
+	function sogouRelateSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+	function sogouRelateBlog(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rltblog.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+	
+	function sogouHotSaybar(itm){
+		var i=new Image();
+		i.src='http://pingback.sogou.com/rlthotsb.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+		return true;
+	}
+
+    function sogouRelateVideoNews(itm){
+      var i=new Image();
+      var len=itm.getAttribute("len");  var  ind= itm.getAttribute("ind");
+      len=(len==null)?"":len;    ind=(ind==null)?"":ind;
+      if(len == "" || ind == "" ) {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&'+Math.random();
+      } else {
+        i.src='http://pingback.sogou.com/rltvideonews.png?durl='+escape(itm.href)+'&surl='+escape(window.location)+'&len='+len+'&ind='+ind+'&'+Math.random();
+      }
+	  return true;
+    }
+
+
+//-->
+</script>
+<SOHUADCODE>																																																																																																																																																																								<Script language="Javascript">var cWidth=980;</script>
+
+<script type="text/javascript">
+	require(["sjs/matrix/ad/special"], function(special) {
+	special.ones({
+		itemspaceid : 10638,
+		adsrc : 201,
+		max_turn : 1,
+		order : 3,
+		options:{
+			pos : "left"
+		}
+	});
+
+	special.start();
+	});
+</script>
+
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/PVJS/adm2012-20130926min.js"></Script>
+<script src='http://images.sohu.com/bill/s2010/gates/sohucstech/javascript/954092d923b0e377f0a9d4d41a0937c4.js' type='text/javascript'></script>
+<!—不能删除 投飞行广告时也必须带上—>
+<script type="text/javascript">
+if(typeof(document.pv)=='undefined') document.pv = new Array();var _a=new Image();
+_a.src='http://xls.go.sohu.com/201012/ee970cf0f5c53c86014a16fd32d9629a.php?3';
+document.pv.push(_a);
+
+imp(urlpath,123);
+if(PVUV_CheckArticle("gj11",24,1)){imp(urlpath,124);}
+if(PVUV_CheckArticle("gj12",24*365,1)){imp(urlpath,125);}
+</script>
+<!—不能删除—>
+<!--
+<Script language="Javascript">
+AD = new ADM("FLOAT", 2);
+    AD.src = "http://images.sohu.com/bill/s2009/shanbai/baojie/6yue/1001000602.swf";
+    AD.href="http://goto.sogou.com/200905/256711c20f526ea88028870e1a36e2cc.php";
+    AD.tag="";
+    AD.imp="";
+    AddSchedule(AD);
+</script>-->
+<script src="http://images.sohu.com/bill/s2012/gates/all/sohuad2012v15.js"></script>
+<script type="text/javascript">SohuAd.createScript("sohucsjs","http://imp.go.sohu.com/201111/ee4f7cebb2ef825bf6b3c8730c929929_35.js");</script>
+<script type="text/javascript">
+SohuAdPv_CPD   = {"#TurnAD477":"10115","#TurnAD475":"10113","#TurnAD23":"10014","#TurnAD476":"10114"};
+SohuAdFly_nCPD = {"float_r":"10638"};
+setpopslotid = '12410';
+</script><Script language="Javascript">if(jQuery){jQuery.getScript("http://images.sohu.com/bill/s2012/gates/all/map.2013040302.js");}</script>
+<Script language="Javascript" src="http://images.sohu.com/bill/s2013/gates/js/fad_v9.js"></Script>
+<Script language="Javascript" src="http://images.sohu.com/bill/default/auto/pop.1.4.js?t=168"></Script></SOHUADCODE>
+<SOHUADCODE></SOHUADCODE>
+<script type='text/javascript'>	
+	function q(s) {return s.replace(/%/g,"%25").replace(/&/g,"%26").replace(/#/g,"%23");}	
+	var sogou_is_brand_url = "http://cpc.brand.sogou.com/brand_ad_new";	
+	var brand_cnt = 0;	
+	for(var p in sogou_is_brand)	
+	{	           if(typeof(sogou_is_brand[p]) == "string")
+	               sogou_is_brand_url += (brand_cnt++ ? "&" : "?") + q(p) + "=" + q(sogou_is_brand[p]);	
+	}	
+	if (brand_cnt>3)	
+	{	
+	         var test= document.createElement('SCRIPT');	
+	         test.src=sogou_is_brand_url;	
+	         document.getElementsByTagName('head')[0].appendChild(test);	
+	}	
+</script>
+<div style="display:none" id="sohu-dt0220mine-tag">news</div><script src='http://news.sohu.com/upload/pop/mytag.min.js' type='text/javascript'></script>
+
+
+
+<script>
+pv_area_register("401832","pvblock1");
+</script>
+</body>
+</html>
